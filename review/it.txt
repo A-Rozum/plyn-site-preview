@@ -23,4 +23,4 @@ fine: Anteprima interattiva del design. Questo modulo non invia né salva alcuna
 notice: Solo dimostrazione — i tuoi dati non sono stati inviati.
 consent: Useremo la tua email solo per avvisarti della beta.
 privS: Come trattiamo i tuoi dati
-privB: Titolare del trattamento: [CONTROLLER], [EMAIL]. Conserviamo la tua email e la tua nota solo per avvisarti della beta di Plyń, fino all’annuncio del lancio o finché non ci chiedi di cancellarle. La base giuridica è il tuo consenso, che puoi revocare in qualsiasi momento scrivendo all’indirizzo indicato. Puoi anche chiedere l’accesso ai tuoi dati o la loro rettifica e presentare reclamo a un’autorità di controllo.
+privB: Titolare del trattamento: [CONTROLLER], Plyn.one@proton.me. Conserviamo la tua email e la tua nota solo per avvisarti della beta di Plyń, fino all’annuncio del lancio o finché non ci chiedi di cancellarle. La base giuridica è il tuo consenso, che puoi revocare in qualsiasi momento scrivendo all’indirizzo indicato. Puoi anche chiedere l’accesso ai tuoi dati o la loro rettifica e presentare reclamo a un’autorità di controllo.
