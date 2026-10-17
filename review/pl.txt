@@ -23,4 +23,4 @@ fine: Interaktywny podgląd projektu. Ten formularz niczego nie wysyła ani nie 
 notice: Tylko demonstracja — Twoje dane nie zostały wysłane.
 consent: Twój adres wykorzystamy wyłącznie, by powiadomić Cię o becie.
 privS: Jak przetwarzamy Twoje dane
-privB: Administrator danych: [CONTROLLER], Plyn.one@proton.me. Przechowujemy Twój adres i notatkę wyłącznie po to, by powiadomić Cię o becie Plyń — do czasu ogłoszenia startu lub do Twojej prośby o ich usunięcie. Podstawą jest Twoja zgoda, którą możesz w każdej chwili wycofać, pisząc na powyższy adres. Możesz też żądać dostępu do danych lub ich sprostowania oraz złożyć skargę do organu ochrony danych.
+privB: Administrator danych: Andrey Rozum, Plyn.one@proton.me. Przechowujemy Twój adres i notatkę wyłącznie po to, by powiadomić Cię o becie Plyń — do czasu ogłoszenia startu lub do Twojej prośby o ich usunięcie. Podstawą jest Twoja zgoda, którą możesz w każdej chwili wycofać, pisząc na powyższy adres. Możesz też żądać dostępu do danych lub ich sprostowania oraz złożyć skargę do organu ochrony danych.

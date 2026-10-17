@@ -23,4 +23,4 @@ fine: Interaktyvus dizaino peržiūros variantas. Ši forma nieko nesiunčia ir 
 notice: Tik demonstracija — jūsų duomenys nebuvo išsiųsti.
 consent: Jūsų el. pašto adresą naudosime tik tam, kad praneštume apie beta versiją.
 privS: Kaip tvarkomi jūsų duomenys
-privB: Duomenų valdytojas: [CONTROLLER], Plyn.one@proton.me. Jūsų el. pašto adresą ir pastabą saugome tik tam, kad praneštume apie Plyń beta versiją, – kol pranešime apie paleidimą arba kol paprašysite juos ištrinti. Pagrindas – jūsų sutikimas, kurį galite bet kada atšaukti parašę nurodytu adresu. Taip pat galite prašyti susipažinti su savo duomenimis ar juos ištaisyti ir pateikti skundą duomenų apsaugos priežiūros institucijai.
+privB: Duomenų valdytojas: Andrey Rozum, Plyn.one@proton.me. Jūsų el. pašto adresą ir pastabą saugome tik tam, kad praneštume apie Plyń beta versiją, – kol pranešime apie paleidimą arba kol paprašysite juos ištrinti. Pagrindas – jūsų sutikimas, kurį galite bet kada atšaukti parašę nurodytu adresu. Taip pat galite prašyti susipažinti su savo duomenimis ar juos ištaisyti ir pateikti skundą duomenų apsaugos priežiūros institucijai.
