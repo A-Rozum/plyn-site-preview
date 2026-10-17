@@ -1,10 +1,10 @@
 Plyń landing page — Polski (pl)
 
 title: Plyń — Każdy agent na Twojej fali
-desc: Plyń dostraja dowolnego agenta, model czy współpracownika do Twojego sposobu pracy i utrzymuje ich na tej fali.
+desc: Plyń dostraja dowolnego agenta, model czy… współpracownika do Twojego sposobu pracy i utrzymuje ich na tej fali.
 eyebrow: W trakcie tworzenia · 2026
 h1: Każdy agent na Twojej fali.
-support: Plyń dostraja dowolnego agenta, model czy współpracownika do Twojego sposobu pracy i utrzymuje ich na tej fali.
+support: Plyń dostraja dowolnego agenta, model czy… współpracownika do Twojego sposobu pracy i utrzymuje ich na tej fali.
 cta: Powiadom mnie o becie →
 secondary: Daty premiery jeszcze nie ma. Dopiero uczy się machać.
 footerL: © Plyń · Projekt w rozwoju
@@ -21,3 +21,6 @@ usePh: Kilka słów o Twojej pracy lub pomyśle, który chcesz wypróbować...
 submit: Zgłoś zainteresowanie →
 fine: Interaktywny podgląd projektu. Ten formularz niczego nie wysyła ani nie zapisuje.
 notice: Tylko demonstracja — Twoje dane nie zostały wysłane.
+consent: Twój adres wykorzystamy wyłącznie, by powiadomić Cię o becie.
+privS: Jak przetwarzamy Twoje dane
+privB: Administrator danych: [CONTROLLER], [EMAIL]. Przechowujemy Twój adres i notatkę wyłącznie po to, by powiadomić Cię o becie Plyń — do czasu ogłoszenia startu lub do Twojej prośby o ich usunięcie. Podstawą jest Twoja zgoda, którą możesz w każdej chwili wycofać, pisząc na powyższy adres. Możesz też żądać dostępu do danych lub ich sprostowania oraz złożyć skargę do organu ochrony danych.

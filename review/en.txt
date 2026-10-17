@@ -1,10 +1,10 @@
 Plyń landing page — English (en)
 
 title: Plyń — Every agent on your wavelength
-desc: Plyń tunes any agent, model or colleague to the way you work, and keeps them there. Join the beta interest list.
+desc: Plyń tunes any agent, model or… colleague to the way you work, and keeps them there. Join the beta interest list.
 eyebrow: In development · 2026
 h1: Every agent on your wavelength.
-support: Plyń tunes any agent, model or colleague to the way you work, and keeps them there.
+support: Plyń tunes any agent, model or… colleague to the way you work, and keeps them there.
 cta: Notify me about the beta →
 secondary: No launch date yet. It’s still learning to wave.
 footerL: © Plyń · An evolving project
@@ -21,3 +21,6 @@ usePh: A few words about your work or an idea you’d like to try...
 submit: Register interest →
 fine: Interactive design preview. This form does not send or store any information.
 notice: Demo only — your details were not submitted.
+consent: We’ll use your email only to tell you about the beta.
+privS: How your data is handled
+privB: Controller: [CONTROLLER], [EMAIL]. We keep your email and note only to tell you about the Plyń beta, until we announce its launch or until you ask us to delete them. The legal basis is your consent, which you can withdraw at any time by writing to the address above. You can also ask to access or correct your data and complain to a data protection authority.

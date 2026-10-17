@@ -1,10 +1,10 @@
 Plyń landing page — Lietuvių (lt)
 
 title: Plyń — Kiekvienas agentas vienoje bangoje su jumis
-desc: Plyń suderina bet kurį agentą, modelį ar kolegą su jūsų darbo būdu ir išlaiko juos toje pačioje bangoje.
+desc: Plyń suderina bet kurį agentą, modelį ar… kolegą su jūsų darbo būdu ir išlaiko juos toje pačioje bangoje.
 eyebrow: Kuriama · 2026
 h1: Kiekvienas agentas — vienoje bangoje su jumis.
-support: Plyń suderina bet kurį agentą, modelį ar kolegą su jūsų darbo būdu ir išlaiko juos toje pačioje bangoje.
+support: Plyń suderina bet kurį agentą, modelį ar… kolegą su jūsų darbo būdu ir išlaiko juos toje pačioje bangoje.
 cta: Pranešti man apie beta versiją →
 secondary: Paleidimo datos dar nėra. Dar mokosi mojuoti.
 footerL: © Plyń · Besivystantis projektas
@@ -21,3 +21,6 @@ usePh: Keli žodžiai apie jūsų darbą ar idėją, kurią norėtumėte išband
 submit: Išreikšti susidomėjimą →
 fine: Interaktyvus dizaino peržiūros variantas. Ši forma nieko nesiunčia ir neišsaugo.
 notice: Tik demonstracija — jūsų duomenys nebuvo išsiųsti.
+consent: Jūsų el. pašto adresą naudosime tik tam, kad praneštume apie beta versiją.
+privS: Kaip tvarkomi jūsų duomenys
+privB: Duomenų valdytojas: [CONTROLLER], [EMAIL]. Jūsų el. pašto adresą ir pastabą saugome tik tam, kad praneštume apie Plyń beta versiją, – kol pranešime apie paleidimą arba kol paprašysite juos ištrinti. Pagrindas – jūsų sutikimas, kurį galite bet kada atšaukti parašę nurodytu adresu. Taip pat galite prašyti susipažinti su savo duomenimis ar juos ištaisyti ir pateikti skundą duomenų apsaugos priežiūros institucijai.

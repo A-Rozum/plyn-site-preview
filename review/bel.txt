@@ -1,12 +1,12 @@
 Plyń landing page — Łacinka (bel)
 
 title: Plyń — Kožny ahient na vašaj chvali
-desc: Plyń naładžvaje luboha ahienta, madeĺ ci kalehu na vaš sposab pracy i ŭtrymlivaje ich na hetaj chvali.
+desc: Plyń naładžvaje luboha ahienta, madeĺ ci… kalehu na vaš sposab pracy i ŭtrymlivaje ich na hetaj chvali.
 eyebrow: U raspracoŭcy · 2026
 h1: Kožny ahient — na vašaj chvali.
-support: Plyń naładžvaje luboha ahienta, madeĺ ci kalehu na vaš sposab pracy i ŭtrymlivaje ich na hetaj chvali.
+support: Plyń naładžvaje luboha ahienta, madeĺ ci… kalehu na vaš sposab pracy i ŭtrymlivaje ich na hetaj chvali.
 cta: Paviedamić mnie pra betu →
-secondary: Daty zapusku pakuĺ niama. Jano jašče vučycca machać.
+secondary: Daty zapusku pakuĺ niama. Jana jašče vučycca machać.
 footerL: © Plyń · Prajekt u razvićci
 footerR: Zroblena na Prastora
 theme: Źmianić temu
@@ -21,3 +21,6 @@ usePh: Niekalki słoŭ pra vašu pracu abo ideju, jakuju chočacca pasprabavać.
 submit: Zarehistravać cikavasć →
 fine: Interaktyŭny makiet dyzajnu. Hetaja forma ničoha nie adpraŭliaje i nie zachoŭvaje.
 notice: Tolki demanstracyja — vašy danyja nie adpraŭlenyja.
+consent: My vykarystajem vaš adras tolki dlia taho, kab paviedamić pra betu.
+privS: Jak apracoŭvajucca vašy danyja
+privB: Adkazny za danyja: [CONTROLLER], [EMAIL]. My zachoŭvajem vaš adras i natatku tolki dlia taho, kab paviedamić pra betu Plyń, — pakuĺ nie paviedamim pra zapusk abo pakuĺ vy nie paprosicie ich vydalić. Padstava — vaša zhoda; jaje možna adklikać u luby čas, napisaŭšy na adras vyšej. Vy taksama možacie paprasić pakazać abo vypravić vašy danyja i paskardzicca ŭ orhan pa abaronie danych.
