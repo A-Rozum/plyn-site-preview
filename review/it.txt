@@ -1,0 +1,23 @@
+Plyń landing page — Italiano (it)
+
+title: Plyń — Ogni agente sulla tua lunghezza d’onda
+desc: Plyń sintonizza qualsiasi agente, modello o collega sul tuo modo di lavorare e li mantiene in sintonia.
+eyebrow: In sviluppo · 2026
+h1: Ogni agente sulla tua lunghezza d’onda.
+support: Plyń sintonizza qualsiasi agente, modello o collega sul tuo modo di lavorare e li mantiene in sintonia.
+cta: Avvisami per la beta →
+secondary: Ancora nessuna data di lancio. Sta ancora imparando a salutare.
+footerL: © Plyń · In evoluzione
+footerR: Costruito con Prastora
+theme: Cambia tema
+lang: Lingua
+close: Chiudi
+dlgH: Ti interessa la beta?
+dlgP: Lascia la tua email e, se vuoi, raccontaci che tipo di lavoro vorresti esplorare con persone e agenti AI.
+emailL: Indirizzo email
+emailPh: you@example.com
+useL: Per cosa useresti Plyń? (facoltativo)
+usePh: Poche parole sul tuo lavoro o su un’idea che vorresti provare...
+submit: Registra il tuo interesse →
+fine: Anteprima interattiva del design. Questo modulo non invia né salva alcuna informazione.
+notice: Solo dimostrazione — i tuoi dati non sono stati inviati.

@@ -1,0 +1,23 @@
+Plyń landing page — Polski (pl)
+
+title: Plyń — Każdy agent na Twojej fali
+desc: Plyń dostraja dowolnego agenta, model czy współpracownika do Twojego sposobu pracy i utrzymuje ich na tej fali.
+eyebrow: W trakcie tworzenia · 2026
+h1: Każdy agent na Twojej fali.
+support: Plyń dostraja dowolnego agenta, model czy współpracownika do Twojego sposobu pracy i utrzymuje ich na tej fali.
+cta: Powiadom mnie o becie →
+secondary: Daty premiery jeszcze nie ma. Dopiero uczy się machać.
+footerL: © Plyń · Projekt w rozwoju
+footerR: Zbudowane na Prastora
+theme: Zmień motyw
+lang: Język
+close: Zamknij
+dlgH: Interesuje Cię beta?
+dlgP: Zostaw adres e-mail i, jeśli chcesz, napisz, nad jakimi zadaniami chcesz pracować z ludźmi i agentami AI.
+emailL: Adres e-mail
+emailPh: you@example.com
+useL: Do czego chcesz używać Plyń? (opcjonalnie)
+usePh: Kilka słów o Twojej pracy lub pomyśle, który chcesz wypróbować...
+submit: Zgłoś zainteresowanie →
+fine: Interaktywny podgląd projektu. Ten formularz niczego nie wysyła ani nie zapisuje.
+notice: Tylko demonstracja — Twoje dane nie zostały wysłane.

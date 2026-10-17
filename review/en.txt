@@ -1,0 +1,23 @@
+Plyń landing page — English (en)
+
+title: Plyń — Every agent on your wavelength
+desc: Plyń tunes any agent, model or colleague to the way you work, and keeps them there. Join the beta interest list.
+eyebrow: In development · 2026
+h1: Every agent on your wavelength.
+support: Plyń tunes any agent, model or colleague to the way you work, and keeps them there.
+cta: Notify me about the beta →
+secondary: No launch date yet. It’s still learning to wave.
+footerL: © Plyń · An evolving project
+footerR: Built with Prastora
+theme: Switch theme
+lang: Language
+close: Close
+dlgH: Interested in the beta?
+dlgP: Leave your email and, if you’d like, tell us what kind of work you’d explore with people and AI agents.
+emailL: Email address
+emailPh: you@example.com
+useL: What would you use Plyń for? (optional)
+usePh: A few words about your work or an idea you’d like to try...
+submit: Register interest →
+fine: Interactive design preview. This form does not send or store any information.
+notice: Demo only — your details were not submitted.

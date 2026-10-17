@@ -1,0 +1,23 @@
+Plyń landing page — Łacinka (bel)
+
+title: Plyń — Kožny ahient na vašaj chvali
+desc: Plyń naładžvaje luboha ahienta, madeĺ ci kalehu na vaš sposab pracy i ŭtrymlivaje ich na hetaj chvali.
+eyebrow: U raspracoŭcy · 2026
+h1: Kožny ahient — na vašaj chvali.
+support: Plyń naładžvaje luboha ahienta, madeĺ ci kalehu na vaš sposab pracy i ŭtrymlivaje ich na hetaj chvali.
+cta: Paviedamić mnie pra betu →
+secondary: Daty zapusku pakuĺ niama. Jano jašče vučycca machać.
+footerL: © Plyń · Prajekt u razvićci
+footerR: Zroblena na Prastora
+theme: Źmianić temu
+lang: Mova
+close: Zakryć
+dlgH: Cikavić beta-versija?
+dlgP: Pakińcie adras elektronnaj pošty i, kali chočacie, raskažycie, jakuju pracu vy chacieli b sprabavać z ludźmi i ŠI-ahientami.
+emailL: Adras elektronnaj pošty
+emailPh: you@example.com
+useL: Dlia čaho vy vykarystoŭvali b Plyń? (nieabaviazkova)
+usePh: Niekalki słoŭ pra vašu pracu abo ideju, jakuju chočacca pasprabavać...
+submit: Zarehistravać cikavasć →
+fine: Interaktyŭny makiet dyzajnu. Hetaja forma ničoha nie adpraŭliaje i nie zachoŭvaje.
+notice: Tolki demanstracyja — vašy danyja nie adpraŭlenyja.

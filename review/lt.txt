@@ -1,0 +1,23 @@
+Plyń landing page — Lietuvių (lt)
+
+title: Plyń — Kiekvienas agentas vienoje bangoje su jumis
+desc: Plyń suderina bet kurį agentą, modelį ar kolegą su jūsų darbo būdu ir išlaiko juos toje pačioje bangoje.
+eyebrow: Kuriama · 2026
+h1: Kiekvienas agentas — vienoje bangoje su jumis.
+support: Plyń suderina bet kurį agentą, modelį ar kolegą su jūsų darbo būdu ir išlaiko juos toje pačioje bangoje.
+cta: Pranešti man apie beta versiją →
+secondary: Paleidimo datos dar nėra. Dar mokosi mojuoti.
+footerL: © Plyń · Besivystantis projektas
+footerR: Sukurta su Prastora
+theme: Keisti temą
+lang: Kalba
+close: Uždaryti
+dlgH: Domina beta versija?
+dlgP: Palikite el. pašto adresą ir, jei norite, parašykite, kokį darbą norėtumėte išbandyti kartu su žmonėmis ir DI agentais.
+emailL: El. pašto adresas
+emailPh: you@example.com
+useL: Kam naudotumėte Plyń? (nebūtina)
+usePh: Keli žodžiai apie jūsų darbą ar idėją, kurią norėtumėte išbandyti...
+submit: Išreikšti susidomėjimą →
+fine: Interaktyvus dizaino peržiūros variantas. Ši forma nieko nesiunčia ir neišsaugo.
+notice: Tik demonstracija — jūsų duomenys nebuvo išsiųsti.
