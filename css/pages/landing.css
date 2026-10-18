@@ -28,7 +28,7 @@
   .eyes { transform-box: fill-box; transform-origin: 50% 50%; animation: blink 8.7s infinite; }
   .ring { animation: spin 240s linear infinite; }
   .orbit { position: absolute; inset: 0; inline-size: 100%; block-size: 100%; overflow: visible; }
-  .inscription { font-family: "Alcarin Ring"; font-size: 6.6px; fill: var(--accent-text); opacity: 0; filter: drop-shadow(0 0 .9px var(--accent)); animation: kindle 16s ease-in-out 12s infinite; } /* first kindling after the page has been read */
+  .inscription { font-family: "Alcarin Ring"; font-size: 6.6px; fill: var(--accent-text); opacity: 0; filter: drop-shadow(0 0 .9px var(--accent)); animation: kindle 16s ease-in-out 8s infinite; } /* first kindling after the page has been read */
   .orb { position: absolute; border-radius: 50%; background: var(--accent); }
   .o1 { inline-size: .8rem; block-size: .8rem; left: 15%; top: 27%; }
   .o2 { inline-size: .45rem; block-size: .45rem; right: 12%; bottom: 25%; }
