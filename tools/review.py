@@ -1,9 +1,9 @@
-"""Write review/<lang>.txt from the I18N object in index.html (one file per language, key: text). --check fails if they differ."""
+"""Write review/<lang>.txt from the I18N object in js/i18n.js (one file per language, key: text). --check fails if they differ."""
 import json, sys
 from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 NAMES = {"en": "English", "be": "Беларуская", "bel": "Łacinka", "pl": "Polski", "it": "Italiano", "lt": "Lietuvių"}
-s = (ROOT / "index.html").read_text(encoding="utf-8")
+s = (ROOT / "js" / "i18n.js").read_text(encoding="utf-8")
 i = s.index("const I18N=") + len("const I18N=")
 data, _ = json.JSONDecoder().raw_decode(s[i:])
 bad = []

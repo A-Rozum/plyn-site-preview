@@ -1,6 +1,6 @@
 # plyn-site-preview
 
-Landing page for Plyń. index.html (texts for all languages in the I18N object, the script inline), css/ (core.css copied from A-Rozum/prastora at fa54c1e, themes/plyn.css with the brand colours, pages/landing.css), favicon.svg, review/<lang>.txt for translation review (generated from I18N by tools/review.py). Built with Prastora: its rules apply (rem only, colours only in the theme, one block per regime in core.css order, see A-Rozum/prastora AGENTS.md).
+Landing page for Plyń. index.html, js/i18n.js (texts for all languages in the I18N object), js/site.js (behaviour), css/ (core.css copied from A-Rozum/prastora at fa54c1e, themes/plyn.css with the brand colours, pages/landing.css), favicon.svg, review/<lang>.txt for translation review (generated from js/i18n.js by tools/review.py). Built with Prastora: its rules apply (rem only, colours only in the theme, one block per regime in core.css order, see A-Rozum/prastora AGENTS.md).
 
 The mark, the wordmark and the favicon are copies of files in A-Rozum/plyn-brand (the only source). The page inlines them so the creature can blink and wave and the line can follow the theme.
 
