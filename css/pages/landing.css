@@ -80,5 +80,6 @@
   }
   @media (width >= 125em) {
     :root { --scale-units: 160; }
+    .frame { padding-inline: 20rem; }
   }
 }
