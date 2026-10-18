@@ -1,4 +1,4 @@
-/* Landing page. Desktop composition by default; phones get one column; low windows go back to two columns. */
+/* Landing page in three regimes: desktop by default, phones (one column), large screens. Window height changes nothing but vertical centring. */
 @layer page {
   :root { --scale-units: 140; --subtle: color-mix(in srgb, var(--ink) 66%, transparent); --line: color-mix(in srgb, var(--ink) 27%, transparent); --accent-text: color-mix(in srgb, var(--accent) 72%, var(--ink)); --ring: 39rem; --ring-inner: 31rem; --space-h: 43rem; --creature-w: 21rem; }
   * { box-sizing: border-box; }
@@ -80,17 +80,5 @@
   }
   @media (width >= 125em) {
     :root { --scale-units: 160; }
-  }
-  @media (height <= 30em) {
-    :root { --scale-units: 165; --ring: 29rem; --ring-inner: 23rem; --space-h: 31rem; --creature-w: 16rem; }
-    main { padding: 0; }
-    .hero { display: grid; grid-template-columns: 1fr 1fr; gap: 9rem; }
-    .hero-copy { display: block; text-align: start; }
-    .frame { padding: 5rem 7rem 3.7rem; }
-    .wordmark { inline-size: 13rem; }
-    .lbl { display: inline; }
-    h1 { font-size: 5.2rem; inline-size: 57rem; }
-    .support { font-size: 2rem; margin: 2.7rem 0 3.6rem; inline-size: 49rem; }
-    dialog { inline-size: 53rem; padding: 4.6rem; }
   }
 }

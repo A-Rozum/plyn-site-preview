@@ -5,7 +5,7 @@
   plate.className = 'dev-plate'; plate.setAttribute('aria-hidden', 'true');
   document.body.append(plate);
   let load = '';
-  const regime = () => matchMedia('(height <= 30em)').matches ? 'low' : matchMedia('(width <= 50em)').matches ? 'phone'
+  const regime = () => matchMedia('(width <= 50em)').matches ? 'phone'
     : matchMedia('(width >= 125em)').matches ? 'large' : 'desktop';
   const update = () => {
     const rem = parseFloat(getComputedStyle(document.documentElement).fontSize);
