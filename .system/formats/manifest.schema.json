@@ -1,0 +1,92 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "system.yaml – repository manifest",
+ "type": "object",
+ "required": [
+  "id",
+  "kind",
+  "access",
+  "audience",
+  "description"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "id": {
+   "type": "string",
+   "pattern": "^[a-z0-9-]+:[a-z0-9-]+$",
+   "description": "namespace:name, independent of where the repository is hosted; the namespace plyn is reserved for parts of the Plyń system"
+  },
+  "kind": {
+   "enum": [
+    "system",
+    "package",
+    "project",
+    "bench",
+    "lab",
+    "archive"
+   ]
+  },
+  "access": {
+   "enum": [
+    "public",
+    "internal",
+    "confidential",
+    "client"
+   ]
+  },
+  "audience": {
+   "type": "array",
+   "items": {
+    "enum": [
+     "agent",
+     "human"
+    ]
+   },
+   "minItems": 1,
+   "uniqueItems": true
+  },
+  "description": {
+   "type": "string"
+  },
+  "packages": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "version",
+     "repo"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+:[a-z0-9-]+$"
+     },
+     "version": {
+      "type": "string"
+     },
+     "repo": {
+      "type": "string"
+     },
+     "path": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "provides": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "artifacts": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   },
+   "description": "glob patterns of files that are the project's products (pages, assets, page CSS), not reusable elements; excluded from the unregistered-files check"
+  }
+ }
+}

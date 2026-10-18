@@ -1,0 +1,1 @@
+Do a test or probe on a branch named probe/<name>: its failures do not count as departures and the branch is removed automatically after a day. A probe of landing itself, which needs an agent/codex/ branch, carries [probe] in its commit messages. Remove what a probe leaves outside its branch once it is done; mention it only if something could not be removed.

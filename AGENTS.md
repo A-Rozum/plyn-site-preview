@@ -4,6 +4,8 @@ Landing page for Plyń, one page per language at plyn.one/<code>/ (en, be, be-la
 
 The mark, the wordmark and the favicon are copies of files in A-Rozum/plyn-brand (the only source). The page inlines them so the creature can blink and wave and the line can follow the theme.
 
+Changes go on an agent/codex/ branch, land with `python .system/tools/plyn_land.py` (GH_TOKEN set) and are deployed from main afterwards.
+
 ## Hosting: plyn.one on Cloudflare
 
 Decided by the owner (Andrey Rozum): Cloudflare hosts the page and handles the beta form; plyn.one stays registered at Porkbun with Cloudflare nameservers. The Cloudflare API token and Porkbun API keys are in the owner's preferences; mask them in any output.

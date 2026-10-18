@@ -1,0 +1,11 @@
+- id: jadro:web/repo@1
+  path: AGENTS.md
+  applies:
+    always: true
+  status: užytak
+  access: public
+  audience: [agent]
+  basis:
+    kind: rašennie
+    date: '2026-10-18'
+    ref: minimal manifest agreed with the user

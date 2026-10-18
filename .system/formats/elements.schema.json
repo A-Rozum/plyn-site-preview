@@ -1,0 +1,309 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "elements.yaml – element registry",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "required": [
+   "id",
+   "path",
+   "applies",
+   "status",
+   "access",
+   "audience"
+  ],
+  "additionalProperties": false,
+  "properties": {
+   "id": {
+    "type": "string",
+    "pattern": "^(jadro|norma|mietad|kanviencyja|kancept|kampanient|šablon|daviednik|pryklad|jakasć\\.madel|mietryka|rolia|zadača\\.typ|pieradača|tryhier|prylada|pravierka|profiĺ|resurs|blok|indeks|pakiet|zadača\\.etalon|specyfikacyja|farmat):[a-z0-9.-]+/[a-z0-9-]+(@[0-9][0-9.]*)?$"
+   },
+   "path": {
+    "type": "string"
+   },
+   "applies_when": {
+    "type": "string"
+   },
+   "version": {
+    "type": "string"
+   },
+   "status": {
+    "enum": [
+     "prapanova",
+     "proba",
+     "užytak",
+     "adstaŭka",
+     "archiŭ"
+    ]
+   },
+   "access": {
+    "enum": [
+     "public",
+     "internal",
+     "confidential",
+     "client"
+    ]
+   },
+   "audience": {
+    "type": "array",
+    "items": {
+     "enum": [
+      "agent",
+      "human"
+     ]
+    },
+    "minItems": 1,
+    "uniqueItems": true
+   },
+   "depends_on": {
+    "type": "array",
+    "items": {
+     "type": "string"
+    }
+   },
+   "relations": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "required": [
+      "rel",
+      "to"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "rel": {
+       "enum": [
+        "overrides",
+        "checked_by",
+        "achieved_by",
+        "implements",
+        "representation_of",
+        "instance_of",
+        "derived_from",
+        "replaces"
+       ]
+      },
+      "to": {
+       "type": "string"
+      }
+     }
+    }
+   },
+   "provenance": {
+    "type": "string"
+   },
+   "last_check": {
+    "type": "string"
+   },
+   "tokens": {
+    "type": "integer",
+    "minimum": 0
+   },
+   "applies": {
+    "$ref": "#/$defs/pred"
+   },
+   "load": {
+    "enum": [
+     "content",
+     "head",
+     "demand",
+     "reference"
+    ],
+    "description": "content: whole file; head: leading inventory block; demand: listed with a one-line description, opened only when the task needs it (default for reference); reference: tool or check – run, do not read (default for tool, check, trigger)"
+   },
+   "basis": {
+    "type": "object",
+    "required": [
+     "kind",
+     "date"
+    ],
+    "additionalProperties": false,
+    "properties": {
+     "kind": {
+      "enum": [
+       "praktyka",
+       "zamier",
+       "rašennie"
+      ]
+     },
+     "date": {
+      "type": "string"
+     },
+     "ref": {
+      "type": "string"
+     }
+    },
+    "description": "why the element is active: proven by practice, by measurement, or decided by an acceptor"
+   },
+   "matter": {
+    "type": "string",
+    "pattern": "^[a-z0-9][a-z0-9._-]*$"
+   },
+   "requires_inputs": {
+    "type": "array",
+    "minItems": 1,
+    "uniqueItems": true,
+    "items": {
+     "type": "string",
+     "pattern": "^[a-z0-9][a-z0-9._-]*$"
+    }
+   },
+   "expects": {
+    "type": "object",
+    "additionalProperties": false,
+    "description": "Expected change from applying the element, by level: basic (without it the result fails), ordinary (a competent result normally has it), refinement (nuances; tolerable if missing). Meeting the levels does not make a result ideal. Absent or partial: the expectation is not yet known; it forms with the user, whose first-glance verdict (matches / partly / does not) is the reference. Criteria start with the obvious and are refined over time. A departure is a difference from these levels in either direction.",
+    "properties": {
+     "basic": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      },
+      "minItems": 1
+     },
+     "ordinary": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      },
+      "minItems": 1
+     },
+     "refinement": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      },
+      "minItems": 1
+     }
+    }
+   }
+  },
+  "allOf": [
+   {
+    "if": {
+     "properties": {
+      "status": {
+       "const": "active"
+      }
+     },
+     "required": [
+      "status"
+     ]
+    },
+    "then": {
+     "required": [
+      "basis"
+     ]
+    }
+   },
+   {
+    "if": {
+     "properties": {
+      "access": {
+       "const": "client"
+      }
+     },
+     "required": [
+      "access"
+     ]
+    },
+    "then": {
+     "required": [
+      "matter"
+     ]
+    }
+   }
+  ]
+ },
+ "$defs": {
+  "pred": {
+   "oneOf": [
+    {
+     "type": "object",
+     "required": [
+      "always"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "always": {
+       "const": true
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "all"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "all": {
+       "type": "array",
+       "minItems": 1,
+       "items": {
+        "$ref": "#/$defs/pred"
+       }
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "any"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "any": {
+       "type": "array",
+       "minItems": 1,
+       "items": {
+        "$ref": "#/$defs/pred"
+       }
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "not"
+     ],
+     "additionalProperties": false,
+     "properties": {
+      "not": {
+       "$ref": "#/$defs/pred"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "minProperties": 1,
+     "maxProperties": 1,
+     "propertyNames": {
+      "pattern": "^[a-z_]+$",
+      "not": {
+       "enum": [
+        "always",
+        "all",
+        "any",
+        "not"
+       ]
+      }
+     },
+     "additionalProperties": {
+      "oneOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "array",
+        "items": {
+         "type": "string"
+        },
+        "minItems": 1
+       }
+      ]
+     }
+    }
+   ]
+  }
+ }
+}
