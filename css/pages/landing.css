@@ -49,7 +49,7 @@
   .bullet { position: relative; display: inline-block; inline-size: .74em; block-size: .74em; margin-inline-start: .12em; border-radius: 50%; vertical-align: -.06em; box-sizing: border-box;
             --silver: color-mix(in srgb, var(--subtle) 55%, #c4cbd1);
             border: .075em solid var(--silver);
-            background: radial-gradient(circle at 44% 40%, #ffffff 0 7%, var(--silver) 20% 36%, transparent 39%); }  /* like ©, with a primer in the ring */
+            background: radial-gradient(circle, var(--silver) 0 36%, transparent 40%); }  /* like ©, with a primer in the ring */
   .bullet::before { content: ""; position: absolute; inset: -1.2rem; }
   .cast { position: absolute; left: calc(100% + 1.2rem); top: 50%; translate: 0 -50%; white-space: nowrap; font-style: italic; font-size: 1.35rem;
           color: var(--ink); opacity: 0; filter: blur(.3rem); transition: opacity 1.2s ease, filter 1.2s ease; pointer-events: none; }
