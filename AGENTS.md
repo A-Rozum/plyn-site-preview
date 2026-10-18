@@ -8,7 +8,7 @@ Everything that appears on the page develops (проявляется) – from t
 
 Crumbs for the attentive. The owner scatters hidden hints of where Plyń is heading – findable by a careful visitor, never turned into slogans or headlines; most will go unnoticed, and that is accepted. Keep them when changing the page, keep them findable and quiet, and add new ones to this list:
 - the ring inscription above, an inverted One Ring verse;
-- the silver bullet: the third, larger silver dot of the footer line „© Plyń · 2026 ·“; on hover or tap its line develops beside it (above it on phones): „Silver bullets aren’t found. They’re cast.“ (an answer to Brooks’ No Silver Bullet: a silver bullet cast from accumulated institutions – methods, specifications, formal languages – towards which Plyń has taken steps); the same line is written to the browser console. It stays in English on every language page.
+- the silver bullet: the silver primer – a ring with a disc inside, drawn like © – as the third mark of the footer line „© Plyń · 2026 ·“; on hover or tap its line develops beside it (above it on phones): „Silver bullets aren’t found. They’re cast.“ (an answer to Brooks’ No Silver Bullet: a silver bullet cast from accumulated institutions – methods, specifications, formal languages – towards which Plyń has taken steps); the same line is written to the browser console. It stays in English on every language page.
 
 The mark, the wordmark and the favicon are copies of files in A-Rozum/plyn-brand (the only source). The page inlines them so the creature can blink and wave and the line can follow the theme.
 
@@ -33,9 +33,9 @@ Then the zone became active the same day: Email Routing and DNSSEC are on (DS re
 Remaining:
 1. Project mail: being decided with the owner (agents first: incoming mail to a Worker and storage, important items forwarded to people; sending to anyone needs the Workers Paid plan). After the next real sign-up confirms mail from noreply@beta.plyn.one, remove Email Routing from notify.plyn.one.
 2. Search engines: done on 2026-10-18. Bing Webmaster Tools under the agents' Microsoft account kropla@plyn.one (CNAME 13302189e47a95a52244467203467c92.plyn.one → verify.bing.com). Google Search Console property sc-domain:plyn.one (TXT google-site-verification in the zone), owners: service account plyn-agent@plyn-agents (key in the owner's preferences; it holds Service Usage Admin in project plyn-agents, so agents enable Google APIs themselves) and kropla@plyn.one. sitemap.xml submitted to both. tools/stats.py prints search phrases from both (BING_WEBMASTER_KEY, GOOGLE_SA_JSON = path to the key file).
-3. Consent bar (after the dev plate is removed, in its place): our own unobtrusive bar in the page's style, driving Cloudflare Zaraz consent through its JavaScript API (the Cloudflare token has Zaraz access); with consent, a stored visitor id for unique and returning visitors and A/B tests, and third-party tools only for those who agreed.
+3. Consent bar (the dev plate is gone; the bar takes its place at the bottom): our own unobtrusive bar in the page's style, driving Cloudflare Zaraz consent through its JavaScript API (the Cloudflare token has Zaraz access); with consent, a stored visitor id for unique and returning visitors and A/B tests, and third-party tools only for those who agreed.
 4. Browser caching of css/js stays off while the owner evaluates changes; enable it when he says so.
-5. Remove noindex only when the owner says the page is public; remove the dev plate (css/dev/plate.css, js/dev-plate.js and their two tags) at the same time.
+5. Remove noindex only when the owner says the page is public. The dev plate was removed on 2026-10-18 at the owner's request.
 
 Already on the page: browser language with English fallback, system theme with a remembered choice, rounded system font, controller Andrey Rozum with contact Plyn.one@proton.me.
 The eyebrow states the start year; the footer shows 2026 or 2026–<current year>.

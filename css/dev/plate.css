@@ -1,7 +1,0 @@
-/* Dev plate: window size, zoom, regime, rem and load time. A prototyping aid; removed together with noindex. */
-@layer dev {
-  .dev-plate { position: fixed; left: 50%; translate: -50% 0; inset-block-end: .8rem; z-index: 10; display: flex; gap: .8rem; padding: .5rem 1rem; border-radius: .6rem; background: var(--ink); color: var(--paper); font: 1.1rem/1.3 ui-monospace, monospace; font-variant-numeric: tabular-nums; opacity: .82; pointer-events: none; }
-  @media (width <= 50em) {
-    .dev-plate { font-size: 1.3rem; }
-  }
-}
