@@ -20,3 +20,11 @@ function say(key,err){notice.textContent=notice.dataset[key];notice.classList.to
 form.onsubmit=async e=>{e.preventDefault();const btn=form.querySelector('[type=submit]');btn.disabled=true;say('sending');
 try{const t=await token();const r=await fetch('/api/beta',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({email:form.email.value,note:form.usecase.value,website:form.website.value,lang:sel.value,token:t})});
 const j=await r.json().catch(()=>({}));if(!r.ok||!j.ok)throw new Error(j.error||r.status);say('ok');form.reset();hit('submit')}catch(x){say('err',true)}finally{btn.disabled=false}};
+
+/* Orbit text: each phrase, as it fades in, is placed where it reads upright – along the clockwise arc above, the counter-clockwise arc below; each path goes round twice so a phrase never meets its start – whatever angle the slowly turning ring has reached. */
+(()=>{const ring=document.querySelector('.ring');if(!ring)return;const home=[50,180,-50];
+const turn=()=>{const m=getComputedStyle(ring).transform;if(!m||m==='none')return 0;const v=m.match(/-?[\d.e]+/g).map(Number);return Math.atan2(v[1],v[0])*180/Math.PI};
+const md=(a)=>((a%360)+360)%360;
+const place=(t,i)=>{const tp=t.querySelector('textPath'),a=md(home[i]+(Math.random()*30-15)),rel=md(a-turn());const low=a>100&&a<260;
+tp.setAttribute('href',low?'#orbit-ccw':'#orbit-path');tp.setAttribute('startOffset',(md((low?360-rel:rel)-180)+180)/7.2+'%')};
+document.querySelectorAll('.orbit-text').forEach((t,i)=>{place(t,i);t.addEventListener('animationiteration',()=>place(t,i))})})();
