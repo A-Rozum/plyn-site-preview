@@ -1,4 +1,4 @@
-"""Deploy plyn.one: sync and check the brand drawings and review files, upload the static assets and the Worker.
+"""Deploy plyn.one: sync and check the brand drawings, dashes and review files, build dist/ (tools/build.py), upload it as static assets and the Worker.
 
 Needs CLOUDFLARE_API_TOKEN (and GH_TOKEN for reading plyn-brand). TURNSTILE_SECRET, if set, is stored as a Worker
 secret; otherwise the stored secret is kept. Run from the repository root: python tools/deploy.py
@@ -12,7 +12,6 @@ ZONE = "0fc2b15c2ffa17c7cf6bff7d9f55a5d6"  # plyn.one
 SCRIPT = "plyn-site"
 D1 = "108f8d2b-a765-4ac4-b5e9-47bc8f01c375"  # plyn-beta, EU jurisdiction
 NOTIFY_TO = "plyn.one@proton.me"
-ASSETS = ["index.html", "favicon.svg", "css/core.css", "css/themes/plyn.css", "css/pages/landing.css", "css/dev/plate.css", "js/dev-plate.js", "js/i18n.js", "js/site.js"]
 HOSTS = ["plyn.one", "www.plyn.one"]
 TOKEN = os.environ.get("CLOUDFLARE_API_TOKEN") or sys.exit("CLOUDFLARE_API_TOKEN is not set")
 API = "https://api.cloudflare.com/client/v4"
@@ -43,8 +42,10 @@ def main():
     step("tools/sync_brand.py"); step("tools/sync_brand.py", "--check")
     step("tools/typography.py"); step("tools/typography.py", "--check")
     step("tools/review.py"); step("tools/review.py", "--check")
+    step("tools/build.py")
 
-    files = {"/" + n: (ROOT / n).read_bytes() for n in ASSETS}
+    dist = ROOT / "dist"
+    files = {"/" + p.relative_to(dist).as_posix(): p.read_bytes() for p in sorted(dist.rglob("*")) if p.is_file()}
     manifest = {p: {"hash": hashlib.sha256(c).hexdigest()[:32], "size": len(c)} for p, c in files.items()}
     sess = call("POST", f"/accounts/{ACCOUNT}/workers/scripts/{SCRIPT}/assets-upload-session", {"manifest": manifest})
     jwt = sess["jwt"]

@@ -1,4 +1,4 @@
-Plyń landing page – Łacinka (bel)
+Plyń landing page – Łacinka (be-latn)
 
 title: Plyń – Kožny ahient na vašaj chvali
 desc: Plyń naładžvaje luboha ahienta, madeĺ ci… kalehu na vaš sposab pracy i ŭtrymlivaje ich na hetaj chvali.

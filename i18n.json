@@ -1,5 +1,4 @@
-// Texts of the page in every language; review/<lang>.txt are generated from this object (tools/review.py).
-const I18N={
+{
  "en": {
   "title": "Plyń – Every agent on your wavelength",
   "desc": "Plyń tunes any agent, model or… colleague to the way you work, and keeps them there. Join the beta interest list.",
@@ -52,7 +51,7 @@ const I18N={
   "ok": "Дзякуй! Мы напішам вам, калі адкрыецца бэта.",
   "err": "Не атрымалася адправіць. Паспрабуйце крыху пазней."
  },
- "bel": {
+ "be-latn": {
   "title": "Plyń – Kožny ahient na vašaj chvali",
   "desc": "Plyń naładžvaje luboha ahienta, madeĺ ci… kalehu na vaš sposab pracy i ŭtrymlivaje ich na hetaj chvali.",
   "eyebrow": "Pačaty ŭ 2026 hodzie",
@@ -156,4 +155,4 @@ const I18N={
   "ok": "Ačiū! Parašysime jums, kai beta versija bus atverta.",
   "err": "Nepavyko išsiųsti. Pabandykite šiek tiek vėliau."
  }
-};
+}

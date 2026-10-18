@@ -4,7 +4,7 @@ A long dash (U+2014, U+2015) becomes an en dash; a long dash written without spa
 import re, sys
 from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
-FILES = ["index.html", "js/i18n.js", "js/site.js", "worker/worker.js", *sorted(str(p.relative_to(ROOT)) for p in (ROOT / "review").glob("*.txt"))]
+FILES = ["index.html", "i18n.json", "js/site.js", "worker/worker.js", *sorted(str(p.relative_to(ROOT)) for p in (ROOT / "review").glob("*.txt"))]
 LONG = "\u2014\u2015"
 
 def house(text):

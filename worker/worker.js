@@ -2,7 +2,7 @@
 import { EmailMessage } from "cloudflare:email";
 
 const APEX = "plyn.one";
-const LANGS = new Set(["en", "be", "bel", "pl", "it", "lt"]);
+const LANGS = ["en", "be", "be-latn", "pl", "it", "lt"]; // path codes; be-latn is Belarusian in Łacinka
 const json = (body, status = 200) =>
   new Response(JSON.stringify(body), { status, headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" } });
 
@@ -17,9 +17,31 @@ export default {
       if (request.method !== "POST") return json({ ok: false, error: "method" }, 405);
       return beta(request, env);
     }
+    if (url.pathname === "/") return chooseLanguage(request, url);
     return env.ASSETS.fetch(request);
   },
 };
+
+// plyn.one/ → /<code>/: the visitor's own choice (cookie plyn-lang, or ?lang= from older links), then the browser's
+// languages in order of preference, then English.
+function chooseLanguage(request, url) {
+  const pick = (c) => {
+    c = (c || "").trim().toLowerCase();
+    if (c === "bel" || c.startsWith("be-latn")) return "be-latn";
+    if (LANGS.includes(c)) return c;
+    const base = c.split("-")[0];
+    return LANGS.includes(base) ? base : null;
+  };
+  const cookie = (request.headers.get("cookie") || "").match(/(?:^|;\s*)plyn-lang=([^;]+)/);
+  let code = pick(url.searchParams.get("lang")) || (cookie && pick(cookie[1]));
+  if (!code) {
+    const prefs = (request.headers.get("accept-language") || "").split(",")
+      .map((p) => { const [tag, q] = p.trim().split(";q="); return { tag, q: q === undefined ? 1 : parseFloat(q) || 0 }; })
+      .filter((p) => p.tag && p.q > 0).sort((a, b) => b.q - a.q);
+    for (const p of prefs) { code = pick(p.tag); if (code) break; }
+  }
+  return new Response(null, { status: 302, headers: { location: "/" + (code || "en") + "/", vary: "Accept-Language, Cookie", "cache-control": "private, no-store" } });
+}
 
 async function beta(request, env) {
   const ip = request.headers.get("cf-connecting-ip") || "unknown";
@@ -34,7 +56,7 @@ async function beta(request, env) {
 
   const email = String(data.email || "").trim().toLowerCase();
   const note = String(data.note || "").trim().slice(0, 2000);
-  const lang = LANGS.has(data.lang) ? data.lang : "en";
+  const lang = LANGS.includes(data.lang) ? data.lang : "en";
   if (email.length > 254 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return json({ ok: false, error: "email" }, 400);
 
   const verify = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {

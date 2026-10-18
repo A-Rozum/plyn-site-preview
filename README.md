@@ -1,2 +1,2 @@
 # plyn-site-preview
-Temporary public design preview for the Plyń landing page
+Source of the Plyń landing page at https://plyn.one
