@@ -64,7 +64,7 @@ function b64(s) {
 }
 
 async function notify(env, s) {
-  const from = "beta@" + APEX;
+  const from = "beta@notify." + APEX; // Email Routing runs on the notify subdomain; the apex MX is left for the mailbox provider
   const to = env.NOTIFY_TO;
   const subject = (s.repeat ? "Plyń beta: repeated sign-up " : "Plyń beta: new sign-up ") + s.email;
   const body = `Email: ${s.email}\nLanguage: ${s.lang}\nTime (UTC): ${s.now}\n${s.repeat ? "Already on the list; note updated if given.\n" : ""}\nNote:\n${s.note || "(none)"}\n`;

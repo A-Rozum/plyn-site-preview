@@ -2,13 +2,12 @@ Plyń landing page — English (en)
 
 title: Plyń — Every agent on your wavelength
 desc: Plyń tunes any agent, model or… colleague to the way you work, and keeps them there. Join the beta interest list.
-eyebrow: In development · 2026
+eyebrow: Started in 2026
 h1: Every agent on your wavelength.
 support: Plyń tunes any agent, model or… colleague to the way you work, and keeps them there.
 cta: Notify me about the beta →
 secondary: No launch date yet. It’s still learning to wave.
-footerL: © Plyń · An evolving project
-footerR: Built with Prastora
+footerR: Built with
 theme: Switch theme
 lang: Language
 close: Close

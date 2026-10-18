@@ -1,0 +1,10 @@
+/* Plyń theme: brand colours from A-Rozum/plyn-brand (Ink #10222E, Light #F3F5F4, Orange #E0662E).
+   Light and dark schemes; the dark one follows the system unless data-scheme on <html> sets one. */
+@layer theme {
+  :root { color-scheme: light; --ink: #10222e; --paper: #f3f5f4; --accent: #e0662e; --on-accent: #10222e; --shade: #10222e14; --veil: #08121db3; --lift: #00000044; --font: ui-rounded, "SF Pro Rounded", Calibri, system-ui, sans-serif; }
+  @media (prefers-color-scheme: dark) {
+    :root { color-scheme: dark; --ink: #f3f5f4; --paper: #10222e; }
+  }
+  :root[data-scheme=light] { color-scheme: light; --ink: #10222e; --paper: #f3f5f4; }
+  :root[data-scheme=dark] { color-scheme: dark; --ink: #f3f5f4; --paper: #10222e; }
+}

@@ -2,13 +2,12 @@ Plyń landing page — Polski (pl)
 
 title: Plyń — Każdy agent na Twojej fali
 desc: Plyń dostraja dowolnego agenta, model czy… współpracownika do Twojego sposobu pracy i utrzymuje ich na tej fali.
-eyebrow: W trakcie tworzenia · 2026
+eyebrow: Rozpoczęty w 2026 roku
 h1: Każdy agent na Twojej fali.
 support: Plyń dostraja dowolnego agenta, model czy… współpracownika do Twojego sposobu pracy i utrzymuje ich na tej fali.
 cta: Powiadom mnie o becie →
 secondary: Daty premiery jeszcze nie ma. Dopiero uczy się machać.
-footerL: © Plyń · Projekt w rozwoju
-footerR: Zbudowane na Prastora
+footerR: Zbudowane na
 theme: Zmień motyw
 lang: Język
 close: Zamknij
