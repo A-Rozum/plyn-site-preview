@@ -5,9 +5,12 @@ const sel=document.getElementById('lang'),R=document.documentElement;
 sel.addEventListener('change',()=>{document.cookie='plyn-lang='+sel.value+';path=/;max-age=31536000;samesite=lax;secure';location.href='/'+sel.value+'/'});
 try{const v=localStorage.getItem('plyn-theme');if(v)R.dataset.scheme=v}catch(e){}
 document.getElementById('theme').addEventListener('click',()=>{const dark=R.dataset.scheme?R.dataset.scheme==='dark':matchMedia('(prefers-color-scheme: dark)').matches;R.dataset.scheme=dark?'light':'dark';try{localStorage.setItem('plyn-theme',R.dataset.scheme)}catch(e){}});
-const modal=document.getElementById('interest');document.getElementById('open').onclick=()=>modal.showModal();document.getElementById('close').onclick=()=>modal.close();
+// Turnstile loads when the form opens, so the page itself needs nothing from other servers.
+let tsLoad=null;const loadTs=()=>tsLoad||(tsLoad=new Promise((ok,no)=>{const s=document.createElement('script');s.src='https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';s.async=true;s.onload=ok;s.onerror=()=>{tsLoad=null;no(new Error('turnstile'))};document.head.append(s)}));
+const hit=k=>{try{navigator.sendBeacon('/api/hit',JSON.stringify({kind:k,lang:sel.value}))}catch(e){}};
+const modal=document.getElementById('interest');document.getElementById('open').onclick=()=>{modal.showModal();loadTs().catch(()=>{});hit('open')};document.getElementById('close').onclick=()=>modal.close();
 const form=document.getElementById('beta'),notice=document.getElementById('notice'),SITEKEY='0x4AAAAAAFZ4GQJpHoVa8fZ8';let tsId=null,tsWait=null;
-function token(){return new Promise((ok,no)=>{if(!window.turnstile)return no(new Error('turnstile'));tsWait={ok,no};
+async function token(){await loadTs();return new Promise((ok,no)=>{tsWait={ok,no};
 if(tsId===null)tsId=turnstile.render('#ts',{sitekey:SITEKEY,execution:'execute',appearance:'interaction-only',callback:t=>{tsWait&&tsWait.ok(t);tsWait=null},'error-callback':()=>{tsWait&&tsWait.no(new Error('turnstile'));tsWait=null},'expired-callback':()=>turnstile.reset(tsId)});
 else turnstile.reset(tsId);turnstile.execute(tsId)})}
 function say(key,err){notice.textContent=notice.dataset[key];notice.classList.toggle('err',!!err)}

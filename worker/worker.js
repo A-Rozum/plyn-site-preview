@@ -6,8 +6,22 @@ const LANGS = ["en", "be", "be-latn", "pl", "it", "lt"]; // path codes; be-latn 
 const json = (body, status = 200) =>
   new Response(JSON.stringify(body), { status, headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" } });
 
+// Anonymous statistics (D1 plyn-stats, no cookies, no IP): page views of the language pages and events from the page.
+function device(ua) { return /ipad|tablet/i.test(ua) ? "tablet" : /mobi|android|iphone/i.test(ua) ? "phone" : "desktop"; }
+function hitRow(request, kind, path, lang) {
+  const ua = request.headers.get("user-agent") || "", url = new URL(request.url);
+  let ref = null;
+  try { const r = new URL(request.headers.get("referer") || ""); if (r.hostname !== APEX && r.hostname !== "www." + APEX) ref = r.hostname; } catch {}
+  const utm = ["utm_source", "utm_medium", "utm_campaign"].map((k) => url.searchParams.get(k)).filter(Boolean).join("/") || null;
+  return [new Date().toISOString(), kind, path, lang, ref, utm, (request.cf && request.cf.country) || null, device(ua), /bot|crawl|spider|slurp|preview|headless/i.test(ua) ? 1 : 0];
+}
+function record(env, ctx, row) {
+  if (!env.STATS) return;
+  ctx.waitUntil(env.STATS.prepare("INSERT INTO hits (at, kind, path, lang, referrer, utm, country, device, bot) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)").bind(...row).run().catch(() => {}));
+}
+
 export default {
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
     const url = new URL(request.url);
     if (url.hostname === "www." + APEX) {
       url.hostname = APEX;
@@ -17,7 +31,16 @@ export default {
       if (request.method !== "POST") return json({ ok: false, error: "method" }, 405);
       return beta(request, env);
     }
+    if (url.pathname === "/api/hit" && request.method === "POST") {
+      try {
+        const d = JSON.parse(await request.text());
+        if (["open"].includes(d.kind)) record(env, ctx, hitRow(request, d.kind, null, LANGS.includes(d.lang) ? d.lang : null));
+      } catch {}
+      return new Response(null, { status: 204 });
+    }
     if (url.pathname === "/") return chooseLanguage(request, url);
+    const m = url.pathname.match(/^\/([a-z-]+)\/$/);
+    if (m && LANGS.includes(m[1]) && request.method === "GET") record(env, ctx, hitRow(request, "view", url.pathname, m[1]));
     return env.ASSETS.fetch(request);
   },
 };

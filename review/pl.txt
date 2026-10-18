@@ -6,7 +6,11 @@ eyebrow: Rozpoczęty w 2026 roku
 h1: Każdy agent na Twojej fali.
 support: Plyń dostraja dowolnego agenta, model czy… współpracownika do Twojego sposobu pracy i utrzymuje ich na tej fali.
 cta: Powiadom mnie o becie →
-secondary: Daty premiery jeszcze nie ma. Dopiero uczy się machać.
+line1: Datę startu znają tylko bogowie AI. Na maile nie odpisują.
+line2: Wyrocznia milczy w sprawie daty. Agenci nie – pracują po godzinach.
+line3: Kalibrujemy fale… 37%. Nad pozostałymi 63% już pracujemy.
+line4: Uczymy czubek machać do rytmu. Próby trwają dzień i noc.
+line5: Agenci kłócą się o datę startu. My ich godzimy.
 footerR: Zbudowane na
 theme: Zmień motyw
 lang: Język
@@ -20,7 +24,7 @@ usePh: Kilka słów o Twojej pracy lub pomyśle, który chcesz wypróbować...
 submit: Zgłoś zainteresowanie →
 consent: Twój adres wykorzystamy wyłącznie, by powiadomić Cię o becie.
 privS: Jak przetwarzamy Twoje dane
-privB: Administrator danych: Andrey Rozum, Plyn.one@proton.me. Dostawca hostingu: Cloudflare, Inc., który przetwarza dane z formularza w naszym imieniu i przechowuje je w UE. Przechowujemy Twój adres i notatkę wyłącznie po to, by powiadomić Cię o becie Plyń – do czasu ogłoszenia startu lub do Twojej prośby o ich usunięcie. Podstawą jest Twoja zgoda, którą możesz w każdej chwili wycofać, pisząc na powyższy adres. Możesz też żądać dostępu do danych lub ich sprostowania oraz złożyć skargę do organu ochrony danych.
+privB: Administrator danych: Andrey Rozum, Plyn.one@proton.me. Dostawca hostingu: Cloudflare, Inc., który przetwarza dane z formularza w naszym imieniu i przechowuje je w UE. Przechowujemy Twój adres i notatkę wyłącznie po to, by powiadomić Cię o becie Plyń – do czasu ogłoszenia startu lub do Twojej prośby o ich usunięcie. Podstawą jest Twoja zgoda, którą możesz w każdej chwili wycofać, pisząc na powyższy adres. Możesz też żądać dostępu do danych lub ich sprostowania oraz złożyć skargę do organu ochrony danych. Statystyki odwiedzin są anonimowe i bez cookies: liczymy stronę, jej język, witrynę, z której przyszedłeś, kraj i typ urządzenia, bez adresów IP.
 sending: Wysyłanie…
 ok: Dziękujemy! Napiszemy do Ciebie, gdy beta wystartuje.
 err: Nie udało się wysłać. Spróbuj ponownie za chwilę.

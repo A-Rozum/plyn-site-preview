@@ -6,7 +6,11 @@ eyebrow: Avviato nel 2026
 h1: Ogni agente sulla tua lunghezza d’onda.
 support: Plyń sintonizza qualsiasi agente, modello o… collega sul tuo modo di lavorare e li mantiene in sintonia.
 cta: Avvisami per la beta →
-secondary: Ancora nessuna data di lancio. Sta ancora imparando a salutare.
+line1: La data del lancio la conoscono solo le divinità dell’IA. Alle email non rispondono.
+line2: L’oracolo tace sulla data. Gli agenti no: fanno gli straordinari.
+line3: Calibrazione delle onde… 37%. Al restante 63% ci stiamo lavorando.
+line4: Insegniamo al ciuffo a salutare a tempo. Le prove vanno avanti giorno e notte.
+line5: Gli agenti litigano sulla data del lancio. Noi facciamo da mediatori.
 footerR: Costruito con
 theme: Cambia tema
 lang: Lingua
@@ -20,7 +24,7 @@ usePh: Poche parole sul tuo lavoro o su un’idea che vorresti provare...
 submit: Registra il tuo interesse →
 consent: Useremo la tua email solo per avvisarti della beta.
 privS: Come trattiamo i tuoi dati
-privB: Titolare del trattamento: Andrey Rozum, Plyn.one@proton.me. Fornitore di hosting: Cloudflare, Inc., che tratta i dati del modulo per nostro conto e li conserva nell’UE. Conserviamo la tua email e la tua nota solo per avvisarti della beta di Plyń, fino all’annuncio del lancio o finché non ci chiedi di cancellarle. La base giuridica è il tuo consenso, che puoi revocare in qualsiasi momento scrivendo all’indirizzo indicato. Puoi anche chiedere l’accesso ai tuoi dati o la loro rettifica e presentare reclamo a un’autorità di controllo.
+privB: Titolare del trattamento: Andrey Rozum, Plyn.one@proton.me. Fornitore di hosting: Cloudflare, Inc., che tratta i dati del modulo per nostro conto e li conserva nell’UE. Conserviamo la tua email e la tua nota solo per avvisarti della beta di Plyń, fino all’annuncio del lancio o finché non ci chiedi di cancellarle. La base giuridica è il tuo consenso, che puoi revocare in qualsiasi momento scrivendo all’indirizzo indicato. Puoi anche chiedere l’accesso ai tuoi dati o la loro rettifica e presentare reclamo a un’autorità di controllo. Le statistiche delle visite sono anonime e senza cookie: contiamo la pagina, la lingua, il sito di provenienza, il paese e il tipo di dispositivo, senza indirizzi IP.
 sending: Invio in corso…
 ok: Grazie! Ti scriveremo quando la beta sarà aperta.
 err: Invio non riuscito. Riprova tra poco.

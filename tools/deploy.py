@@ -11,6 +11,7 @@ ACCOUNT = "6d36b6422447adf3e863d95c4f0a4dfb"
 ZONE = "0fc2b15c2ffa17c7cf6bff7d9f55a5d6"  # plyn.one
 SCRIPT = "plyn-site"
 D1 = "108f8d2b-a765-4ac4-b5e9-47bc8f01c375"  # plyn-beta, EU jurisdiction
+STATS = "bcacb88d-3f97-4f17-a517-0e61e4d44f79"  # plyn-stats, EU jurisdiction: anonymous visits (schema in worker/schema.sql)
 NOTIFY_TO = "plyn.one@proton.me"
 HOSTS = ["plyn.one", "www.plyn.one"]
 TOKEN = os.environ.get("CLOUDFLARE_API_TOKEN") or sys.exit("CLOUDFLARE_API_TOKEN is not set")
@@ -59,6 +60,7 @@ def main():
     bindings = [
         {"type": "assets", "name": "ASSETS"},
         {"type": "d1", "name": "DB", "id": D1},
+        {"type": "d1", "name": "STATS", "id": STATS},
         {"type": "plain_text", "name": "NOTIFY_TO", "text": NOTIFY_TO},
         {"type": "ratelimit", "name": "RL", "namespace_id": "1001", "simple": {"limit": 5, "period": 60}},
     ]
