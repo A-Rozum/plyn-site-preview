@@ -13,11 +13,11 @@ function hitRow(request, kind, path, lang) {
   let ref = null;
   try { const r = new URL(request.headers.get("referer") || ""); if (r.hostname !== APEX && r.hostname !== "www." + APEX) ref = r.hostname; } catch {}
   const utm = ["utm_source", "utm_medium", "utm_campaign"].map((k) => url.searchParams.get(k)).filter(Boolean).join("/") || null;
-  return [new Date().toISOString(), kind, path, lang, ref, utm, (request.cf && request.cf.country) || null, device(ua), /bot|crawl|spider|slurp|preview|headless/i.test(ua) ? 1 : 0];
+  return [new Date().toISOString(), kind, path, lang, ref, utm, (request.cf && request.cf.country) || null, device(ua), /bot|crawl|spider|slurp|preview|headless/i.test(ua) ? 1 : 0, null, null];
 }
 function record(env, ctx, row) {
   if (!env.STATS) return;
-  ctx.waitUntil(env.STATS.prepare("INSERT INTO hits (at, kind, path, lang, referrer, utm, country, device, bot) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)").bind(...row).run().catch(() => {}));
+  ctx.waitUntil(env.STATS.prepare("INSERT INTO hits (at, kind, path, lang, referrer, utm, country, device, bot, ms, interacted) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)").bind(...row.slice(0, 11)).run().catch(() => {}));
 }
 
 export default {
@@ -34,7 +34,11 @@ export default {
     if (url.pathname === "/api/hit" && request.method === "POST") {
       try {
         const d = JSON.parse(await request.text());
-        if (["open"].includes(d.kind)) record(env, ctx, hitRow(request, d.kind, null, LANGS.includes(d.lang) ? d.lang : null));
+        if (["open", "submit", "leave"].includes(d.kind)) {
+          const row = hitRow(request, d.kind, null, LANGS.includes(d.lang) ? d.lang : null);
+          row.splice(9, 2, d.kind === "leave" ? Math.max(0, Math.min(3600000, parseInt(d.ms, 10) || 0)) : null, d.kind === "leave" ? (d.interacted ? 1 : 0) : null);
+          record(env, ctx, row);
+        }
       } catch {}
       return new Response(null, { status: 204 });
     }

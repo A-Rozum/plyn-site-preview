@@ -37,11 +37,7 @@
   .cta:disabled { opacity: .6; cursor: wait; transform: none; }
   .secondary { display: block; font-size: 1.35rem; color: var(--subtle); margin: 1.6rem 0 0; }
   .ticker { display: grid; inline-size: 49rem; }
-  .ticker > * { grid-area: 1 / 1; opacity: 0; animation: tick 30s linear infinite; }
-  .ticker > :nth-child(2) { animation-delay: 6s; }
-  .ticker > :nth-child(3) { animation-delay: 12s; }
-  .ticker > :nth-child(4) { animation-delay: 18s; }
-  .ticker > :nth-child(5) { animation-delay: 24s; }
+  .ticker > * { grid-area: 1 / 1; opacity: 0; }  /* timing per language and line: css/ticker.css, built by tools/build.py */
   footer { font-size: 1.25rem; color: var(--subtle); gap: .4rem 2rem; flex-wrap: wrap; }
   footer a { color: inherit; text-underline-offset: .3rem; }
   dialog { background: var(--paper); color: var(--ink); border: .1rem solid var(--line); border-radius: 2.2rem; padding: 4.6rem; inline-size: 53rem; box-shadow: 0 3rem 12rem var(--lift); }
@@ -63,7 +59,6 @@
   .ts:empty { display: none; }
   @keyframes wave { 0%, 88%, 100% { transform: rotate(0); } 90%, 94% { transform: rotate(14deg); } 92%, 96% { transform: rotate(-7deg); } }
   @keyframes blink { 0%, 44%, 46%, 100% { transform: scaleY(1); } 45% { transform: scaleY(.08); } }
-  @keyframes tick { 0% { opacity: 0; } 2%, 18% { opacity: 1; } 20%, 100% { opacity: 0; } }
   @keyframes drift { from { transform: translate(-2rem, 0); } to { transform: translate(3rem, 2rem); } }
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after { animation: none !important; transition: none !important; }

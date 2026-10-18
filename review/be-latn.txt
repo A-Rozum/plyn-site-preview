@@ -24,7 +24,7 @@ usePh: Niekalki słoŭ pra vašu pracu abo ideju, jakuju chočacca pasprabavać.
 submit: Zarehistravać cikavasć →
 consent: My vykarystajem vaš adras tolki dlia taho, kab paviedamić pra betu.
 privS: Jak apracoŭvajucca vašy danyja
-privB: Adkazny za danyja: Andrey Rozum, Plyn.one@proton.me. Chostynh-pravajdar: Cloudflare, Inc.; jon apracoŭvaje danyja formy ad našaha imia i zachoŭvaje ich u JeS. My zachoŭvajem vaš adras i natatku tolki dlia taho, kab paviedamić pra betu Plyń, – pakuĺ nie paviedamim pra zapusk abo pakuĺ vy nie paprosicie ich vydalić. Padstava – vaša zhoda; jaje možna adklikać u luby čas, napisaŭšy na adras vyšej. Vy taksama možacie paprasić pakazać abo vypravić vašy danyja i paskardzicca ŭ orhan pa abaronie danych. Statystyka naviedvanniaŭ ananimnaja i biez cookie: my ličym staronku, jaje movu, sajt, z jakoha vy pryjšli, krainu i typ prylady, biez IP-adrasoŭ.
+privB: Adkazny za danyja: Andrey Rozum, Plyn.one@proton.me. Chostynh-pravajdar: Cloudflare, Inc.; jon apracoŭvaje danyja formy ad našaha imia i zachoŭvaje ich u JeS. My zachoŭvajem vaš adras i natatku tolki dlia taho, kab paviedamić pra betu Plyń, – pakuĺ nie paviedamim pra zapusk abo pakuĺ vy nie paprosicie ich vydalić. Padstava – vaša zhoda; jaje možna adklikać u luby čas, napisaŭšy na adras vyšej. Vy taksama možacie paprasić pakazać abo vypravić vašy danyja i paskardzicca ŭ orhan pa abaronie danych. Statystyka naviedvanniaŭ ananimnaja i biez cookie: my ličym staronku, jaje movu, sajt, z jakoha vy pryjšli, krainu, typ prylady, čas na staroncy i ci adkryvałasia ci adpraŭlałasia forma, biez IP-adrasoŭ.
 sending: Adpraŭliajem…
 ok: Dziakuj! My napišam vam, kali adkryjecca beta.
 err: Nie atrymałasia adpravić. Pasprabujcie krychu paźniej.

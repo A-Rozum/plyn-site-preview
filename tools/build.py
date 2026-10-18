@@ -44,9 +44,31 @@ def main():
     for s in STATIC:
         src = ROOT / s
         shutil.copytree(src, DIST / s) if src.is_dir() else shutil.copy(src, DIST / s)
+    # rotating launch lines: each line shows for a time from its length plus a fixed jitter, so the rhythm is uneven
+    import hashlib
+    css = ["/* Built by tools/build.py: timing of the launch lines (.ticker) per language. */", "@layer page {"]
+    for code, t in texts.items():
+        lines = [t[k] for k in sorted(k for k in t if k.startswith("line"))]
+        durs = []
+        for s in lines:
+            jitter = int(hashlib.sha1((code + s).encode()).hexdigest()[:4], 16) / 65535 * 1.6 - 0.8
+            durs.append(round(min(10.0, max(5.0, 3.5 + 0.045 * len(s) + jitter)), 2))
+        fade, total = 0.6, sum(durs) - 0.6 * (len(durs) - 1)
+        start, name = 0.0, re.sub(r"[^a-z]", "", code)
+        for i, dur in enumerate(durs, 1):
+            p = lambda x: f"{max(0.0, min(100.0, x / total * 100)):.2f}%"
+            if i == 1:
+                frames = f"0% {{ opacity: 0; }} {p(fade)} {{ opacity: 1; }} {p(dur - fade)} {{ opacity: 1; }} {p(dur)} {{ opacity: 0; }} {p(total - fade)} {{ opacity: 0; }} 100% {{ opacity: 0; }}"
+            else:
+                frames = f"0% {{ opacity: 0; }} {p(start)} {{ opacity: 0; }} {p(start + fade)} {{ opacity: 1; }} {p(start + dur - fade)} {{ opacity: 1; }} {p(min(start + dur, total))} {{ opacity: 0; }} 100% {{ opacity: 0; }}"
+            css.append(f"  @keyframes tick-{name}-{i} {{ {frames} }}")
+            css.append(f'  :root[lang="{TAG.get(code, code)}"] .ticker > :nth-child({i}) {{ animation: tick-{name}-{i} {total:.2f}s linear infinite; }}')
+            start += dur - fade
+    css.append("}")
+    (DIST / "css" / "ticker.css").write_text("\n".join(css) + "\n", encoding="utf-8")
     # one stylesheet for the page, composed by Prastora's release tool from the modules in css/ (methods/css-delivery.md)
     plan = DIST / "styles-plan.json"
-    plan.write_text(json.dumps({"format": 1, "bundles": {"/css/site.css": ["/css/core.css", "/css/themes/plyn.css", "/css/pages/landing.css"]}}), encoding="utf-8")
+    plan.write_text(json.dumps({"format": 1, "bundles": {"/css/site.css": ["/css/core.css", "/css/themes/plyn.css", "/css/pages/landing.css", "/css/ticker.css"]}}), encoding="utf-8")
     import subprocess, sys
     r = subprocess.run([sys.executable, str(ROOT / "tools/styles.py"), str(plan), "--root", str(DIST)], capture_output=True, text=True)
     if r.returncode: raise SystemExit("styles.py: " + r.stderr)
