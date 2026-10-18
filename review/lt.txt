@@ -28,6 +28,3 @@ privB: Duomenų valdytojas: Andrey Rozum, Plyn.one@proton.me. Prieglobos paslaug
 sending: Siunčiama…
 ok: Ačiū! Parašysime jums, kai beta versija bus atverta.
 err: Nepavyko išsiųsti. Pabandykite šiek tiek vėliau.
-orbit1: bet kuris agentas
-orbit2: bet kuris modelis
-orbit3: bet kuris… kolega

@@ -27,10 +27,7 @@
     "privB": "Controller: Andrey Rozum, Plyn.one@proton.me. Hosting provider: Cloudflare, Inc., which processes the form data on our behalf and stores it in the EU. We keep your email and note only to tell you about the Plyń beta, until we announce its launch or until you ask us to delete them. The legal basis is your consent, which you can withdraw at any time by writing to the address above. You can also ask to access or correct your data and complain to a data protection authority. Visit statistics are anonymous and use no cookies: we count the page, its language, the referring site, the country, the device type, the time spent on the page and whether the form was opened or sent, without IP addresses.",
     "sending": "Sending…",
     "ok": "Thank you! We’ll write to you when the beta opens.",
-    "err": "Couldn’t send. Please try again a little later.",
-    "orbit1": "any agent",
-    "orbit2": "any model",
-    "orbit3": "any… colleague"
+    "err": "Couldn’t send. Please try again a little later."
   },
   "be": {
     "title": "Plyń – Кожны агент на вашай хвалі",
@@ -60,10 +57,7 @@
     "privB": "Адказны за даныя: Andrey Rozum, Plyn.one@proton.me. Хостынг-правайдар: Cloudflare, Inc.; ён апрацоўвае даныя формы ад нашага імя і захоўвае іх у ЕС. Мы захоўваем ваш адрас і нататку толькі для таго, каб паведаміць пра бэту Plyń, – пакуль не паведамім пра запуск або пакуль вы не папросіце іх выдаліць. Падстава – ваша згода; яе можна адклікаць у любы час, напісаўшы на адрас вышэй. Вы таксама можаце папрасіць паказаць або выправіць вашы даныя і паскардзіцца ў орган па абароне даных. Статыстыка наведванняў ананімная і без cookie: мы лічым старонку, яе мову, сайт, з якога вы прыйшлі, краіну, тып прылады, час на старонцы і ці адкрывалася ці адпраўлялася форма, без IP-адрасоў.",
     "sending": "Адпраўляем…",
     "ok": "Дзякуй! Мы напішам вам, калі адкрыецца бэта.",
-    "err": "Не атрымалася адправіць. Паспрабуйце крыху пазней.",
-    "orbit1": "любы агент",
-    "orbit2": "любая мадэль",
-    "orbit3": "любы… калега"
+    "err": "Не атрымалася адправіць. Паспрабуйце крыху пазней."
   },
   "be-latn": {
     "title": "Plyń – Kožny ahient na vašaj chvali",
@@ -93,10 +87,7 @@
     "privB": "Adkazny za danyja: Andrey Rozum, Plyn.one@proton.me. Chostynh-pravajdar: Cloudflare, Inc.; jon apracoŭvaje danyja formy ad našaha imia i zachoŭvaje ich u JeS. My zachoŭvajem vaš adras i natatku tolki dlia taho, kab paviedamić pra betu Plyń, – pakuĺ nie paviedamim pra zapusk abo pakuĺ vy nie paprosicie ich vydalić. Padstava – vaša zhoda; jaje možna adklikać u luby čas, napisaŭšy na adras vyšej. Vy taksama možacie paprasić pakazać abo vypravić vašy danyja i paskardzicca ŭ orhan pa abaronie danych. Statystyka naviedvanniaŭ ananimnaja i biez cookie: my ličym staronku, jaje movu, sajt, z jakoha vy pryjšli, krainu, typ prylady, čas na staroncy i ci adkryvałasia ci adpraŭlałasia forma, biez IP-adrasoŭ.",
     "sending": "Adpraŭliajem…",
     "ok": "Dziakuj! My napišam vam, kali adkryjecca beta.",
-    "err": "Nie atrymałasia adpravić. Pasprabujcie krychu paźniej.",
-    "orbit1": "luby ahient",
-    "orbit2": "lubaja madeĺ",
-    "orbit3": "luby… kaleha"
+    "err": "Nie atrymałasia adpravić. Pasprabujcie krychu paźniej."
   },
   "pl": {
     "title": "Plyń – Każdy agent na Twojej fali",
@@ -126,10 +117,7 @@
     "privB": "Administrator danych: Andrey Rozum, Plyn.one@proton.me. Dostawca hostingu: Cloudflare, Inc., który przetwarza dane z formularza w naszym imieniu i przechowuje je w UE. Przechowujemy Twój adres i notatkę wyłącznie po to, by powiadomić Cię o becie Plyń – do czasu ogłoszenia startu lub do Twojej prośby o ich usunięcie. Podstawą jest Twoja zgoda, którą możesz w każdej chwili wycofać, pisząc na powyższy adres. Możesz też żądać dostępu do danych lub ich sprostowania oraz złożyć skargę do organu ochrony danych. Statystyki odwiedzin są anonimowe i bez cookies: liczymy stronę, jej język, witrynę, z której przyszedłeś, kraj, typ urządzenia, czas spędzony na stronie oraz to, czy formularz został otwarty lub wysłany, bez adresów IP.",
     "sending": "Wysyłanie…",
     "ok": "Dziękujemy! Napiszemy do Ciebie, gdy beta wystartuje.",
-    "err": "Nie udało się wysłać. Spróbuj ponownie za chwilę.",
-    "orbit1": "dowolny agent",
-    "orbit2": "dowolny model",
-    "orbit3": "dowolny… współpracownik"
+    "err": "Nie udało się wysłać. Spróbuj ponownie za chwilę."
   },
   "it": {
     "title": "Plyń – Ogni agente sulla tua lunghezza d’onda",
@@ -159,10 +147,7 @@
     "privB": "Titolare del trattamento: Andrey Rozum, Plyn.one@proton.me. Fornitore di hosting: Cloudflare, Inc., che tratta i dati del modulo per nostro conto e li conserva nell’UE. Conserviamo la tua email e la tua nota solo per avvisarti della beta di Plyń, fino all’annuncio del lancio o finché non ci chiedi di cancellarle. La base giuridica è il tuo consenso, che puoi revocare in qualsiasi momento scrivendo all’indirizzo indicato. Puoi anche chiedere l’accesso ai tuoi dati o la loro rettifica e presentare reclamo a un’autorità di controllo. Le statistiche delle visite sono anonime e senza cookie: contiamo la pagina, la lingua, il sito di provenienza, il paese, il tipo di dispositivo, il tempo trascorso sulla pagina e se il modulo è stato aperto o inviato, senza indirizzi IP.",
     "sending": "Invio in corso…",
     "ok": "Grazie! Ti scriveremo quando la beta sarà aperta.",
-    "err": "Invio non riuscito. Riprova tra poco.",
-    "orbit1": "qualsiasi agente",
-    "orbit2": "qualsiasi modello",
-    "orbit3": "qualsiasi… collega"
+    "err": "Invio non riuscito. Riprova tra poco."
   },
   "lt": {
     "title": "Plyń – Kiekvienas agentas vienoje bangoje su jumis",
@@ -192,9 +177,6 @@
     "privB": "Duomenų valdytojas: Andrey Rozum, Plyn.one@proton.me. Prieglobos paslaugų teikėjas: Cloudflare, Inc., kuris mūsų vardu tvarko formos duomenis ir saugo juos ES. Jūsų el. pašto adresą ir pastabą saugome tik tam, kad praneštume apie Plyń beta versiją, – kol pranešime apie paleidimą arba kol paprašysite juos ištrinti. Pagrindas – jūsų sutikimas, kurį galite bet kada atšaukti parašę nurodytu adresu. Taip pat galite prašyti susipažinti su savo duomenimis ar juos ištaisyti ir pateikti skundą duomenų apsaugos priežiūros institucijai. Apsilankymų statistika anoniminė ir be slapukų: skaičiuojame puslapį, jo kalbą, svetainę, iš kurios atėjote, šalį, įrenginio tipą, laiką puslapyje ir tai, ar forma buvo atidaryta ar išsiųsta, be IP adresų.",
     "sending": "Siunčiama…",
     "ok": "Ačiū! Parašysime jums, kai beta versija bus atverta.",
-    "err": "Nepavyko išsiųsti. Pabandykite šiek tiek vėliau.",
-    "orbit1": "bet kuris agentas",
-    "orbit2": "bet kuris modelis",
-    "orbit3": "bet kuris… kolega"
+    "err": "Nepavyko išsiųsti. Pabandykite šiek tiek vėliau."
   }
 }

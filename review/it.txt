@@ -28,6 +28,3 @@ privB: Titolare del trattamento: Andrey Rozum, Plyn.one@proton.me. Fornitore di 
 sending: Invio in corso…
 ok: Grazie! Ti scriveremo quando la beta sarà aperta.
 err: Invio non riuscito. Riprova tra poco.
-orbit1: qualsiasi agente
-orbit2: qualsiasi modello
-orbit3: qualsiasi… collega

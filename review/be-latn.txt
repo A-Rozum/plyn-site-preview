@@ -28,6 +28,3 @@ privB: Adkazny za danyja: Andrey Rozum, Plyn.one@proton.me. Chostynh-pravajdar: 
 sending: Adpraŭliajem…
 ok: Dziakuj! My napišam vam, kali adkryjecca beta.
 err: Nie atrymałasia adpravić. Pasprabujcie krychu paźniej.
-orbit1: luby ahient
-orbit2: lubaja madeĺ
-orbit3: luby… kaleha

@@ -1,3 +1,4 @@
+@font-face { font-family: "Alcarin Ring"; src: url("/fonts/alcarin-ring.woff2") format("woff2"); font-display: block; } /* Alcarin Tengwar (OFL, fonts/OFL-Alcarin-Tengwar.txt), only the signs of the ring inscription */
 /* Landing page in three regimes: desktop by default, phones (one column), large screens. Window height changes nothing but vertical centring. */
 @layer page {
   :root { --scale-units: 140; --subtle: color-mix(in srgb, var(--ink) 66%, transparent); --line: color-mix(in srgb, var(--ink) 27%, transparent); --accent-text: color-mix(in srgb, var(--accent) 72%, var(--ink)); --ring: 39rem; --ring-inner: 31rem; --space-h: 43rem; --creature-w: 21rem; }
@@ -27,9 +28,7 @@
   .eyes { transform-box: fill-box; transform-origin: 50% 50%; animation: blink 8.7s infinite; }
   .ring { animation: spin 240s linear infinite; }
   .orbit { position: absolute; inset: 0; inline-size: 100%; block-size: 100%; overflow: visible; }
-  .orbit-text { font-size: 4.1px; letter-spacing: .06em; fill: var(--subtle); opacity: 0; animation: orbit-fade 21s ease-in-out infinite; }
-  .orbit-text.t2 { animation-delay: 7s; }
-  .orbit-text.t3 { animation-delay: 14s; }
+  .inscription { font-family: "Alcarin Ring"; font-size: 4.3px; fill: var(--accent-text); opacity: 0; filter: drop-shadow(0 0 .9px var(--accent)); animation: kindle 16s ease-in-out infinite; }
   .orb { position: absolute; border-radius: 50%; background: var(--accent); }
   .o1 { inline-size: .8rem; block-size: .8rem; left: 15%; top: 27%; }
   .o2 { inline-size: .45rem; block-size: .45rem; right: 12%; bottom: 25%; }
@@ -65,12 +64,12 @@
   @keyframes wave { 0%, 88%, 100% { transform: rotate(0); } 90%, 94% { transform: rotate(14deg); } 92%, 96% { transform: rotate(-7deg); } }
   @keyframes blink { 0%, 44%, 46%, 100% { transform: scaleY(1); } 45% { transform: scaleY(.08); } }
   @keyframes spin { to { transform: rotate(1turn); } }
-  @keyframes orbit-fade { 0%, 100% { opacity: 0; } 10%, 30% { opacity: 1; } 40% { opacity: 0; } }
+  @keyframes kindle { 0%, 100% { opacity: 0; } 25%, 55% { opacity: .85; } 80% { opacity: 0; } }
   @keyframes drift { from { transform: translate(-2rem, 0); } to { transform: translate(3rem, 2rem); } }
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after { animation: none !important; transition: none !important; }
     .ticker > :first-child { opacity: 1; }
-    .orbit-text { opacity: 1; }
+    .inscription { opacity: .85; }
   }
   @media (width <= 50em) {
     :root { --scale-units: 44; --ring: 28rem; --ring-inner: 22rem; --space-h: 29rem; --creature-w: 15rem; }

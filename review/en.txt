@@ -28,6 +28,3 @@ privB: Controller: Andrey Rozum, Plyn.one@proton.me. Hosting provider: Cloudflar
 sending: Sending…
 ok: Thank you! We’ll write to you when the beta opens.
 err: Couldn’t send. Please try again a little later.
-orbit1: any agent
-orbit2: any model
-orbit3: any… colleague

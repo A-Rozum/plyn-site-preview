@@ -28,6 +28,3 @@ privB: Administrator danych: Andrey Rozum, Plyn.one@proton.me. Dostawca hostingu
 sending: Wysyłanie…
 ok: Dziękujemy! Napiszemy do Ciebie, gdy beta wystartuje.
 err: Nie udało się wysłać. Spróbuj ponownie za chwilę.
-orbit1: dowolny agent
-orbit2: dowolny model
-orbit3: dowolny… współpracownik

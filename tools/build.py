@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DIST = ROOT / "dist"
 SITE = "https://plyn.one"
 TAG = {"be-latn": "be-Latn"}  # BCP 47 tag where it differs from the path code
-STATIC = ["favicon.svg", "apple-touch-icon.png", "og.png", "css", "js"]
+STATIC = ["favicon.svg", "apple-touch-icon.png", "og.png", "css", "js", "fonts"]
 LOCALE = {"en": "en_GB", "be": "be_BY", "be-latn": "be_BY", "pl": "pl_PL", "it": "it_IT", "lt": "lt_LT"}
 
 def page(tpl, code, t, codes):
