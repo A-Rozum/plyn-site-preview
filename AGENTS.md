@@ -16,8 +16,10 @@ Decided by the owner (Andrey Rozum): Cloudflare hosts the page and handles the b
 
 Done on 2026-10-18: zone added (Free plan), nameservers switched at Porkbun, Worker deployed, D1, Turnstile and rate limit in place, data notice names Cloudflare in all languages, demo line replaced by sending/success/error messages, drawing and review sync run on each deploy. Porkbun had only its parking records (ALIAS and wildcard CNAME to pixie.porkbun.com), no email forwarding and no DNSSEC, so no records were carried over.
 
-Remaining, resume by checking the zone status (GET /zones/<zone>):
-1. When the zone is active: enable Email Routing DNS on the zone (POST /zones/<zone>/email/routing/dns), enable DNSSEC (PATCH /zones/<zone>/dnssec status=active) and add the DS record at Porkbun (dns/createDnssecRecord), then submit a test sign-up and delete its row.
+Then the zone became active the same day: Email Routing is on (plyn.one@proton.me verified), DNSSEC is on with the DS record at Porkbun, and https://plyn.one serves the page.
+
+Remaining:
+1. A real sign-up through the page (Turnstile cannot be passed from the agent environment, which also cannot reach plyn.one): check that its row is in D1 and the mail reached plyn.one@proton.me; delete the test row afterwards.
 2. Remove noindex only when the owner says the page is public.
 
 Already on the page: browser language with English fallback, system theme with a remembered choice, rounded system font, controller Andrey Rozum with contact Plyn.one@proton.me.
