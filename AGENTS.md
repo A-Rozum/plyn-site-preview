@@ -22,8 +22,10 @@ Then the zone became active the same day: Email Routing and DNSSEC are on (DS re
 
 Remaining:
 1. Project mail: being decided with the owner (agents first: incoming mail to a Worker and storage, important items forwarded to people; sending to anyone needs the Workers Paid plan). After the next real sign-up confirms mail from noreply@beta.plyn.one, remove Email Routing from notify.plyn.one.
-2. Browser caching of css/js stays off while the owner evaluates changes; enable it when he says so.
-3. Remove noindex only when the owner says the page is public; remove the dev plate (css/dev/plate.css, js/dev-plate.js and their two tags) at the same time.
+2. Search engines (next session, when the code environment reaches all domains): the owner made a Google account and a Microsoft account for the agents on kropla@plyn.one; the Google service account key (project plyn-agents) and the Bing Webmaster API key are in the owner's preferences. Verify plyn.one in Google Search Console through the Site Verification API (TXT record in the Cloudflare zone), add the property, submit sitemap.xml; add and verify the site in Bing Webmaster Tools through its API; then read search queries for tools/stats.py.
+3. Consent bar (after the dev plate is removed, in its place): our own unobtrusive bar in the page's style, driving Cloudflare Zaraz consent through its JavaScript API (the Cloudflare token has Zaraz access); with consent, a stored visitor id for unique and returning visitors and A/B tests, and third-party tools only for those who agreed.
+4. Browser caching of css/js stays off while the owner evaluates changes; enable it when he says so.
+5. Remove noindex only when the owner says the page is public; remove the dev plate (css/dev/plate.css, js/dev-plate.js and their two tags) at the same time.
 
 Already on the page: browser language with English fallback, system theme with a remembered choice, rounded system font, controller Andrey Rozum with contact Plyn.one@proton.me.
 The eyebrow states the start year; the footer shows 2026 or 2026–<current year>.
