@@ -32,6 +32,7 @@ def page(tpl, code, t, codes):
             '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "WebSite", "name": "Plyń", "url": f"{SITE}/{code}/",
                 "inLanguage": TAG.get(code, code), "description": t["desc"], "creator": {"@type": "Person", "name": "Andrey Rozum"}}, ensure_ascii=False) + "</script>"]
     links = meta + [f'<link rel="canonical" href="{SITE}/{code}/">'] + [f'<link rel="alternate" hreflang="{TAG.get(c, c)}" href="{SITE}/{c}/">' for c in codes] + [f'<link rel="alternate" hreflang="x-default" href="{SITE}/">']
+    out = out.replace("<!--inscription-->", (ROOT / "inscription" / "tengwar.txt").read_text(encoding="utf-8"), 1)
     return out.replace("<!--alternates-->", "".join(links), 1)
 
 def main():
