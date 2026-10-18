@@ -32,13 +32,6 @@
   .orb { position: absolute; border-radius: 50%; background: var(--accent); }
   .o1 { inline-size: .8rem; block-size: .8rem; left: 15%; top: 27%; }
   .o2 { inline-size: .45rem; block-size: .45rem; right: 12%; bottom: 25%; }
-  /* A crumb for the attentive: a silver orb whose line shows on hover or tap (inscription/README.md lists the crumbs). */
-  .o3 { inline-size: .38rem; block-size: .38rem; left: 6%; bottom: 17%; pointer-events: auto; cursor: default;
-        background: radial-gradient(circle at 35% 30%, #f4f6f8, #a9b2ba 50%, #6c757e); box-shadow: 0 0 0 .5px rgb(60 70 80 / .25), 0 0 .3rem rgb(180 190 200 / .7); }
-  .o3::before { content: ""; position: absolute; inset: -1.1rem; }
-  .cast { position: absolute; left: 1rem; top: 50%; translate: 0 -50%; white-space: nowrap; font-style: italic; font-size: .7rem; line-height: 1;
-          color: var(--subtle); opacity: 0; transition: opacity .6s ease; pointer-events: none; }
-  .o3:hover .cast, .o3.lit .cast { opacity: 1; }
   .hero-copy { text-align: start; }
   .eyebrow { font-size: 1.25rem; letter-spacing: .18em; text-transform: uppercase; color: var(--accent-text); font-weight: 700; margin: 0 0 2.4rem; }
   h1 { font-size: 5.2rem; line-height: 1.13; font-weight: 550; letter-spacing: -.03em; margin: 0; inline-size: 57rem; }
@@ -51,6 +44,18 @@
   .ticker > * { grid-area: 1 / 1; opacity: 0; }  /* timing per language and line: css/ticker.css, built by tools/build.py */
   footer { font-size: 1.25rem; color: var(--subtle); gap: .4rem 2rem; flex-wrap: wrap; }
   footer a { color: inherit; text-underline-offset: .3rem; }
+  /* A crumb for the attentive: the third, silver dot of the footer line; its line develops on hover or tap (inscription/README.md lists the crumbs). */
+  .sign { position: relative; }
+  .bullet { position: relative; display: inline-block; inline-size: .62em; block-size: .62em; margin-inline-start: .15em; border-radius: 50%; vertical-align: .05em;
+            background: radial-gradient(circle at 35% 30%, #f4f6f8, #a9b2ba 50%, #6c757e); box-shadow: 0 0 0 .5px rgb(60 70 80 / .25), 0 0 .3em rgb(180 190 200 / .7); }
+  .bullet::before { content: ""; position: absolute; inset: -1.2rem; }
+  .cast { position: absolute; left: calc(100% + 1.2rem); top: 50%; translate: 0 -50%; white-space: nowrap; font-style: italic; font-size: 1.35rem;
+          color: var(--ink); opacity: 0; filter: blur(.3rem); transition: opacity 1.2s ease, filter 1.2s ease; pointer-events: none; }
+  .bullet:hover .cast, .bullet.lit .cast { opacity: 1; filter: none; }
+  /* Everything that appears develops – from transparent and soft to sharp – never instantly. */
+  dialog[open] { animation: develop .8s ease; }
+  dialog[open]::backdrop { animation: develop .8s ease; }
+  .notice.dev { animation: develop .9s ease; }
   dialog { background: var(--paper); color: var(--ink); border: .1rem solid var(--line); border-radius: 2.2rem; padding: 4.6rem; inline-size: 53rem; box-shadow: 0 3rem 12rem var(--lift); }
   dialog::backdrop { background: var(--veil); backdrop-filter: blur(.6rem); }
   dialog h2 { font-size: 3rem; line-height: 1.15; margin: 0 0 1.3rem; }
@@ -71,7 +76,8 @@
   @keyframes wave { 0%, 88%, 100% { transform: rotate(0); } 90%, 94% { transform: rotate(14deg); } 92%, 96% { transform: rotate(-7deg); } }
   @keyframes blink { 0%, 44%, 46%, 100% { transform: scaleY(1); } 45% { transform: scaleY(.08); } }
   @keyframes spin { to { transform: rotate(1turn); } }
-  @keyframes kindle { 0%, 100% { opacity: 0; } 25%, 55% { opacity: .85; } 80% { opacity: 0; } }
+  @keyframes kindle { 0%, 100% { opacity: 0; filter: blur(.6px) drop-shadow(0 0 .9px var(--accent)); } 25%, 55% { opacity: .85; filter: blur(0) drop-shadow(0 0 .9px var(--accent)); } 80% { opacity: 0; filter: blur(.6px) drop-shadow(0 0 .9px var(--accent)); } }
+  @keyframes develop { from { opacity: 0; filter: blur(.4rem); } to { opacity: 1; filter: blur(0); } }
   @keyframes drift { from { transform: translate(-2rem, 0); } to { transform: translate(3rem, 2rem); } }
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after { animation: none !important; transition: none !important; }
@@ -93,6 +99,7 @@
     .secondary { margin: 1.8rem 0 0; }
     .ticker { inline-size: 36rem; }
     footer { font-size: 1.3rem; }
+    .cast { left: -2rem; top: auto; bottom: calc(100% + 1.4rem); translate: none; }
     dialog { inline-size: 38rem; padding: 3rem; }
     dialog h2 { font-size: 2.5rem; }
   }

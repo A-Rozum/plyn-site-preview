@@ -62,6 +62,7 @@ def main():
                 frames = f"0% {{ opacity: 0; }} {p(fade)} {{ opacity: 1; }} {p(dur - fade)} {{ opacity: 1; }} {p(dur)} {{ opacity: 0; }} {p(total - fade)} {{ opacity: 0; }} 100% {{ opacity: 0; }}"
             else:
                 frames = f"0% {{ opacity: 0; }} {p(start)} {{ opacity: 0; }} {p(start + fade)} {{ opacity: 1; }} {p(start + dur - fade)} {{ opacity: 1; }} {p(min(start + dur, total))} {{ opacity: 0; }} 100% {{ opacity: 0; }}"
+            frames = frames.replace("{ opacity: 0; }", "{ opacity: 0; filter: blur(.25rem); }").replace("{ opacity: 1; }", "{ opacity: 1; filter: blur(0); }")  # lines develop
             css.append(f"  @keyframes tick-{name}-{i} {{ {frames} }}")
             css.append(f'  :root[lang="{TAG.get(code, code)}"] .ticker > :nth-child({i}) {{ animation: tick-{name}-{i} {total:.2f}s linear infinite; }}')
             start += dur - fade
