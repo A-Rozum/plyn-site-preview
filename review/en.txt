@@ -19,8 +19,9 @@ emailPh: you@example.com
 useL: What would you use Plyń for? (optional)
 usePh: A few words about your work or an idea you’d like to try...
 submit: Register interest →
-fine: Interactive design preview. This form does not send or store any information.
-notice: Demo only — your details were not submitted.
 consent: We’ll use your email only to tell you about the beta.
 privS: How your data is handled
-privB: Controller: Andrey Rozum, Plyn.one@proton.me. We keep your email and note only to tell you about the Plyń beta, until we announce its launch or until you ask us to delete them. The legal basis is your consent, which you can withdraw at any time by writing to the address above. You can also ask to access or correct your data and complain to a data protection authority.
+privB: Controller: Andrey Rozum, Plyn.one@proton.me. Hosting provider: Cloudflare, Inc., which processes the form data on our behalf and stores it in the EU. We keep your email and note only to tell you about the Plyń beta, until we announce its launch or until you ask us to delete them. The legal basis is your consent, which you can withdraw at any time by writing to the address above. You can also ask to access or correct your data and complain to a data protection authority.
+sending: Sending…
+ok: Thank you! We’ll write to you when the beta opens.
+err: Couldn’t send. Please try again a little later.

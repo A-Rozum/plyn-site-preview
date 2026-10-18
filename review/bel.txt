@@ -19,8 +19,9 @@ emailPh: you@example.com
 useL: Dlia čaho vy vykarystoŭvali b Plyń? (nieabaviazkova)
 usePh: Niekalki słoŭ pra vašu pracu abo ideju, jakuju chočacca pasprabavać...
 submit: Zarehistravać cikavasć →
-fine: Interaktyŭny makiet dyzajnu. Hetaja forma ničoha nie adpraŭliaje i nie zachoŭvaje.
-notice: Tolki demanstracyja — vašy danyja nie adpraŭlenyja.
 consent: My vykarystajem vaš adras tolki dlia taho, kab paviedamić pra betu.
 privS: Jak apracoŭvajucca vašy danyja
-privB: Adkazny za danyja: Andrey Rozum, Plyn.one@proton.me. My zachoŭvajem vaš adras i natatku tolki dlia taho, kab paviedamić pra betu Plyń, — pakuĺ nie paviedamim pra zapusk abo pakuĺ vy nie paprosicie ich vydalić. Padstava — vaša zhoda; jaje možna adklikać u luby čas, napisaŭšy na adras vyšej. Vy taksama možacie paprasić pakazać abo vypravić vašy danyja i paskardzicca ŭ orhan pa abaronie danych.
+privB: Adkazny za danyja: Andrey Rozum, Plyn.one@proton.me. Chostynh-pravajdar: Cloudflare, Inc.; jon apracoŭvaje danyja formy ad našaha imia i zachoŭvaje ich u JeS. My zachoŭvajem vaš adras i natatku tolki dlia taho, kab paviedamić pra betu Plyń, — pakuĺ nie paviedamim pra zapusk abo pakuĺ vy nie paprosicie ich vydalić. Padstava — vaša zhoda; jaje možna adklikać u luby čas, napisaŭšy na adras vyšej. Vy taksama možacie paprasić pakazać abo vypravić vašy danyja i paskardzicca ŭ orhan pa abaronie danych.
+sending: Adpraŭliajem…
+ok: Dziakuj! My napišam vam, kali adkryjecca beta.
+err: Nie atrymałasia adpravić. Pasprabujcie krychu paźniej.

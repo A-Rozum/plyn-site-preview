@@ -1,20 +1,24 @@
 # plyn-site-preview
 
-Landing page for Plyń. Single index.html (texts for all languages in the I18N object), favicon.svg, review/<lang>.txt for translation review (keep them in sync with I18N). Built with Prastora CSS.
+Landing page for Plyń. Single index.html (texts for all languages in the I18N object), favicon.svg, review/<lang>.txt for translation review (generated from I18N by tools/review.py). Built with Prastora CSS.
 
 The mark, the wordmark and the favicon are copies of files in A-Rozum/plyn-brand (the only source). The page inlines them so the creature can blink and wave and the line can follow the theme.
 
-## Current task: move the page to plyn.one on Cloudflare
+## Hosting: plyn.one on Cloudflare
 
-Decided by the owner (Andrey Rozum): Cloudflare hosts the page and handles the beta form; plyn.one stays registered at Porkbun. Cloudflare API token and Porkbun API keys are in the owner's preferences; mask them in any output. api.cloudflare.com, api.porkbun.com and porkbun.com are allowed in the network.
+Decided by the owner (Andrey Rozum): Cloudflare hosts the page and handles the beta form; plyn.one stays registered at Porkbun with Cloudflare nameservers. The Cloudflare API token and Porkbun API keys are in the owner's preferences; mask them in any output.
 
-1. Add plyn.one to Cloudflare (Free plan). Copy every DNS record Porkbun currently has for plyn.one, including email forwarding, before switching nameservers. If DNSSEC is on at Porkbun, remove it first; enable it again from Cloudflare once the zone is active.
-2. Switch plyn.one nameservers at Porkbun to the ones Cloudflare assigns, through the Porkbun API.
-3. Serve the page from a Worker with static assets on plyn.one (www redirects to the apex). Deploy from this environment through the Cloudflare API; GitHub Actions is out of minutes until about 1 November.
-4. Beta form: POST to the same Worker; store email, optional note, language and time in a D1 database. Silent bot protection only, no visible captcha: Turnstile in invisible mode, a hidden honeypot field, a per-IP rate limit. Notify Plyn.one@proton.me of each sign-up through Email Routing (the owner clicks the verification email).
-5. Data notice: add Cloudflare as hosting provider processing the form, in all languages; replace the demo line and notice with real success and error messages.
-6. Sync the inlined mark, wordmark and favicon from plyn-brand with a script plus a check that they match, run as part of deployment.
-7. Remove noindex only when the owner says the page is public.
+- Deploy: `CLOUDFLARE_API_TOKEN=… GH_TOKEN=… python tools/deploy.py` from this environment (GitHub Actions minutes are out until about 1 November). It syncs the drawings from plyn-brand (`tools/sync_brand.py`, then `--check`), rebuilds review/ from I18N (`tools/review.py`, then `--check`), uploads index.html and favicon.svg as static assets and worker/worker.js as Worker `plyn-site` on plyn.one and www.plyn.one (www redirects to the apex). IDs of the account, zone and database are at the top of the script.
+- Beta form: POST /api/beta to the same Worker. Stored in D1 `plyn-beta` (EU jurisdiction, schema in worker/schema.sql): email (key), note, language, time. Silent protection: invisible Turnstile (sitekey in index.html, secret only as the Worker secret TURNSTILE_SECRET; a deploy keeps it), hidden honeypot field `website`, 5 requests per minute per IP. Each sign-up is mailed from beta@plyn.one to plyn.one@proton.me through Email Routing.
+- Read sign-ups: D1 query API, `SELECT * FROM signups ORDER BY created_at`.
+
+## Current task: finish the move
+
+Done on 2026-10-18: zone added (Free plan), nameservers switched at Porkbun, Worker deployed, D1, Turnstile and rate limit in place, data notice names Cloudflare in all languages, demo line replaced by sending/success/error messages, drawing and review sync run on each deploy. Porkbun had only its parking records (ALIAS and wildcard CNAME to pixie.porkbun.com), no email forwarding and no DNSSEC, so no records were carried over.
+
+Remaining, resume by checking the zone status (GET /zones/<zone>):
+1. When the zone is active: enable Email Routing DNS on the zone (POST /zones/<zone>/email/routing/dns), enable DNSSEC (PATCH /zones/<zone>/dnssec status=active) and add the DS record at Porkbun (dns/createDnssecRecord), then submit a test sign-up and delete its row.
+2. Remove noindex only when the owner says the page is public.
 
 Already on the page: browser language with English fallback, system theme with a remembered choice, rounded system font, controller Andrey Rozum with contact Plyn.one@proton.me.
 Later: year in the eyebrow set automatically; per-language wordplay instead of a translated "learning to wave".

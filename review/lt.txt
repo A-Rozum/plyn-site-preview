@@ -19,8 +19,9 @@ emailPh: you@example.com
 useL: Kam naudotumėte Plyń? (nebūtina)
 usePh: Keli žodžiai apie jūsų darbą ar idėją, kurią norėtumėte išbandyti...
 submit: Išreikšti susidomėjimą →
-fine: Interaktyvus dizaino peržiūros variantas. Ši forma nieko nesiunčia ir neišsaugo.
-notice: Tik demonstracija — jūsų duomenys nebuvo išsiųsti.
 consent: Jūsų el. pašto adresą naudosime tik tam, kad praneštume apie beta versiją.
 privS: Kaip tvarkomi jūsų duomenys
-privB: Duomenų valdytojas: Andrey Rozum, Plyn.one@proton.me. Jūsų el. pašto adresą ir pastabą saugome tik tam, kad praneštume apie Plyń beta versiją, – kol pranešime apie paleidimą arba kol paprašysite juos ištrinti. Pagrindas – jūsų sutikimas, kurį galite bet kada atšaukti parašę nurodytu adresu. Taip pat galite prašyti susipažinti su savo duomenimis ar juos ištaisyti ir pateikti skundą duomenų apsaugos priežiūros institucijai.
+privB: Duomenų valdytojas: Andrey Rozum, Plyn.one@proton.me. Prieglobos paslaugų teikėjas: Cloudflare, Inc., kuris mūsų vardu tvarko formos duomenis ir saugo juos ES. Jūsų el. pašto adresą ir pastabą saugome tik tam, kad praneštume apie Plyń beta versiją, – kol pranešime apie paleidimą arba kol paprašysite juos ištrinti. Pagrindas – jūsų sutikimas, kurį galite bet kada atšaukti parašę nurodytu adresu. Taip pat galite prašyti susipažinti su savo duomenimis ar juos ištaisyti ir pateikti skundą duomenų apsaugos priežiūros institucijai.
+sending: Siunčiama…
+ok: Ačiū! Parašysime jums, kai beta versija bus atverta.
+err: Nepavyko išsiųsti. Pabandykite šiek tiek vėliau.
