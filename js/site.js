@@ -20,3 +20,6 @@ function say(key,err){notice.textContent=notice.dataset[key];notice.classList.to
 form.onsubmit=async e=>{e.preventDefault();const btn=form.querySelector('[type=submit]');btn.disabled=true;say('sending');
 try{const t=await token();const r=await fetch('/api/beta',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({email:form.email.value,note:form.usecase.value,website:form.website.value,lang:sel.value,token:t})});
 const j=await r.json().catch(()=>({}));if(!r.ok||!j.ok)throw new Error(j.error||r.status);say('ok');form.reset();hit('submit')}catch(x){say('err',true)}finally{btn.disabled=false}};
+/* Silver orb: a tap shows its line for a few seconds; pointer users see it on hover. */
+(()=>{const o=document.querySelector('.o3');if(!o)return;let t;o.addEventListener('click',()=>{o.classList.add('lit');clearTimeout(t);t=setTimeout(()=>o.classList.remove('lit'),4500)});
+console.log('%cSilver bullets aren’t found. They’re cast.','color:#9aa4ad;font-style:italic')})();

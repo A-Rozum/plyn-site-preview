@@ -32,6 +32,13 @@
   .orb { position: absolute; border-radius: 50%; background: var(--accent); }
   .o1 { inline-size: .8rem; block-size: .8rem; left: 15%; top: 27%; }
   .o2 { inline-size: .45rem; block-size: .45rem; right: 12%; bottom: 25%; }
+  /* A crumb for the attentive: a silver orb whose line shows on hover or tap (inscription/README.md lists the crumbs). */
+  .o3 { inline-size: .38rem; block-size: .38rem; left: 6%; bottom: 17%; pointer-events: auto; cursor: default;
+        background: radial-gradient(circle at 35% 30%, #f4f6f8, #a9b2ba 50%, #6c757e); box-shadow: 0 0 0 .5px rgb(60 70 80 / .25), 0 0 .3rem rgb(180 190 200 / .7); }
+  .o3::before { content: ""; position: absolute; inset: -1.1rem; }
+  .cast { position: absolute; left: 1rem; top: 50%; translate: 0 -50%; white-space: nowrap; font-style: italic; font-size: .7rem; line-height: 1;
+          color: var(--subtle); opacity: 0; transition: opacity .6s ease; pointer-events: none; }
+  .o3:hover .cast, .o3.lit .cast { opacity: 1; }
   .hero-copy { text-align: start; }
   .eyebrow { font-size: 1.25rem; letter-spacing: .18em; text-transform: uppercase; color: var(--accent-text); font-weight: 700; margin: 0 0 2.4rem; }
   h1 { font-size: 5.2rem; line-height: 1.13; font-weight: 550; letter-spacing: -.03em; margin: 0; inline-size: 57rem; }

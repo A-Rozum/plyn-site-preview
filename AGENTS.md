@@ -4,6 +4,10 @@ Landing page for Plyń, one page per language at plyn.one/<code>/ (en, be, be-la
 
 Between the rings runs the owner's Quenya inscription (Latin text, Tengwar text and rendering, how to remake it: inscription/README.md) „Min Sirië, an hirë te, Min Sirië, an hosta te illi, Min Sirië, an lerya te illi, Ar tulya te morniello calanna.“ in Tengwar, the same in every language: transcribed with Glaemscribe (mode quenya, classical), set in Alcarin Tengwar (OFL) subset to its signs in fonts/alcarin-ring.woff2 (pyftsubset --text-file, --layout-features=*); written as on the One Ring: no spaces between words, a low pusta and a space at the end of each poetic line (Min Sirië an hirë te · Min Sirië an hosta te illi · Min Sirië an lerya te illi · Ar tulya te morniello calanna), a quadruple pusta where the end meets the start. It kindles and fades while the rings turn.
 
+Crumbs for the attentive. The owner scatters hidden hints of where Plyń is heading – findable by a careful visitor, never turned into slogans or headlines; most will go unnoticed, and that is accepted. Keep them when changing the page, keep them findable and quiet, and add new ones to this list:
+- the ring inscription above, an inverted One Ring verse;
+- the silver orb at the lower left of the mark: on hover or tap it shows „Silver bullets aren’t found. They’re cast.“ (an answer to Brooks’ No Silver Bullet: a silver bullet cast from accumulated institutions – methods, specifications, formal languages – towards which Plyń has taken steps); the same line is written to the browser console. It stays in English on every language page.
+
 The mark, the wordmark and the favicon are copies of files in A-Rozum/plyn-brand (the only source). The page inlines them so the creature can blink and wave and the line can follow the theme.
 
 Changes go on an agent/codex/ branch, land with `python .system/tools/plyn_land.py` (GH_TOKEN set) and are deployed from main afterwards.
