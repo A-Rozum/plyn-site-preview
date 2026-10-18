@@ -8,7 +8,7 @@ i = s.index("const I18N=") + len("const I18N=")
 data, _ = json.JSONDecoder().raw_decode(s[i:])
 bad = []
 for code, texts in data.items():
-    body = f"Plyń landing page — {NAMES[code]} ({code})\n\n" + "".join(f"{k}: {v}\n" for k, v in texts.items())
+    body = f"Plyń landing page – {NAMES[code]} ({code})\n\n" + "".join(f"{k}: {v}\n" for k, v in texts.items())
     p = ROOT / "review" / f"{code}.txt"
     if not p.exists() or p.read_text(encoding="utf-8") != body:
         bad.append(p.name)

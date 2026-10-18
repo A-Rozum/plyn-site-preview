@@ -1,9 +1,9 @@
-Plyń landing page — Lietuvių (lt)
+Plyń landing page – Lietuvių (lt)
 
-title: Plyń — Kiekvienas agentas vienoje bangoje su jumis
+title: Plyń – Kiekvienas agentas vienoje bangoje su jumis
 desc: Plyń suderina bet kurį agentą, modelį ar… kolegą su jūsų darbo būdu ir išlaiko juos toje pačioje bangoje.
 eyebrow: Pradėtas 2026 metais
-h1: Kiekvienas agentas — vienoje bangoje su jumis.
+h1: Kiekvienas agentas – vienoje bangoje su jumis.
 support: Plyń suderina bet kurį agentą, modelį ar… kolegą su jūsų darbo būdu ir išlaiko juos toje pačioje bangoje.
 cta: Pranešti man apie beta versiją →
 secondary: Paleidimo datos dar nėra. Dar mokosi mojuoti.

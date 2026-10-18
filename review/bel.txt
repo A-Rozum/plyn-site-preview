@@ -1,9 +1,9 @@
-Plyń landing page — Łacinka (bel)
+Plyń landing page – Łacinka (bel)
 
-title: Plyń — Kožny ahient na vašaj chvali
+title: Plyń – Kožny ahient na vašaj chvali
 desc: Plyń naładžvaje luboha ahienta, madeĺ ci… kalehu na vaš sposab pracy i ŭtrymlivaje ich na hetaj chvali.
 eyebrow: Pačaty ŭ 2026 hodzie
-h1: Kožny ahient — na vašaj chvali.
+h1: Kožny ahient – na vašaj chvali.
 support: Plyń naładžvaje luboha ahienta, madeĺ ci… kalehu na vaš sposab pracy i ŭtrymlivaje ich na hetaj chvali.
 cta: Paviedamić mnie pra betu →
 secondary: Daty zapusku pakuĺ niama. Jana jašče vučycca machać.
@@ -20,7 +20,7 @@ usePh: Niekalki słoŭ pra vašu pracu abo ideju, jakuju chočacca pasprabavać.
 submit: Zarehistravać cikavasć →
 consent: My vykarystajem vaš adras tolki dlia taho, kab paviedamić pra betu.
 privS: Jak apracoŭvajucca vašy danyja
-privB: Adkazny za danyja: Andrey Rozum, Plyn.one@proton.me. Chostynh-pravajdar: Cloudflare, Inc.; jon apracoŭvaje danyja formy ad našaha imia i zachoŭvaje ich u JeS. My zachoŭvajem vaš adras i natatku tolki dlia taho, kab paviedamić pra betu Plyń, — pakuĺ nie paviedamim pra zapusk abo pakuĺ vy nie paprosicie ich vydalić. Padstava — vaša zhoda; jaje možna adklikać u luby čas, napisaŭšy na adras vyšej. Vy taksama možacie paprasić pakazać abo vypravić vašy danyja i paskardzicca ŭ orhan pa abaronie danych.
+privB: Adkazny za danyja: Andrey Rozum, Plyn.one@proton.me. Chostynh-pravajdar: Cloudflare, Inc.; jon apracoŭvaje danyja formy ad našaha imia i zachoŭvaje ich u JeS. My zachoŭvajem vaš adras i natatku tolki dlia taho, kab paviedamić pra betu Plyń, – pakuĺ nie paviedamim pra zapusk abo pakuĺ vy nie paprosicie ich vydalić. Padstava – vaša zhoda; jaje možna adklikać u luby čas, napisaŭšy na adras vyšej. Vy taksama možacie paprasić pakazać abo vypravić vašy danyja i paskardzicca ŭ orhan pa abaronie danych.
 sending: Adpraŭliajem…
 ok: Dziakuj! My napišam vam, kali adkryjecca beta.
 err: Nie atrymałasia adpravić. Pasprabujcie krychu paźniej.

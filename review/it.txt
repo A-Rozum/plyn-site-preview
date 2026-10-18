@@ -1,6 +1,6 @@
-Plyń landing page — Italiano (it)
+Plyń landing page – Italiano (it)
 
-title: Plyń — Ogni agente sulla tua lunghezza d’onda
+title: Plyń – Ogni agente sulla tua lunghezza d’onda
 desc: Plyń sintonizza qualsiasi agente, modello o… collega sul tuo modo di lavorare e li mantiene in sintonia.
 eyebrow: Avviato nel 2026
 h1: Ogni agente sulla tua lunghezza d’onda.

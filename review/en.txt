@@ -1,6 +1,6 @@
-Plyń landing page — English (en)
+Plyń landing page – English (en)
 
-title: Plyń — Every agent on your wavelength
+title: Plyń – Every agent on your wavelength
 desc: Plyń tunes any agent, model or… colleague to the way you work, and keeps them there. Join the beta interest list.
 eyebrow: Started in 2026
 h1: Every agent on your wavelength.

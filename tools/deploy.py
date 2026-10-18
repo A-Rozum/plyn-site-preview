@@ -12,7 +12,7 @@ ZONE = "0fc2b15c2ffa17c7cf6bff7d9f55a5d6"  # plyn.one
 SCRIPT = "plyn-site"
 D1 = "108f8d2b-a765-4ac4-b5e9-47bc8f01c375"  # plyn-beta, EU jurisdiction
 NOTIFY_TO = "plyn.one@proton.me"
-ASSETS = ["index.html", "favicon.svg", "css/core.css", "css/themes/plyn.css", "css/pages/landing.css"]
+ASSETS = ["index.html", "favicon.svg", "css/core.css", "css/themes/plyn.css", "css/pages/landing.css", "css/dev/plate.css", "js/dev-plate.js"]
 HOSTS = ["plyn.one", "www.plyn.one"]
 TOKEN = os.environ.get("CLOUDFLARE_API_TOKEN") or sys.exit("CLOUDFLARE_API_TOKEN is not set")
 API = "https://api.cloudflare.com/client/v4"
@@ -41,6 +41,7 @@ def step(*cmd):
 
 def main():
     step("tools/sync_brand.py"); step("tools/sync_brand.py", "--check")
+    step("tools/typography.py"); step("tools/typography.py", "--check")
     step("tools/review.py"); step("tools/review.py", "--check")
 
     files = {"/" + n: (ROOT / n).read_bytes() for n in ASSETS}

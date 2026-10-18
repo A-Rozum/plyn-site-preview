@@ -8,7 +8,7 @@ The mark, the wordmark and the favicon are copies of files in A-Rozum/plyn-brand
 
 Decided by the owner (Andrey Rozum): Cloudflare hosts the page and handles the beta form; plyn.one stays registered at Porkbun with Cloudflare nameservers. The Cloudflare API token and Porkbun API keys are in the owner's preferences; mask them in any output.
 
-- Deploy: `CLOUDFLARE_API_TOKEN=… GH_TOKEN=… python tools/deploy.py` from this environment (GitHub Actions minutes are out until about 1 November). It syncs the drawings from plyn-brand (`tools/sync_brand.py`, then `--check`), rebuilds review/ from I18N (`tools/review.py`, then `--check`), uploads index.html and favicon.svg as static assets and worker/worker.js as Worker `plyn-site` on plyn.one and www.plyn.one (www redirects to the apex). IDs of the account, zone and database are at the top of the script.
+- Deploy: `CLOUDFLARE_API_TOKEN=… GH_TOKEN=… python tools/deploy.py` from this environment (GitHub Actions minutes are out until about 1 November). It sets the house dash (spaced en dash, `tools/typography.py`), syncs the drawings from plyn-brand (`tools/sync_brand.py`, then `--check`), rebuilds review/ from I18N (`tools/review.py`, then `--check`), uploads index.html and favicon.svg as static assets and worker/worker.js as Worker `plyn-site` on plyn.one and www.plyn.one (www redirects to the apex). IDs of the account, zone and database are at the top of the script.
 - Beta form: POST /api/beta to the same Worker. Stored in D1 `plyn-beta` (EU jurisdiction, schema in worker/schema.sql): email (key), note, language, time. Silent protection: invisible Turnstile (sitekey in index.html, secret only as the Worker secret TURNSTILE_SECRET; a deploy keeps it), hidden honeypot field `website`, 5 requests per minute per IP. Each sign-up is mailed from beta@notify.plyn.one to plyn.one@proton.me through Email Routing, enabled on the subdomain notify.plyn.one so that the apex MX stays free for the mailbox provider.
 - Read sign-ups: D1 query API, `SELECT * FROM signups ORDER BY created_at`.
 
@@ -20,7 +20,7 @@ Then the zone became active the same day: Email Routing and DNSSEC are on (DS re
 
 Remaining:
 1. Company mail on plyn.one at Zoho (the owner sets up the account): add the records Zoho gives (verification TXT, MX, SPF, DKIM) through the Cloudflare API, after removing the apex Email Routing records (DELETE /zones/<zone>/email/routing/dns, apex only; notify.plyn.one stays). Then ask the owner for one more test sign-up.
-2. Remove noindex only when the owner says the page is public.
+2. Remove noindex only when the owner says the page is public; remove the dev plate (css/dev/plate.css, js/dev-plate.js and their two tags) at the same time.
 
 Already on the page: browser language with English fallback, system theme with a remembered choice, rounded system font, controller Andrey Rozum with contact Plyn.one@proton.me.
 The eyebrow states the start year; the footer shows 2026 or 2026–<current year>.
