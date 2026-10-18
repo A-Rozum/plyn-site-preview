@@ -8,7 +8,7 @@ FILES = ["index.html", "worker/worker.js", *sorted(str(p.relative_to(ROOT)) for 
 LONG = "\u2014\u2015"
 
 def house(text):
-    text = re.sub(r"(?<=\w)[" + LONG + r"](?=\w)", " \u2013 ", text)  # word—word → word – word
+    text = re.sub(r"(?<=\w)[" + LONG + r"](?=\w)", " \u2013 ", text)  # word – word → word – word
     return re.sub("[" + LONG + "]", "\u2013", text)
 
 bad = []
