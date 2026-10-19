@@ -19,8 +19,8 @@
   select.control option { background: var(--paper); color: var(--ink); }
   .lbl { margin-inline-start: .9rem; }
   main { flex: 1; display: flex; align-items: center; justify-content: center; padding: 2rem 0 5rem; }
-  .hero { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 9rem; inline-size: 100%; }
-  .creature-space { block-size: var(--space-h); display: grid; place-items: center; position: relative; }
+  .hero { display: grid; grid-template-columns: auto auto; justify-content: center; align-items: center; gap: 11rem; inline-size: 100%; }  /* the mark and the copy close up around the centre */
+  .creature-space { inline-size: calc(var(--ring) + 10rem); block-size: var(--space-h); display: grid; place-items: center; position: relative; }
   .ring { inline-size: var(--ring); block-size: var(--ring); border: .1rem solid var(--line); border-radius: 50%; display: grid; place-items: center; position: absolute; }
   .ring::after { content: ""; inline-size: var(--ring-inner); block-size: var(--ring-inner); border: .1rem dashed var(--line); border-radius: 50%; }
   .creature { inline-size: var(--creature-w); block-size: calc(var(--creature-w) * 85 / 62); translate: 0 -6%;  /* proportions of the mark's viewBox; raised so the body, not the kryska, sits in the middle of the ring */ filter: drop-shadow(0 1.2rem 1.6rem var(--shade)); }
@@ -35,7 +35,8 @@
   .hero-copy { text-align: start; }
   .eyebrow { font-size: 1.25rem; letter-spacing: .18em; text-transform: uppercase; color: var(--accent-text); font-weight: 700; margin: 0 0 2.4rem; }
   h1 { font-size: 5.2rem; line-height: 1.13; font-weight: 550; letter-spacing: -.03em; margin: 0; inline-size: 57rem; }
-  .support { font-size: 2rem; line-height: 1.5; color: var(--subtle); margin: 2.7rem 0 3.6rem; inline-size: 49rem; }
+  .support { font-size: 2rem; line-height: 1.5; color: var(--subtle); margin: 2.7rem 0 3.6rem; inline-size: 52rem; }
+  .support [data-i18n="supportA"] { display: block; }  /* what Plyń is stands on its own line in every language */
   .cta { background: var(--accent); color: var(--on-accent); border: 0; border-radius: 50rem; font-weight: 700; padding: 1.6rem 2.6rem; font-size: 1.55rem; display: inline-flex; align-items: center; gap: 2rem; transition: transform .2s; }
   .cta:hover { transform: translateY(-.3rem); }
   .cta:disabled { opacity: .6; cursor: wait; transform: none; }
@@ -132,5 +133,6 @@
   @media (width >= 125em) {
     :root { --scale-units: 160; }
     .frame { padding-inline: 20rem; }
+    .hero { gap: 5rem; }
   }
 }
