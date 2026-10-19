@@ -71,3 +71,18 @@ if os.environ.get("GOOGLE_SA_JSON"):
     if "error" in out: show("Google search phrases", [[str(out["error"])[:200]]])
     else: show("Google search phrases: impressions, clicks", [[r["keys"][0], r["impressions"], r["clicks"]] for r in out.get("rows", [])])
 else: show("Google search phrases", [["GOOGLE_SA_JSON is not set"]])
+
+# Microsoft Clarity (only visitors who allowed it): CLARITY_TOKEN, the Data Export token of project yzwgzyptnx.
+# The API gives the last 1–3 days and allows 10 calls a day.
+if os.environ.get("CLARITY_TOKEN"):
+    out = get(f"https://www.clarity.ms/export-data/api/v1/project-live-insights?numOfDays={max(1, min(3, days))}",
+              headers={"Authorization": "Bearer " + os.environ["CLARITY_TOKEN"]})
+    if isinstance(out, dict) and "error" in out: show("Clarity", [[out["error"]]])
+    else:
+        rows = []
+        for m in out:
+            for i in m.get("information", [])[:1]:
+                v = {k: i[k] for k in i if k in ("totalSessionCount", "distinctUserCount", "pagesPerSessionPercentage", "averageScrollDepth", "totalTime", "activeTime", "sessionsWithMetricPercentage")}
+                if v: rows.append([m["metricName"], ", ".join(f"{k} {x}" for k, x in v.items())])
+        show(f"Clarity, last {max(1, min(3, days))} days", rows)
+else: show("Clarity", [["CLARITY_TOKEN is not set"]])

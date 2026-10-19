@@ -25,7 +25,7 @@ const j=await r.json().catch(()=>({}));if(!r.ok||!j.ok)throw new Error(j.error||
 console.log('%cSilver bullets aren’t found. They’re cast.','color:#9aa4ad;font-style:italic')})();
 /* Consent: our own bar. Choice kept in localStorage plyn-consent (yes/no). With yes: cookie plyn-vid (random visit number, 1 year)
    for returning visitors, and Microsoft Clarity (project id in CLARITY; empty = not loaded). The choice is reported as an anonymous hit. */
-(()=>{const bar=document.getElementById('consent');if(!bar)return;const CLARITY='';
+(()=>{const bar=document.getElementById('consent');if(!bar)return;const CLARITY='yzwgzyptnx';
 const store={get:()=>{try{return localStorage.getItem('plyn-consent')}catch(e){return null}},set:v=>{try{localStorage.setItem('plyn-consent',v)}catch(e){}}};
 const hit=k=>{try{navigator.sendBeacon('/api/hit',JSON.stringify({kind:k,lang:document.documentElement.lang}))}catch(e){}};
 const clarity=on=>{if(!CLARITY)return;if(on&&!window.clarity){(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,'clarity','script',CLARITY)}
