@@ -1,7 +1,7 @@
 Plyń landing page – Łacinka (be-latn)
 
 title: Plyń – standarty i instrumienty dla AI-ahientaŭ
-desc: Plyń – heta standarty i instrumienty dla AI-ahientaŭ. Jon naładžvaje luboha ahienta, madeĺ ci… kaleh na bačannie, kaštoŭnasci i sposaby pracy vašaj spravy – i ŭtrymlivaje ich na hetaj chvali.
+desc: Plyń – heta sistema standartaŭ i instrumientaŭ dla AI-ahientaŭ. Jon naładžvaje luboha ahienta, madeĺ ci… kaleh na bačannie, kaštoŭnasci i sposaby pracy vašaj spravy – i trymaje ich na hetaj chvali.
 eyebrow: Pačaty ŭ 2026 hodzie
 h1: Kožny ahient – na vašaj chvali.
 cta: Paviedamić mnie pra betu →
@@ -33,7 +33,7 @@ cNo: Nie
 cMore: Padrabiazniej
 cLink: Pryvatnaść
 cInfo: Biez vašaha słova tut ničoha nie piakuć. Dazvolicie – i my pakinim adnu krošku, vypadkovy numar vizitu, a Microsoft Clarity (mahčyma, pa-za JeS) pahliadzić na kliki i prakrutku, ale nie na toje, što vy ŭvodzicie. Pieradumali? «Pryvatnaść» unizie. Andrey Rozum, Plyn.one@proton.me.
-supportA: Plyń – heta standarty i instrumienty dla AI-ahientaŭ.
+supportA: Plyń – heta sistema standartaŭ i instrumientaŭ dla AI-ahientaŭ.
 who: Jon
 whoTip: Jon? Jana? Jano? Vyraście – samo vyrašyć.
-supportB: naładžvaje luboha ahienta, madeĺ ci… kaleh na bačannie, kaštoŭnasci i sposaby pracy vašaj spravy – i ŭtrymlivaje ich na hetaj chvali.
+supportB: naładžvaje luboha ahienta, madeĺ ci… kaleh na bačannie, kaštoŭnasci i sposaby pracy vašaj spravy – i trymaje ich na hetaj chvali.

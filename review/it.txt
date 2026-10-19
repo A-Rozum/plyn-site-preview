@@ -1,7 +1,7 @@
 Plyń landing page – Italiano (it)
 
 title: Plyń – standard e strumenti per agenti AI
-desc: Plyń è standard e strumenti per agenti AI. Lui sintonizza qualsiasi agente, modello o… colleghi sulla visione, sui valori e sui modi di lavorare della tua organizzazione – e li mantiene su quella lunghezza d’onda.
+desc: Plyń è un sistema di standard e strumenti per agenti AI. Lui sintonizza qualsiasi agente, modello o… colleghi sulla visione, sui valori e sui modi di lavorare della tua organizzazione – e li mantiene su quella lunghezza d’onda.
 eyebrow: Avviato nel 2026
 h1: Ogni agente sulla tua lunghezza d’onda.
 cta: Avvisami per la beta →
@@ -33,7 +33,7 @@ cNo: No
 cMore: Dettagli
 cLink: Privacy
 cInfo: Qui non si sforna nulla senza il tuo sì. Se consenti, teniamo una sola briciola – un numero di visita casuale – e Microsoft Clarity (forse fuori dall’UE) osserva clic e scorrimento, mai ciò che digiti. Hai cambiato idea? «Privacy», in fondo alla pagina. Andrey Rozum, Plyn.one@proton.me.
-supportA: Plyń è standard e strumenti per agenti AI.
+supportA: Plyń è un sistema di standard e strumenti per agenti AI.
 who: Lui
 whoTip: Lui? Lei? Da grande deciderà da sé.
 supportB: sintonizza qualsiasi agente, modello o… colleghi sulla visione, sui valori e sui modi di lavorare della tua organizzazione – e li mantiene su quella lunghezza d’onda.

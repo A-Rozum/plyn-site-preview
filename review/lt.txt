@@ -1,7 +1,7 @@
 Plyń landing page – Lietuvių (lt)
 
 title: Plyń – standartai ir įrankiai AI agentams
-desc: Plyń – tai standartai ir įrankiai AI agentams. Jis suderina bet kurį agentą, modelį ar… kolegas su jūsų organizacijos vizija, vertybėmis ir darbo būdais – ir išlaiko juos toje pačioje bangoje.
+desc: Plyń – tai standartų ir įrankių sistema AI agentams. Jis suderina bet kurį agentą, modelį ar… kolegas su jūsų organizacijos vizija, vertybėmis ir darbo būdais – ir išlaiko juos toje pačioje bangoje.
 eyebrow: Pradėtas 2026 metais
 h1: Kiekvienas agentas – vienoje bangoje su jumis.
 cta: Pranešti man apie beta versiją →
@@ -33,7 +33,7 @@ cNo: Ne
 cMore: Išsamiau
 cLink: Privatumas
 cInfo: Be jūsų žodžio čia niekas nekepama. Leisite – paliksime vieną trupinėlį, atsitiktinį apsilankymo numerį, o Microsoft Clarity (galbūt už ES ribų) stebės paspaudimus ir slinkimą, bet ne tai, ką įvedate. Persigalvojote? „Privatumas“ puslapio apačioje. Andrey Rozum, Plyn.one@proton.me.
-supportA: Plyń – tai standartai ir įrankiai AI agentams.
+supportA: Plyń – tai standartų ir įrankių sistema AI agentams.
 who: Jis
 whoTip: Jis? Ji? Kai užaugs, pats nuspręs.
 supportB: suderina bet kurį agentą, modelį ar… kolegas su jūsų organizacijos vizija, vertybėmis ir darbo būdais – ir išlaiko juos toje pačioje bangoje.
