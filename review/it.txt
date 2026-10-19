@@ -8,7 +8,7 @@ cta: Avvisami per la beta →
 line1: La data del lancio la conoscono solo le divinità dell’AI. Alle email non rispondono.
 line2: L’oracolo tace sulla data. Gli agenti no: fanno gli straordinari.
 line3: Calibrazione delle onde… 37%. Al restante 63% ci stiamo lavorando.
-line4: Insegniamo al ciuffo a salutare a tempo. Le prove vanno avanti giorno e notte.
+line4: Plyni sta imparando ad agitare la kreska a tempo. Le prove vanno avanti giorno e notte.
 line5: Gli agenti litigano sulla data del lancio. Noi facciamo da mediatori.
 footerR: Costruito con
 theme: Cambia tema
@@ -35,5 +35,6 @@ cLink: Privacy
 cInfo: Qui non si sforna nulla senza il tuo sì. Se consenti, teniamo una sola briciola – un numero di visita casuale – e Microsoft Clarity (forse fuori dall’UE) osserva clic e scorrimento, mai ciò che digiti. Hai cambiato idea? «Privacy», in fondo alla pagina. Andrey Rozum, Plyn.one@proton.me.
 supportA: Plyń è un sistema di standard e strumenti per agenti AI.
 who: Lui
-whoTip: Lui? Lei? Da grande deciderà da sé.
+whoTip: Lui? Lei? Plyni crescerà e deciderà.
 supportB: sintonizza qualsiasi agente, modello o… colleghi sulla visione, sui valori e sui modi di lavorare della tua organizzazione – e li mantiene su quella lunghezza d’onda.
+line6: I focus group hanno identificato la kreska come un raggio di torcia, una carota e un manganello.

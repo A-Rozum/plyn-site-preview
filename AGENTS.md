@@ -6,10 +6,12 @@ Between the rings runs the owner's Quenya inscription (Latin text, Tengwar text 
 
 Everything that appears on the page develops (проявляется) – from transparent and soft to sharp, over about a second – and nothing appears instantly: the ring inscription, the launch lines, the dialog, the form notice, the line of the silver bullet. New appearing elements use the develop animation in css/pages/landing.css.
 
+The creature of the mark is the mascot Plyni; the acute it waves is called by its folk name, the kreska (крэска), and one launch line reports what focus groups took it for.
+
 Crumbs for the attentive. The owner scatters hidden hints of where Plyń is heading – findable by a careful visitor, never turned into slogans or headlines; most will go unnoticed, and that is accepted. Keep them when changing the page, keep them findable and quiet, and add new ones to this list:
 - the ring inscription above, an inverted One Ring verse;
 - the theme switch is a yin-yang (it turns half round on hover): Taoism as a whole – the Way that flows like water, as Plyń is a flow;
-- the pronoun of Plyń in the lead (Ён / It / On …) shows on hover or tap „He? She? It? It’ll decide when it grows up.“ in the page's language; in Belarusian the joke runs deeper, since плынь is feminine;
+- the pronoun of Plyń in the lead (Ён / It / On …) shows on hover or tap „He? She? It? Plyni will decide once grown up.“ in the page's language; in Belarusian the joke runs deeper, since плынь is feminine;
 - the silver bullet: the silver primer – a ring with a disc inside, drawn like © – in place of the separator between Privacy and Built with in the footer; on hover or tap its line develops above it: „Silver bullets aren’t found. They’re cast.“ (an answer to Brooks’ No Silver Bullet: a silver bullet cast from accumulated institutions – methods, specifications, formal languages – towards which Plyń has taken steps); the same line is written to the browser console. It stays in English on every language page.
 
 The mark, the wordmark and the favicon are copies of files in A-Rozum/plyn-brand (the only source). The page inlines them so the creature can blink and wave and the line can follow the theme.

@@ -8,7 +8,7 @@
     "line1": "Launch date: known only to the AI deities. They’re not answering email.",
     "line2": "The oracle is silent on the date. The agents aren’t – they’re working overtime.",
     "line3": "Calibrating wavelengths… 37%. The other 63% are on it.",
-    "line4": "Teaching the tuft to wave in sync. Rehearsals run day and night.",
+    "line4": "Plyni is learning to wave the kreska in sync. Rehearsals run day and night.",
     "line5": "Agents argue about the launch date. We mediate.",
     "footerR": "Built with",
     "theme": "Switch theme",
@@ -35,8 +35,9 @@
     "cInfo": "Nothing gets baked here without your say-so. Allow, and we keep a single crumb – a random visit number – and Microsoft Clarity (possibly outside the EU) watches clicks and scrolling, never what you type. Changed your mind? Privacy, at the bottom. Andrey Rozum, Plyn.one@proton.me.",
     "supportA": "Plyń is a system of standards and tools for AI agents.",
     "who": "It",
-    "whoTip": "He? She? It? It’ll decide when it grows up.",
-    "supportB": "tunes any agent, model or… colleagues to the vision, values and ways of working of your organisation – and keeps them on that wavelength."
+    "whoTip": "He? She? It? Plyni will decide once grown up.",
+    "supportB": "tunes any agent, model or… colleagues to the vision, values and ways of working of your organisation – and keeps them on that wavelength.",
+    "line6": "Focus groups identified the kreska as a flashlight beam, a carrot and a club."
   },
   "be": {
     "title": "Plyń – стандарты і інструменты для AI-агентаў",
@@ -47,7 +48,7 @@
     "line1": "Дату запуску ведаюць толькі AI-багі. На лісты яны не адказваюць.",
     "line2": "Аракул пра дату маўчыць. Агенты – не: яны працуюць звышурочна.",
     "line3": "Наладжваем хвалі… 37 %. Над астатнімі 63 % ужо працуем.",
-    "line4": "Вучым чубок махаць у такт. Рэпетыцыі ідуць дзень і ноч.",
+    "line4": "Plyni вучыцца махаць крэскай у такт. Рэпетыцыі ідуць дзень і ноч.",
     "line5": "Агенты спрачаюцца пра дату запуску. Мы іх мірым.",
     "footerR": "Зроблена на",
     "theme": "Змяніць тэму",
@@ -74,8 +75,9 @@
     "cInfo": "Без вашага слова тут нічога не пякуць. Дазволіце – і мы пакінем адну крошку, выпадковы нумар візіту, а Microsoft Clarity (магчыма, па-за ЕС) пагледзіць на клікі і пракрутку, але не на тое, што вы ўводзіце. Перадумалі? «Прыватнасць» унізе. Andrey Rozum, Plyn.one@proton.me.",
     "supportA": "Plyń – гэта сістэма стандартаў і інструментаў для AI-агентаў.",
     "who": "Ён",
-    "whoTip": "Ён? Яна? Яно? Вырасце – само вырашыць.",
-    "supportB": "наладжвае любога агента, мадэль ці… калег на бачанне, каштоўнасці і спосабы працы вашай справы – і трымае іх на гэтай хвалі."
+    "whoTip": "Ён? Яна? Яно? Plyni вырасце – вызначыцца.",
+    "supportB": "наладжвае любога агента, мадэль ці… калег на бачанне, каштоўнасці і спосабы працы вашай справы – і трымае іх на гэтай хвалі.",
+    "line6": "Фокус-групы апазналі крэску як прамень ліхтарыка, морквіну і дубінку."
   },
   "be-latn": {
     "title": "Plyń – standarty i instrumienty dla AI-ahientaŭ",
@@ -86,7 +88,7 @@
     "line1": "Datu zapusku viedajuć toĺki AI-bahi. Na listy jany nie adkazvajuć.",
     "line2": "Arakul pra datu maŭčyć. Ahienty – nie: jany pracujuć zvyšuročna.",
     "line3": "Naladžvajem chvali… 37 %. Nad astatnimi 63 % užo pracujem.",
-    "line4": "Vučym čubok machać u takt. Repietycyi iduć dzień i noč.",
+    "line4": "Plyni vučycca machać kreskaj u takt. Repietycyi iduć dzień i noč.",
     "line5": "Ahienty spračajucca pra datu zapusku. My ich mirym.",
     "footerR": "Zroblena na",
     "theme": "Źmianić temu",
@@ -113,8 +115,9 @@
     "cInfo": "Biez vašaha słova tut ničoha nie piakuć. Dazvolicie – i my pakinim adnu krošku, vypadkovy numar vizitu, a Microsoft Clarity (mahčyma, pa-za JeS) pahliadzić na kliki i prakrutku, ale nie na toje, što vy ŭvodzicie. Pieradumali? «Pryvatnaść» unizie. Andrey Rozum, Plyn.one@proton.me.",
     "supportA": "Plyń – heta sistema standartaŭ i instrumientaŭ dla AI-ahientaŭ.",
     "who": "Jon",
-    "whoTip": "Jon? Jana? Jano? Vyraście – samo vyrašyć.",
-    "supportB": "naładžvaje luboha ahienta, madeĺ ci… kaleh na bačannie, kaštoŭnasci i sposaby pracy vašaj spravy – i trymaje ich na hetaj chvali."
+    "whoTip": "Jon? Jana? Jano? Plyni vyraście – vyznačycca.",
+    "supportB": "naładžvaje luboha ahienta, madeĺ ci… kaleh na bačannie, kaštoŭnasci i sposaby pracy vašaj spravy – i trymaje ich na hetaj chvali.",
+    "line6": "Fokus-hrupy apaznali kresku jak pramień lichtaryka, morkvinu i dubinku."
   },
   "pl": {
     "title": "Plyń – standardy i narzędzia dla agentów AI",
@@ -125,7 +128,7 @@
     "line1": "Datę startu znają tylko bogowie AI. Na maile nie odpisują.",
     "line2": "Wyrocznia milczy w sprawie daty. Agenci nie – pracują po godzinach.",
     "line3": "Kalibrujemy fale… 37%. Nad pozostałymi 63% już pracujemy.",
-    "line4": "Uczymy czubek machać do rytmu. Próby trwają dzień i noc.",
+    "line4": "Plyni uczy się machać kreską do rytmu. Próby trwają dzień i noc.",
     "line5": "Agenci kłócą się o datę startu. My ich godzimy.",
     "footerR": "Zbudowane na",
     "theme": "Zmień motyw",
@@ -152,8 +155,9 @@
     "cInfo": "Bez Twojej zgody nic się tu nie piecze. Zezwolisz – zostawimy jeden okruszek, losowy numer wizyty, a Microsoft Clarity (być może poza UE) popatrzy na kliknięcia i przewijanie, nigdy na to, co wpisujesz. Zmiana zdania? „Prywatność” na dole strony. Andrey Rozum, Plyn.one@proton.me.",
     "supportA": "Plyń to system standardów i narzędzi dla agentów AI.",
     "who": "On",
-    "whoTip": "On? Ona? Ono? Jak dorośnie, samo zdecyduje.",
-    "supportB": "dostraja dowolnego agenta, model czy… kolegów i koleżanki do wizji, wartości i sposobów pracy Twojej organizacji – i utrzymuje ich na tej fali."
+    "whoTip": "On? Ona? Ono? Plyni dorośnie – zdecyduje.",
+    "supportB": "dostraja dowolnego agenta, model czy… kolegów i koleżanki do wizji, wartości i sposobów pracy Twojej organizacji – i utrzymuje ich na tej fali.",
+    "line6": "Grupy fokusowe rozpoznały kreskę jako promień latarki, marchewkę i pałkę."
   },
   "it": {
     "title": "Plyń – standard e strumenti per agenti AI",
@@ -164,7 +168,7 @@
     "line1": "La data del lancio la conoscono solo le divinità dell’AI. Alle email non rispondono.",
     "line2": "L’oracolo tace sulla data. Gli agenti no: fanno gli straordinari.",
     "line3": "Calibrazione delle onde… 37%. Al restante 63% ci stiamo lavorando.",
-    "line4": "Insegniamo al ciuffo a salutare a tempo. Le prove vanno avanti giorno e notte.",
+    "line4": "Plyni sta imparando ad agitare la kreska a tempo. Le prove vanno avanti giorno e notte.",
     "line5": "Gli agenti litigano sulla data del lancio. Noi facciamo da mediatori.",
     "footerR": "Costruito con",
     "theme": "Cambia tema",
@@ -191,8 +195,9 @@
     "cInfo": "Qui non si sforna nulla senza il tuo sì. Se consenti, teniamo una sola briciola – un numero di visita casuale – e Microsoft Clarity (forse fuori dall’UE) osserva clic e scorrimento, mai ciò che digiti. Hai cambiato idea? «Privacy», in fondo alla pagina. Andrey Rozum, Plyn.one@proton.me.",
     "supportA": "Plyń è un sistema di standard e strumenti per agenti AI.",
     "who": "Lui",
-    "whoTip": "Lui? Lei? Da grande deciderà da sé.",
-    "supportB": "sintonizza qualsiasi agente, modello o… colleghi sulla visione, sui valori e sui modi di lavorare della tua organizzazione – e li mantiene su quella lunghezza d’onda."
+    "whoTip": "Lui? Lei? Plyni crescerà e deciderà.",
+    "supportB": "sintonizza qualsiasi agente, modello o… colleghi sulla visione, sui valori e sui modi di lavorare della tua organizzazione – e li mantiene su quella lunghezza d’onda.",
+    "line6": "I focus group hanno identificato la kreska come un raggio di torcia, una carota e un manganello."
   },
   "lt": {
     "title": "Plyń – standartai ir įrankiai AI agentams",
@@ -203,7 +208,7 @@
     "line1": "Paleidimo datą žino tik AI dievai. Į laiškus jie neatsako.",
     "line2": "Orakulas apie datą tyli. Agentai – ne: jie dirba viršvalandžius.",
     "line3": "Kalibruojame bangas… 37 %. Prie likusių 63 % jau dirbame.",
-    "line4": "Mokome kuodelį mojuoti į taktą. Repeticijos vyksta dieną ir naktį.",
+    "line4": "Plyni mokosi mojuoti kreska į taktą. Repeticijos vyksta dieną ir naktį.",
     "line5": "Agentai ginčijasi dėl paleidimo datos. Mes juos taikome.",
     "footerR": "Sukurta su",
     "theme": "Keisti temą",
@@ -230,7 +235,8 @@
     "cInfo": "Be jūsų žodžio čia niekas nekepama. Leisite – paliksime vieną trupinėlį, atsitiktinį apsilankymo numerį, o Microsoft Clarity (galbūt už ES ribų) stebės paspaudimus ir slinkimą, bet ne tai, ką įvedate. Persigalvojote? „Privatumas“ puslapio apačioje. Andrey Rozum, Plyn.one@proton.me.",
     "supportA": "Plyń – tai standartų ir įrankių sistema AI agentams.",
     "who": "Jis",
-    "whoTip": "Jis? Ji? Kai užaugs, pats nuspręs.",
-    "supportB": "suderina bet kurį agentą, modelį ar… kolegas su jūsų organizacijos vizija, vertybėmis ir darbo būdais – ir išlaiko juos toje pačioje bangoje."
+    "whoTip": "Jis? Ji? Plyni užaugs – nuspręs.",
+    "supportB": "suderina bet kurį agentą, modelį ar… kolegas su jūsų organizacijos vizija, vertybėmis ir darbo būdais – ir išlaiko juos toje pačioje bangoje.",
+    "line6": "Tikslinės grupės kreską atpažino kaip žibintuvėlio spindulį, morką ir vėzdą."
   }
 }

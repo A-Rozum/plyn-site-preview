@@ -8,7 +8,7 @@ cta: Pranešti man apie beta versiją →
 line1: Paleidimo datą žino tik AI dievai. Į laiškus jie neatsako.
 line2: Orakulas apie datą tyli. Agentai – ne: jie dirba viršvalandžius.
 line3: Kalibruojame bangas… 37 %. Prie likusių 63 % jau dirbame.
-line4: Mokome kuodelį mojuoti į taktą. Repeticijos vyksta dieną ir naktį.
+line4: Plyni mokosi mojuoti kreska į taktą. Repeticijos vyksta dieną ir naktį.
 line5: Agentai ginčijasi dėl paleidimo datos. Mes juos taikome.
 footerR: Sukurta su
 theme: Keisti temą
@@ -35,5 +35,6 @@ cLink: Privatumas
 cInfo: Be jūsų žodžio čia niekas nekepama. Leisite – paliksime vieną trupinėlį, atsitiktinį apsilankymo numerį, o Microsoft Clarity (galbūt už ES ribų) stebės paspaudimus ir slinkimą, bet ne tai, ką įvedate. Persigalvojote? „Privatumas“ puslapio apačioje. Andrey Rozum, Plyn.one@proton.me.
 supportA: Plyń – tai standartų ir įrankių sistema AI agentams.
 who: Jis
-whoTip: Jis? Ji? Kai užaugs, pats nuspręs.
+whoTip: Jis? Ji? Plyni užaugs – nuspręs.
 supportB: suderina bet kurį agentą, modelį ar… kolegas su jūsų organizacijos vizija, vertybėmis ir darbo būdais – ir išlaiko juos toje pačioje bangoje.
+line6: Tikslinės grupės kreską atpažino kaip žibintuvėlio spindulį, morką ir vėzdą.

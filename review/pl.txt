@@ -8,7 +8,7 @@ cta: Powiadom mnie o becie →
 line1: Datę startu znają tylko bogowie AI. Na maile nie odpisują.
 line2: Wyrocznia milczy w sprawie daty. Agenci nie – pracują po godzinach.
 line3: Kalibrujemy fale… 37%. Nad pozostałymi 63% już pracujemy.
-line4: Uczymy czubek machać do rytmu. Próby trwają dzień i noc.
+line4: Plyni uczy się machać kreską do rytmu. Próby trwają dzień i noc.
 line5: Agenci kłócą się o datę startu. My ich godzimy.
 footerR: Zbudowane na
 theme: Zmień motyw
@@ -35,5 +35,6 @@ cLink: Prywatność
 cInfo: Bez Twojej zgody nic się tu nie piecze. Zezwolisz – zostawimy jeden okruszek, losowy numer wizyty, a Microsoft Clarity (być może poza UE) popatrzy na kliknięcia i przewijanie, nigdy na to, co wpisujesz. Zmiana zdania? „Prywatność” na dole strony. Andrey Rozum, Plyn.one@proton.me.
 supportA: Plyń to system standardów i narzędzi dla agentów AI.
 who: On
-whoTip: On? Ona? Ono? Jak dorośnie, samo zdecyduje.
+whoTip: On? Ona? Ono? Plyni dorośnie – zdecyduje.
 supportB: dostraja dowolnego agenta, model czy… kolegów i koleżanki do wizji, wartości i sposobów pracy Twojej organizacji – i utrzymuje ich na tej fali.
+line6: Grupy fokusowe rozpoznały kreskę jako promień latarki, marchewkę i pałkę.

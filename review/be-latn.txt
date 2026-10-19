@@ -8,7 +8,7 @@ cta: Paviedamić mnie pra betu →
 line1: Datu zapusku viedajuć toĺki AI-bahi. Na listy jany nie adkazvajuć.
 line2: Arakul pra datu maŭčyć. Ahienty – nie: jany pracujuć zvyšuročna.
 line3: Naladžvajem chvali… 37 %. Nad astatnimi 63 % užo pracujem.
-line4: Vučym čubok machać u takt. Repietycyi iduć dzień i noč.
+line4: Plyni vučycca machać kreskaj u takt. Repietycyi iduć dzień i noč.
 line5: Ahienty spračajucca pra datu zapusku. My ich mirym.
 footerR: Zroblena na
 theme: Źmianić temu
@@ -35,5 +35,6 @@ cLink: Pryvatnaść
 cInfo: Biez vašaha słova tut ničoha nie piakuć. Dazvolicie – i my pakinim adnu krošku, vypadkovy numar vizitu, a Microsoft Clarity (mahčyma, pa-za JeS) pahliadzić na kliki i prakrutku, ale nie na toje, što vy ŭvodzicie. Pieradumali? «Pryvatnaść» unizie. Andrey Rozum, Plyn.one@proton.me.
 supportA: Plyń – heta sistema standartaŭ i instrumientaŭ dla AI-ahientaŭ.
 who: Jon
-whoTip: Jon? Jana? Jano? Vyraście – samo vyrašyć.
+whoTip: Jon? Jana? Jano? Plyni vyraście – vyznačycca.
 supportB: naładžvaje luboha ahienta, madeĺ ci… kaleh na bačannie, kaštoŭnasci i sposaby pracy vašaj spravy – i trymaje ich na hetaj chvali.
+line6: Fokus-hrupy apaznali kresku jak pramień lichtaryka, morkvinu i dubinku.
