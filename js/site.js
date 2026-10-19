@@ -23,9 +23,9 @@ const j=await r.json().catch(()=>({}));if(!r.ok||!j.ok)throw new Error(j.error||
 /* Silver bullet in the footer: a tap shows its line for a few seconds; pointer users see it on hover. */
 (()=>{const o=document.querySelector('.bullet');if(!o)return;let t;o.addEventListener('click',()=>{o.classList.add('lit');clearTimeout(t);t=setTimeout(()=>o.classList.remove('lit'),4500)});
 console.log('%cSilver bullets aren’t found. They’re cast.','color:#9aa4ad;font-style:italic')})();
-/* Consent: our own bar. Choice kept in localStorage plyn-consent (yes/no). With yes: cookie plyn-vid (random visit number, 1 year)
+/* Consent: our own bar (#pact, neutral name), shown at once on the first visit. Choice kept in localStorage plyn-consent (yes/no). With yes: cookie plyn-vid (random visit number, 1 year)
    for returning visitors, and Microsoft Clarity (project id in CLARITY; empty = not loaded). The choice is reported as an anonymous hit. */
-(()=>{const bar=document.getElementById('consent');if(!bar)return;const CLARITY='yzwgzyptnx';
+(()=>{const bar=document.getElementById('pact');if(!bar)return;const CLARITY='yzwgzyptnx';
 const store={get:()=>{try{return localStorage.getItem('plyn-consent')}catch(e){return null}},set:v=>{try{localStorage.setItem('plyn-consent',v)}catch(e){}}};
 const hit=k=>{try{navigator.sendBeacon('/api/hit',JSON.stringify({kind:k,lang:document.documentElement.lang}))}catch(e){}};
 const clarity=on=>{if(!CLARITY)return;if(on&&!window.clarity){(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,'clarity','script',CLARITY)}
@@ -36,8 +36,7 @@ const show=()=>{bar.hidden=false;bar.classList.remove('leave');bar.classList.rem
 const hide=()=>{bar.classList.add('leave');setTimeout(()=>{bar.hidden=true;bar.classList.remove('leave')},800)};
 const choose=on=>{store.set(on?'yes':'no');apply(on);hit(on?'consent-yes':'consent-no');hide()};
 bar.querySelector('.yes').addEventListener('click',()=>choose(true));bar.querySelector('.no').addEventListener('click',()=>choose(false));
-bar.querySelector('.more').addEventListener('click',()=>{const i=bar.querySelector('.info');i.hidden=!i.hidden});
-document.querySelectorAll('.privacy-link').forEach(b=>b.addEventListener('click',()=>{show();bar.querySelector('.info').hidden=false}));
+bar.querySelector('.more').addEventListener('click',()=>{const i=bar.querySelector('.info');i.hidden=!i.hidden;bar.classList.toggle('open',!i.hidden)});
+document.querySelectorAll('.pact-open').forEach(b=>b.addEventListener('click',()=>{show();bar.querySelector('.info').hidden=false;bar.classList.add('open')}));
 const c=store.get();if(c){apply(c==='yes');return}
-let t=setTimeout(show,10000);const early=()=>{clearTimeout(t);t=setTimeout(show,2500);removeEventListener('scroll',early);removeEventListener('pointerdown',early)};
-addEventListener('scroll',early,{passive:true});addEventListener('pointerdown',early)})();
+show()})();

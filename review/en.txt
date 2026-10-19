@@ -28,9 +28,9 @@ privB: Controller: Andrey Rozum, Plyn.one@proton.me. Hosting provider: Cloudflar
 sending: Sending…
 ok: Thank you! We’ll write to you when the beta opens.
 err: Couldn’t send. Please try again a little later.
-cBar: May we anonymously record how this page is used, to make it better?
+cBar: Cookies?
 cYes: Allow
-cNo: No, thanks
+cNo: No
 cMore: Details
 cLink: Privacy
 cInfo: With your consent we keep a random visit number in a cookie on this device, to count returning visitors, and Microsoft Clarity records anonymised clicks, scrolling and mouse movement on this page; what you type is not recorded. Clarity is run by Microsoft, which may process the data outside the EU. You can change your choice at any time under Privacy at the bottom of the page. Controller: Andrey Rozum, Plyn.one@proton.me.

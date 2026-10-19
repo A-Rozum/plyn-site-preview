@@ -28,9 +28,9 @@ privB: Titolare del trattamento: Andrey Rozum, Plyn.one@proton.me. Fornitore di 
 sending: Invio in corso…
 ok: Grazie! Ti scriveremo quando la beta sarà aperta.
 err: Invio non riuscito. Riprova tra poco.
-cBar: Possiamo registrare in forma anonima come viene usata questa pagina, per migliorarla?
-cYes: Consento
-cNo: No, grazie
+cBar: Cookie?
+cYes: Consenti
+cNo: No
 cMore: Dettagli
 cLink: Privacy
 cInfo: Con il tuo consenso conserviamo su questo dispositivo un cookie con un numero di visita casuale, per contare chi ritorna, e Microsoft Clarity registra in forma anonimizzata clic, scorrimento e movimenti del mouse su questa pagina; ciò che digiti non viene registrato. Clarity è gestito da Microsoft, che può trattare i dati fuori dall’UE. Puoi cambiare la tua scelta in qualsiasi momento da Privacy in fondo alla pagina. Titolare del trattamento: Andrey Rozum, Plyn.one@proton.me.

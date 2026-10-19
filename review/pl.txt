@@ -28,9 +28,9 @@ privB: Administrator danych: Andrey Rozum, Plyn.one@proton.me. Dostawca hostingu
 sending: Wysyłanie…
 ok: Dziękujemy! Napiszemy do Ciebie, gdy beta wystartuje.
 err: Nie udało się wysłać. Spróbuj ponownie za chwilę.
-cBar: Czy możemy anonimowo rejestrować, jak korzystasz z tej strony, aby ją ulepszać?
-cYes: Zgadzam się
-cNo: Nie, dziękuję
+cBar: Ciasteczka?
+cYes: Zezwól
+cNo: Nie
 cMore: Szczegóły
 cLink: Prywatność
 cInfo: Za Twoją zgodą przechowujemy na tym urządzeniu plik cookie z losowym numerem wizyty, aby liczyć powracających odwiedzających, a Microsoft Clarity rejestruje zanonimizowane kliknięcia, przewijanie i ruchy myszy na tej stronie; to, co wpisujesz, nie jest rejestrowane. Clarity działa po stronie Microsoft, który może przetwarzać dane poza UE. Wybór możesz w każdej chwili zmienić w zakładce Prywatność na dole strony. Administrator danych: Andrey Rozum, Plyn.one@proton.me.

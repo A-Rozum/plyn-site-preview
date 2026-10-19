@@ -28,9 +28,9 @@ privB: Duomenų valdytojas: Andrey Rozum, Plyn.one@proton.me. Prieglobos paslaug
 sending: Siunčiama…
 ok: Ačiū! Parašysime jums, kai beta versija bus atverta.
 err: Nepavyko išsiųsti. Pabandykite šiek tiek vėliau.
-cBar: Ar galime anonimiškai įrašyti, kaip naudojamasi šiuo puslapiu, kad jį patobulintume?
+cBar: Slapukai?
 cYes: Leisti
-cNo: Ne, ačiū
+cNo: Ne
 cMore: Išsamiau
 cLink: Privatumas
 cInfo: Jums sutikus, šiame įrenginyje saugome slapuką su atsitiktiniu apsilankymo numeriu, kad suskaičiuotume sugrįžtančius lankytojus, o Microsoft Clarity įrašo nuasmenintus paspaudimus, slinkimą ir pelės judesius šiame puslapyje; tai, ką įvedate, neįrašoma. Clarity valdo Microsoft, kuri duomenis gali tvarkyti už ES ribų. Pasirinkimą bet kada galite pakeisti skiltyje „Privatumas“ puslapio apačioje. Duomenų valdytojas: Andrey Rozum, Plyn.one@proton.me.

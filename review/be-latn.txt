@@ -28,9 +28,9 @@ privB: Adkazny za danyja: Andrey Rozum, Plyn.one@proton.me. Chostynh-pravajdar: 
 sending: Adpraŭliajem…
 ok: Dziakuj! My napišam vam, kali adkryjecca beta.
 err: Nie atrymałasia adpravić. Pasprabujcie krychu paźniej.
-cBar: Ci možna ananimna zapisvać, jak karystajucca hetaj staronkaj, kab zrabić jaje lepšaj?
+cBar: Cookie?
 cYes: Dazvolić
-cNo: Nie, dziakuj
+cNo: Nie
 cMore: Padrabiazniej
 cLink: Pryvatnaść
 cInfo: Z vašaj zhody my zachoŭvajem na hetaj pryladzie cookie z vypadkovym numaram vizitu, kab ličyć tych, chto viartajecca, a Microsoft Clarity zapisvaje abiazličanyja kliki, prakrutku i ruchi myšy na hetaj staroncy; toje, što vy ŭvodzicie, nie zapisvajecca. Clarity pracuje na Microsoft, jakaja moža apracoŭvać danyja pa-za JeS. Zmianić vybar možna ŭ luby čas praz «Pryvatnaść» unizie staronki. Adkazny za danyja: Andrey Rozum, Plyn.one@proton.me.
