@@ -55,19 +55,19 @@
   .bullet:hover .cast, .bullet.lit .cast { opacity: 1; filter: none; }
   /* Consent bar (neutral names, so cookie-banner filters leave it visible): a small pill at the bottom centre, shown at once; ⓘ opens the details. */
   .pact { position: fixed; z-index: 20; left: 0; right: 0; margin-inline: auto; inline-size: fit-content; bottom: 2rem; max-inline-size: calc(100% - 3rem); box-sizing: border-box;
-          display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: .8rem; padding: .7rem .8rem .7rem 1.8rem; border-radius: 2.6rem;
+          display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: .6rem; padding: .35rem .4rem .35rem 1.5rem; border-radius: 2.4rem;
           background: color-mix(in srgb, var(--paper) 86%, transparent); backdrop-filter: blur(1rem); border: .1rem solid var(--line);
-          box-shadow: 0 .6rem 2.4rem rgb(0 0 0 / .08); font-size: 1.35rem; color: var(--ink); }
+          box-shadow: 0 .6rem 2.4rem rgb(0 0 0 / .08); font-size: 1.25rem; color: var(--ink); }
   .pact[hidden] { display: none; }
   .pact.show { animation: develop 1.2s ease; }
   .pact.leave { opacity: 0; filter: blur(.4rem); transition: opacity .8s ease, filter .8s ease; }
   .pact.open { inline-size: min(52rem, calc(100% - 3rem)); }
-  .pact .more { inline-size: 2.4rem; block-size: 2.4rem; padding: .3rem; border: 0; background: none; color: var(--subtle); cursor: pointer; display: grid; place-items: center; }
+  .pact .more { inline-size: 2rem; block-size: 2rem; padding: .25rem; border: 0; background: none; color: var(--subtle); cursor: pointer; display: grid; place-items: center; }
   .pact .more svg { inline-size: 100%; block-size: 100%; }
   .pact .more:hover { color: var(--ink); }
-  .pact .yes, .pact .no { border-radius: 50rem; padding: .7rem 1.5rem; font: inherit; font-weight: 700; cursor: pointer; border: .1rem solid var(--line); background: transparent; color: var(--ink); }
+  .pact .yes, .pact .no { border-radius: 50rem; padding: .4rem 1.2rem; line-height: 1.3; font: inherit; font-weight: 700; cursor: pointer; border: .1rem solid var(--line); background: transparent; color: var(--ink); }
   .pact .yes { background: var(--accent); color: var(--on-accent); border-color: transparent; }
-  .pact .info { flex-basis: 100%; margin: .4rem 1rem .6rem 0; color: var(--subtle); font-size: 1.2rem; line-height: 1.45; }
+  .pact .info { flex-basis: 100%; margin: .3rem 1rem .5rem 0; color: var(--subtle); font-size: 1.2rem; line-height: 1.45; }
   .pact .info:not([hidden]) { animation: develop .9s ease; }
   .pact-open { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: .3rem; }
   .yinyang { inline-size: 1.15em; block-size: 1.15em; vertical-align: -.2em; transition: transform .8s ease; }

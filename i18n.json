@@ -33,7 +33,7 @@
     "cNo": "No",
     "cMore": "Details",
     "cLink": "Privacy",
-    "cInfo": "With your consent we keep a random visit number in a cookie on this device, to count returning visitors, and Microsoft Clarity records anonymised clicks, scrolling and mouse movement on this page; what you type is not recorded. Clarity is run by Microsoft, which may process the data outside the EU. You can change your choice at any time under Privacy at the bottom of the page. Controller: Andrey Rozum, Plyn.one@proton.me."
+    "cInfo": "Nothing gets baked here without your say-so. Allow, and we keep a single crumb – a random visit number – and Microsoft Clarity (possibly outside the EU) watches clicks and scrolling, never what you type. Changed your mind? Privacy, at the bottom. Andrey Rozum, Plyn.one@proton.me."
   },
   "be": {
     "title": "Plyń – Кожны агент на вашай хвалі",
@@ -69,7 +69,7 @@
     "cNo": "Не",
     "cMore": "Падрабязней",
     "cLink": "Прыватнасць",
-    "cInfo": "З вашай згоды мы захоўваем на гэтай прыладзе cookie з выпадковым нумарам візіту, каб лічыць тых, хто вяртаецца, а Microsoft Clarity запісвае абязлічаныя клікі, пракрутку і рухі мышы на гэтай старонцы; тое, што вы ўводзіце, не запісваецца. Clarity працуе на Microsoft, якая можа апрацоўваць даныя па-за ЕС. Змяніць выбар можна ў любы час праз «Прыватнасць» унізе старонкі. Адказны за даныя: Andrey Rozum, Plyn.one@proton.me."
+    "cInfo": "Без вашага слова тут нічога не пякуць. Дазволіце – і мы пакінем адну крошку, выпадковы нумар візіту, а Microsoft Clarity (магчыма, па-за ЕС) пагледзіць на клікі і пракрутку, але не на тое, што вы ўводзіце. Перадумалі? «Прыватнасць» унізе. Andrey Rozum, Plyn.one@proton.me."
   },
   "be-latn": {
     "title": "Plyń – Kožny ahient na vašaj chvali",
@@ -105,7 +105,7 @@
     "cNo": "Nie",
     "cMore": "Padrabiazniej",
     "cLink": "Pryvatnaść",
-    "cInfo": "Z vašaj zhody my zachoŭvajem na hetaj pryladzie cookie z vypadkovym numaram vizitu, kab ličyć tych, chto viartajecca, a Microsoft Clarity zapisvaje abiazličanyja kliki, prakrutku i ruchi myšy na hetaj staroncy; toje, što vy ŭvodzicie, nie zapisvajecca. Clarity pracuje na Microsoft, jakaja moža apracoŭvać danyja pa-za JeS. Zmianić vybar možna ŭ luby čas praz «Pryvatnaść» unizie staronki. Adkazny za danyja: Andrey Rozum, Plyn.one@proton.me."
+    "cInfo": "Biez vašaha słova tut ničoha nie piakuć. Dazvolicie – i my pakinim adnu krošku, vypadkovy numar vizitu, a Microsoft Clarity (mahčyma, pa-za JeS) pahliadzić na kliki i prakrutku, ale nie na toje, što vy ŭvodzicie. Pieradumali? «Pryvatnaść» unizie. Andrey Rozum, Plyn.one@proton.me."
   },
   "pl": {
     "title": "Plyń – Każdy agent na Twojej fali",
@@ -141,7 +141,7 @@
     "cNo": "Nie",
     "cMore": "Szczegóły",
     "cLink": "Prywatność",
-    "cInfo": "Za Twoją zgodą przechowujemy na tym urządzeniu plik cookie z losowym numerem wizyty, aby liczyć powracających odwiedzających, a Microsoft Clarity rejestruje zanonimizowane kliknięcia, przewijanie i ruchy myszy na tej stronie; to, co wpisujesz, nie jest rejestrowane. Clarity działa po stronie Microsoft, który może przetwarzać dane poza UE. Wybór możesz w każdej chwili zmienić w zakładce Prywatność na dole strony. Administrator danych: Andrey Rozum, Plyn.one@proton.me."
+    "cInfo": "Bez Twojej zgody nic się tu nie piecze. Zezwolisz – zostawimy jeden okruszek, losowy numer wizyty, a Microsoft Clarity (być może poza UE) popatrzy na kliknięcia i przewijanie, nigdy na to, co wpisujesz. Zmiana zdania? „Prywatność” na dole strony. Andrey Rozum, Plyn.one@proton.me."
   },
   "it": {
     "title": "Plyń – Ogni agente sulla tua lunghezza d’onda",
@@ -177,7 +177,7 @@
     "cNo": "No",
     "cMore": "Dettagli",
     "cLink": "Privacy",
-    "cInfo": "Con il tuo consenso conserviamo su questo dispositivo un cookie con un numero di visita casuale, per contare chi ritorna, e Microsoft Clarity registra in forma anonimizzata clic, scorrimento e movimenti del mouse su questa pagina; ciò che digiti non viene registrato. Clarity è gestito da Microsoft, che può trattare i dati fuori dall’UE. Puoi cambiare la tua scelta in qualsiasi momento da Privacy in fondo alla pagina. Titolare del trattamento: Andrey Rozum, Plyn.one@proton.me."
+    "cInfo": "Qui non si sforna nulla senza il tuo sì. Se consenti, teniamo una sola briciola – un numero di visita casuale – e Microsoft Clarity (forse fuori dall’UE) osserva clic e scorrimento, mai ciò che digiti. Hai cambiato idea? «Privacy», in fondo alla pagina. Andrey Rozum, Plyn.one@proton.me."
   },
   "lt": {
     "title": "Plyń – Kiekvienas agentas vienoje bangoje su jumis",
@@ -213,6 +213,6 @@
     "cNo": "Ne",
     "cMore": "Išsamiau",
     "cLink": "Privatumas",
-    "cInfo": "Jums sutikus, šiame įrenginyje saugome slapuką su atsitiktiniu apsilankymo numeriu, kad suskaičiuotume sugrįžtančius lankytojus, o Microsoft Clarity įrašo nuasmenintus paspaudimus, slinkimą ir pelės judesius šiame puslapyje; tai, ką įvedate, neįrašoma. Clarity valdo Microsoft, kuri duomenis gali tvarkyti už ES ribų. Pasirinkimą bet kada galite pakeisti skiltyje „Privatumas“ puslapio apačioje. Duomenų valdytojas: Andrey Rozum, Plyn.one@proton.me."
+    "cInfo": "Be jūsų žodžio čia niekas nekepama. Leisite – paliksime vieną trupinėlį, atsitiktinį apsilankymo numerį, o Microsoft Clarity (galbūt už ES ribų) stebės paspaudimus ir slinkimą, bet ne tai, ką įvedate. Persigalvojote? „Privatumas“ puslapio apačioje. Andrey Rozum, Plyn.one@proton.me."
   }
 }

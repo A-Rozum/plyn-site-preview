@@ -33,4 +33,4 @@ cYes: Dazvolić
 cNo: Nie
 cMore: Padrabiazniej
 cLink: Pryvatnaść
-cInfo: Z vašaj zhody my zachoŭvajem na hetaj pryladzie cookie z vypadkovym numaram vizitu, kab ličyć tych, chto viartajecca, a Microsoft Clarity zapisvaje abiazličanyja kliki, prakrutku i ruchi myšy na hetaj staroncy; toje, što vy ŭvodzicie, nie zapisvajecca. Clarity pracuje na Microsoft, jakaja moža apracoŭvać danyja pa-za JeS. Zmianić vybar možna ŭ luby čas praz «Pryvatnaść» unizie staronki. Adkazny za danyja: Andrey Rozum, Plyn.one@proton.me.
+cInfo: Biez vašaha słova tut ničoha nie piakuć. Dazvolicie – i my pakinim adnu krošku, vypadkovy numar vizitu, a Microsoft Clarity (mahčyma, pa-za JeS) pahliadzić na kliki i prakrutku, ale nie na toje, što vy ŭvodzicie. Pieradumali? «Pryvatnaść» unizie. Andrey Rozum, Plyn.one@proton.me.

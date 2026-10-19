@@ -33,4 +33,4 @@ cYes: Allow
 cNo: No
 cMore: Details
 cLink: Privacy
-cInfo: With your consent we keep a random visit number in a cookie on this device, to count returning visitors, and Microsoft Clarity records anonymised clicks, scrolling and mouse movement on this page; what you type is not recorded. Clarity is run by Microsoft, which may process the data outside the EU. You can change your choice at any time under Privacy at the bottom of the page. Controller: Andrey Rozum, Plyn.one@proton.me.
+cInfo: Nothing gets baked here without your say-so. Allow, and we keep a single crumb – a random visit number – and Microsoft Clarity (possibly outside the EU) watches clicks and scrolling, never what you type. Changed your mind? Privacy, at the bottom. Andrey Rozum, Plyn.one@proton.me.

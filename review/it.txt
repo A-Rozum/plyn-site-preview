@@ -33,4 +33,4 @@ cYes: Consenti
 cNo: No
 cMore: Dettagli
 cLink: Privacy
-cInfo: Con il tuo consenso conserviamo su questo dispositivo un cookie con un numero di visita casuale, per contare chi ritorna, e Microsoft Clarity registra in forma anonimizzata clic, scorrimento e movimenti del mouse su questa pagina; ciò che digiti non viene registrato. Clarity è gestito da Microsoft, che può trattare i dati fuori dall’UE. Puoi cambiare la tua scelta in qualsiasi momento da Privacy in fondo alla pagina. Titolare del trattamento: Andrey Rozum, Plyn.one@proton.me.
+cInfo: Qui non si sforna nulla senza il tuo sì. Se consenti, teniamo una sola briciola – un numero di visita casuale – e Microsoft Clarity (forse fuori dall’UE) osserva clic e scorrimento, mai ciò che digiti. Hai cambiato idea? «Privacy», in fondo alla pagina. Andrey Rozum, Plyn.one@proton.me.

@@ -33,4 +33,4 @@ cYes: Zezwól
 cNo: Nie
 cMore: Szczegóły
 cLink: Prywatność
-cInfo: Za Twoją zgodą przechowujemy na tym urządzeniu plik cookie z losowym numerem wizyty, aby liczyć powracających odwiedzających, a Microsoft Clarity rejestruje zanonimizowane kliknięcia, przewijanie i ruchy myszy na tej stronie; to, co wpisujesz, nie jest rejestrowane. Clarity działa po stronie Microsoft, który może przetwarzać dane poza UE. Wybór możesz w każdej chwili zmienić w zakładce Prywatność na dole strony. Administrator danych: Andrey Rozum, Plyn.one@proton.me.
+cInfo: Bez Twojej zgody nic się tu nie piecze. Zezwolisz – zostawimy jeden okruszek, losowy numer wizyty, a Microsoft Clarity (być może poza UE) popatrzy na kliknięcia i przewijanie, nigdy na to, co wpisujesz. Zmiana zdania? „Prywatność” na dole strony. Andrey Rozum, Plyn.one@proton.me.

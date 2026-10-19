@@ -33,4 +33,4 @@ cYes: Leisti
 cNo: Ne
 cMore: Išsamiau
 cLink: Privatumas
-cInfo: Jums sutikus, šiame įrenginyje saugome slapuką su atsitiktiniu apsilankymo numeriu, kad suskaičiuotume sugrįžtančius lankytojus, o Microsoft Clarity įrašo nuasmenintus paspaudimus, slinkimą ir pelės judesius šiame puslapyje; tai, ką įvedate, neįrašoma. Clarity valdo Microsoft, kuri duomenis gali tvarkyti už ES ribų. Pasirinkimą bet kada galite pakeisti skiltyje „Privatumas“ puslapio apačioje. Duomenų valdytojas: Andrey Rozum, Plyn.one@proton.me.
+cInfo: Be jūsų žodžio čia niekas nekepama. Leisite – paliksime vieną trupinėlį, atsitiktinį apsilankymo numerį, o Microsoft Clarity (galbūt už ES ribų) stebės paspaudimus ir slinkimą, bet ne tai, ką įvedate. Persigalvojote? „Privatumas“ puslapio apačioje. Andrey Rozum, Plyn.one@proton.me.
