@@ -1,7 +1,7 @@
 Plyń landing page – Lietuvių (lt)
 
-title: Plyń – standartai ir įrankiai AI agentams
-desc: Plyń – tai standartų ir įrankių sistema AI agentams. Jis suderina bet kurį agentą, modelį ar… kolegas su jūsų organizacijos vizija, vertybėmis ir darbo būdais – ir išlaiko juos toje pačioje bangoje.
+title: Standartai ir įrankiai AI agentams
+desc: Plyń – standartų ir įrankių sistema, kuri AI agentus, modelius ir… kolegas suderina su tuo, kaip dirba jūsų organizacija.
 eyebrow: Pradėtas 2026 metais
 h1: Kiekvienas agentas – vienoje bangoje su jumis.
 cta: Pranešti man apie beta versiją →

@@ -1,7 +1,7 @@
 Plyń landing page – English (en)
 
-title: Plyń – Standards and Tools for AI Agents
-desc: Plyń is a system of standards and tools for AI agents. It tunes any agent, model or… colleagues to the vision, values and ways of working of your organisation – and keeps them on that wavelength.
+title: Standards and Tools for AI Agents
+desc: Plyń is a system of standards and tools that tunes AI agents, models and… colleagues to how your organisation works.
 eyebrow: Started in 2026
 h1: Every agent on your wavelength.
 cta: Notify me about the beta →

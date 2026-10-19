@@ -10,7 +10,7 @@ SITE = "https://plyn.one"
 TAG = {"be-latn": "be-Latn"}  # BCP 47 tag where it differs from the path code
 import hashlib
 OG_V = hashlib.sha256((ROOT / "og.png").read_bytes()).hexdigest()[:8]  # a new image gets a new address, so networks fetch it again
-STATIC = ["favicon.svg", "apple-touch-icon.png", "og.png", "css", "js", "fonts"]
+STATIC = ["favicon.svg", "apple-touch-icon.png", "icon-48.png", "icon-192.png", "og.png", "css", "js", "fonts"]
 LOCALE = {"en": "en_GB", "be": "be_BY", "be-latn": "be_BY", "pl": "pl_PL", "it": "it_IT", "lt": "lt_LT"}
 
 def page(tpl, code, t, codes):
@@ -24,7 +24,7 @@ def page(tpl, code, t, codes):
     for k in ("sending", "ok", "err"):
         out = re.sub(f'data-{k}="[^"]*"', f'data-{k}="{a(t[k])}"', out, count=1)
     out = out.replace('<html lang="en">', f'<html lang="{TAG.get(code, code)}">', 1)
-    out = re.sub(r"<title>.*?</title>", f"<title>{e(t['title'])}</title>", out, count=1)
+    out = re.sub(r"<title>.*?</title>", f"<title>{e(t['title'])} – Plyń</title>", out, count=1)
     out = re.sub(r'(<meta name="description" content=")[^"]*', lambda m: m.group(1) + a(t["desc"]), out, count=1)
     out = out.replace(f'<option value="{code}" ', f'<option value="{code}" selected ', 1)
     meta = [f'<meta property="og:type" content="website"><meta property="og:site_name" content="Plyń">',

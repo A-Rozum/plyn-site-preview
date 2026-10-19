@@ -68,7 +68,13 @@ def inline(html, cls):
     return m
 
 PAGE = ["viewBox", "d", "cx", "cy", "r", "stroke-width"]
-FAV = ["d", "cx", "cy"]  # favicon keeps its own viewBox crop and heavier small-size line and eyes
+FAV = ["d", "cx", "cy"]  # favicon keeps its heavier small-size line and eyes; its square crop follows the mark (fav_box)
+
+def fav_box(mark):
+    """The favicon's square crop: centred on the mark's viewBox, 98% of its larger side, so the kreska is never cut."""
+    x, y, w, h = (float(v) for v in re.search(r'viewBox="([^"]*)"', mark).group(1).split())
+    side = round(max(w, h) * 0.98, 2)
+    return f"{x + w / 2 - side / 2:g} {y + h / 2 - side / 2:g} {side:g} {side:g}"
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--check", action="store_true"); ap.add_argument("--brand")
@@ -79,13 +85,14 @@ def main():
     pairs = [("svg.wordmark in index.html", inline(html, "wordmark"), word, PAGE),
              ("svg.creature in index.html", inline(html, "creature"), mark, PAGE)]
     bad = [n for n, m, b, k in pairs if not same(m.group(0), b, k)]
-    if not same(fav, mark, FAV): bad.append("favicon.svg")
+    box = fav_box(mark)
+    if not same(fav, mark, FAV) or f'viewBox="{box}"' not in fav: bad.append("favicon.svg")
     if a.check:
         if bad: print("Differs from plyn-brand: " + ", ".join(bad)); sys.exit(1)
         print("Mark, wordmark and favicon match plyn-brand."); return
     for n, m, b, k in sorted(pairs, key=lambda p: -p[1].start()):
         if n in bad: html = html[:m.start()] + apply(m.group(0), b, k) + html[m.end():]
-    if "favicon.svg" in bad: fav = apply(fav, mark, FAV)
+    if "favicon.svg" in bad: fav = re.sub(r'viewBox="[^"]*"', f'viewBox="{box}"', apply(fav, mark, FAV), count=1)
     if bad: html_p.write_text(html, encoding="utf-8"); fav_p.write_text(fav, encoding="utf-8")
     print("Synced: " + (", ".join(bad) if bad else "nothing changed"))
 

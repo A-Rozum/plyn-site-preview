@@ -1,7 +1,7 @@
 Plyń landing page – Polski (pl)
 
-title: Plyń – standardy i narzędzia dla agentów AI
-desc: Plyń to system standardów i narzędzi dla agentów AI. On dostraja dowolnego agenta, model czy… kolegów i koleżanki do wizji, wartości i sposobów pracy Twojej organizacji – i utrzymuje ich na tej fali.
+title: Standardy i narzędzia dla agentów AI
+desc: Plyń to system standardów i narzędzi, który dostraja agentów AI, modele i… kolegów do tego, jak działa Twoja organizacja.
 eyebrow: Rozpoczęty w 2026 roku
 h1: Każdy agent na Twojej fali.
 cta: Powiadom mnie o becie →

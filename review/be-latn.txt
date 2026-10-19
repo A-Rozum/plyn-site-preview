@@ -1,7 +1,7 @@
 Plyń landing page – Łacinka (be-latn)
 
-title: Plyń – standarty i instrumienty dla AI-ahientaŭ
-desc: Plyń – heta sistema standartaŭ i instrumientaŭ dla AI-ahientaŭ. Jon naładžvaje luboha ahienta, madeĺ ci… kaleh na bačannie, kaštoŭnasci i sposaby pracy vašaj spravy – i trymaje ich na hetaj chvali.
+title: Standarty i instrumienty dla AI-ahientaŭ
+desc: Plyń – sistema standartaŭ i instrumientaŭ, jakaja naładžvaje AI-ahientaŭ, madeli i… kaleh na toje, jak pracuje vaša sprava.
 eyebrow: Pačaty ŭ 2026 hodzie
 h1: Kožny ahient – na vašaj chvali.
 cta: Paviedamić mnie pra betu →
