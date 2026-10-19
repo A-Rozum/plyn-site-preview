@@ -23,7 +23,7 @@
   .creature-space { block-size: var(--space-h); display: grid; place-items: center; position: relative; }
   .ring { inline-size: var(--ring); block-size: var(--ring); border: .1rem solid var(--line); border-radius: 50%; display: grid; place-items: center; position: absolute; }
   .ring::after { content: ""; inline-size: var(--ring-inner); block-size: var(--ring-inner); border: .1rem dashed var(--line); border-radius: 50%; }
-  .creature { inline-size: var(--creature-w); block-size: calc(var(--creature-w) * 80 / 62); filter: drop-shadow(0 1.2rem 1.6rem var(--shade)); }
+  .creature { inline-size: var(--creature-w); block-size: calc(var(--creature-w) * 85 / 62); translate: 0 -6%;  /* proportions of the mark's viewBox; raised so the body, not the kryska, sits in the middle of the ring */ filter: drop-shadow(0 1.2rem 1.6rem var(--shade)); }
   .wave { transform-box: fill-box; transform-origin: 5% 95%; animation: wave 6.5s ease-in-out 1.5s infinite; }
   .eyes { transform-box: fill-box; transform-origin: 50% 50%; animation: blink 8.7s infinite; }
   .ring { animation: spin 240s linear infinite; }
