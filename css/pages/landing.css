@@ -54,6 +54,21 @@
   .cast { position: absolute; left: calc(100% + 1.2rem); top: 50%; translate: 0 -50%; white-space: nowrap; font-style: italic; font-size: 1.35rem;
           color: var(--ink); opacity: 0; filter: blur(.3rem); transition: opacity 1.2s ease, filter 1.2s ease; pointer-events: none; }
   .bullet:hover .cast, .bullet.lit .cast { opacity: 1; filter: none; }
+  /* Consent bar: our own, at the bottom centre; asked once, after the visitor has had time to read the page. */
+  .consent-bar { position: fixed; z-index: 20; left: 50%; bottom: 2rem; translate: -50% 0; inline-size: min(64rem, calc(100% - 4rem)); box-sizing: border-box;
+                 display: flex; align-items: center; gap: 1.2rem 2rem; flex-wrap: wrap; padding: 1.2rem 1.4rem 1.2rem 2.2rem; border-radius: 2.2rem;
+                 background: color-mix(in srgb, var(--paper) 86%, transparent); backdrop-filter: blur(1rem); border: .1rem solid var(--line);
+                 box-shadow: 0 .6rem 2.4rem rgb(0 0 0 / .08); font-size: 1.3rem; color: var(--ink); }
+  .consent-bar[hidden] { display: none; }
+  .consent-bar.show { animation: develop 1.2s ease; }
+  .consent-bar.leave { opacity: 0; filter: blur(.4rem); transition: opacity .8s ease, filter .8s ease; }
+  .consent-bar p { margin: 0; flex: 1 1 30rem; line-height: 1.45; }
+  .consent-bar .info { flex-basis: 100%; order: 3; color: var(--subtle); font-size: 1.2rem; }
+  .consent-bar .info:not([hidden]) { animation: develop .9s ease; }
+  .consent-bar .choices { display: flex; gap: .8rem; }
+  .consent-bar .choices button { border-radius: 50rem; padding: .8rem 1.6rem; font: inherit; font-weight: 700; cursor: pointer; border: .1rem solid var(--line); background: transparent; color: var(--ink); }
+  .consent-bar .choices .yes { background: var(--accent); color: var(--on-accent); border-color: transparent; }
+  .consent-bar .more, .privacy-link { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: .3rem; }
   /* Everything that appears develops – from transparent and soft to sharp – never instantly. */
   dialog[open] { animation: develop .8s ease; }
   dialog[open]::backdrop { animation: develop .8s ease; }
@@ -101,6 +116,8 @@
     .secondary { margin: 1.8rem 0 0; }
     .ticker { inline-size: 36rem; }
     footer { font-size: 1.3rem; }
+    .consent-bar { bottom: 1rem; inline-size: calc(100% - 2rem); font-size: 1.35rem; }
+    .consent-bar .choices { inline-size: 100%; } .consent-bar .choices button { flex: 1; }
     .cast { left: -2rem; top: auto; bottom: calc(100% + 1.4rem); translate: none; }
     dialog { inline-size: 38rem; padding: 3rem; }
     dialog h2 { font-size: 2.5rem; }

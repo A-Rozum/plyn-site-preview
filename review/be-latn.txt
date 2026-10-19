@@ -24,7 +24,13 @@ usePh: Niekalki słoŭ pra vašu pracu abo ideju, jakuju chočacca pasprabavać.
 submit: Zarehistravać cikavasć →
 consent: My vykarystajem vaš adras tolki dlia taho, kab paviedamić pra betu.
 privS: Jak apracoŭvajucca vašy danyja
-privB: Adkazny za danyja: Andrey Rozum, Plyn.one@proton.me. Chostynh-pravajdar: Cloudflare, Inc.; jon apracoŭvaje danyja formy ad našaha imia i zachoŭvaje ich u JeS. My zachoŭvajem vaš adras i natatku tolki dlia taho, kab paviedamić pra betu Plyń, – pakuĺ nie paviedamim pra zapusk abo pakuĺ vy nie paprosicie ich vydalić. Padstava – vaša zhoda; jaje možna adklikać u luby čas, napisaŭšy na adras vyšej. Vy taksama možacie paprasić pakazać abo vypravić vašy danyja i paskardzicca ŭ orhan pa abaronie danych. Statystyka naviedvanniaŭ ananimnaja i biez cookie: my ličym staronku, jaje movu, sajt, z jakoha vy pryjšli, krainu, typ prylady, čas na staroncy i ci adkryvałasia ci adpraŭlałasia forma, biez IP-adrasoŭ.
+privB: Adkazny za danyja: Andrey Rozum, Plyn.one@proton.me. Chostynh-pravajdar: Cloudflare, Inc.; jon apracoŭvaje danyja formy ad našaha imia i zachoŭvaje ich u JeS. My zachoŭvajem vaš adras i natatku tolki dlia taho, kab paviedamić pra betu Plyń, – pakuĺ nie paviedamim pra zapusk abo pakuĺ vy nie paprosicie ich vydalić. Padstava – vaša zhoda; jaje možna adklikać u luby čas, napisaŭšy na adras vyšej. Vy taksama možacie paprasić pakazać abo vypravić vašy danyja i paskardzicca ŭ orhan pa abaronie danych. Statystyka naviedvanniaŭ ananimnaja i biez cookie: my ličym staronku, jaje movu, sajt, z jakoha vy pryjšli, krainu, typ prylady, čas na staroncy i ci adkryvałasia ci adpraŭlałasia forma, biez IP-adrasoŭ. Z vašaj zhody, dadzienaj u płašcy ŭnizie staronki, my taksama ličym tych, chto viartajecca, a Microsoft Clarity zapisvaje, jak karystajucca staronkaj; padrabiaznasci – u «Pryvatnasci» ŭnizie staronki.
 sending: Adpraŭliajem…
 ok: Dziakuj! My napišam vam, kali adkryjecca beta.
 err: Nie atrymałasia adpravić. Pasprabujcie krychu paźniej.
+cBar: Ci možna ananimna zapisvać, jak karystajucca hetaj staronkaj, kab zrabić jaje lepšaj?
+cYes: Dazvolić
+cNo: Nie, dziakuj
+cMore: Padrabiazniej
+cLink: Pryvatnaść
+cInfo: Z vašaj zhody my zachoŭvajem na hetaj pryladzie cookie z vypadkovym numaram vizitu, kab ličyć tych, chto viartajecca, a Microsoft Clarity zapisvaje abiazličanyja kliki, prakrutku i ruchi myšy na hetaj staroncy; toje, što vy ŭvodzicie, nie zapisvajecca. Clarity pracuje na Microsoft, jakaja moža apracoŭvać danyja pa-za JeS. Zmianić vybar možna ŭ luby čas praz «Pryvatnaść» unizie staronki. Adkazny za danyja: Andrey Rozum, Plyn.one@proton.me.

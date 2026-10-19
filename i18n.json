@@ -24,10 +24,16 @@
     "submit": "Register interest →",
     "consent": "We’ll use your email only to tell you about the beta.",
     "privS": "How your data is handled",
-    "privB": "Controller: Andrey Rozum, Plyn.one@proton.me. Hosting provider: Cloudflare, Inc., which processes the form data on our behalf and stores it in the EU. We keep your email and note only to tell you about the Plyń beta, until we announce its launch or until you ask us to delete them. The legal basis is your consent, which you can withdraw at any time by writing to the address above. You can also ask to access or correct your data and complain to a data protection authority. Visit statistics are anonymous and use no cookies: we count the page, its language, the referring site, the country, the device type, the time spent on the page and whether the form was opened or sent, without IP addresses.",
+    "privB": "Controller: Andrey Rozum, Plyn.one@proton.me. Hosting provider: Cloudflare, Inc., which processes the form data on our behalf and stores it in the EU. We keep your email and note only to tell you about the Plyń beta, until we announce its launch or until you ask us to delete them. The legal basis is your consent, which you can withdraw at any time by writing to the address above. You can also ask to access or correct your data and complain to a data protection authority. Visit statistics are anonymous and use no cookies: we count the page, its language, the referring site, the country, the device type, the time spent on the page and whether the form was opened or sent, without IP addresses. With your consent, given in the bar at the bottom of the page, we also count returning visitors and Microsoft Clarity records how the page is used; details under Privacy at the bottom of the page.",
     "sending": "Sending…",
     "ok": "Thank you! We’ll write to you when the beta opens.",
-    "err": "Couldn’t send. Please try again a little later."
+    "err": "Couldn’t send. Please try again a little later.",
+    "cBar": "May we anonymously record how this page is used, to make it better?",
+    "cYes": "Allow",
+    "cNo": "No, thanks",
+    "cMore": "Details",
+    "cLink": "Privacy",
+    "cInfo": "With your consent we keep a random visit number in a cookie on this device, to count returning visitors, and Microsoft Clarity records anonymised clicks, scrolling and mouse movement on this page; what you type is not recorded. Clarity is run by Microsoft, which may process the data outside the EU. You can change your choice at any time under Privacy at the bottom of the page. Controller: Andrey Rozum, Plyn.one@proton.me."
   },
   "be": {
     "title": "Plyń – Кожны агент на вашай хвалі",
@@ -54,10 +60,16 @@
     "submit": "Зарэгістраваць цікавасць →",
     "consent": "Мы выкарыстаем ваш адрас толькі для таго, каб паведаміць пра бэту.",
     "privS": "Як апрацоўваюцца вашы даныя",
-    "privB": "Адказны за даныя: Andrey Rozum, Plyn.one@proton.me. Хостынг-правайдар: Cloudflare, Inc.; ён апрацоўвае даныя формы ад нашага імя і захоўвае іх у ЕС. Мы захоўваем ваш адрас і нататку толькі для таго, каб паведаміць пра бэту Plyń, – пакуль не паведамім пра запуск або пакуль вы не папросіце іх выдаліць. Падстава – ваша згода; яе можна адклікаць у любы час, напісаўшы на адрас вышэй. Вы таксама можаце папрасіць паказаць або выправіць вашы даныя і паскардзіцца ў орган па абароне даных. Статыстыка наведванняў ананімная і без cookie: мы лічым старонку, яе мову, сайт, з якога вы прыйшлі, краіну, тып прылады, час на старонцы і ці адкрывалася ці адпраўлялася форма, без IP-адрасоў.",
+    "privB": "Адказны за даныя: Andrey Rozum, Plyn.one@proton.me. Хостынг-правайдар: Cloudflare, Inc.; ён апрацоўвае даныя формы ад нашага імя і захоўвае іх у ЕС. Мы захоўваем ваш адрас і нататку толькі для таго, каб паведаміць пра бэту Plyń, – пакуль не паведамім пра запуск або пакуль вы не папросіце іх выдаліць. Падстава – ваша згода; яе можна адклікаць у любы час, напісаўшы на адрас вышэй. Вы таксама можаце папрасіць паказаць або выправіць вашы даныя і паскардзіцца ў орган па абароне даных. Статыстыка наведванняў ананімная і без cookie: мы лічым старонку, яе мову, сайт, з якога вы прыйшлі, краіну, тып прылады, час на старонцы і ці адкрывалася ці адпраўлялася форма, без IP-адрасоў. З вашай згоды, дадзенай у плашцы ўнізе старонкі, мы таксама лічым тых, хто вяртаецца, а Microsoft Clarity запісвае, як карыстаюцца старонкай; падрабязнасці – у «Прыватнасці» ўнізе старонкі.",
     "sending": "Адпраўляем…",
     "ok": "Дзякуй! Мы напішам вам, калі адкрыецца бэта.",
-    "err": "Не атрымалася адправіць. Паспрабуйце крыху пазней."
+    "err": "Не атрымалася адправіць. Паспрабуйце крыху пазней.",
+    "cBar": "Ці можна ананімна запісваць, як карыстаюцца гэтай старонкай, каб зрабіць яе лепшай?",
+    "cYes": "Дазволіць",
+    "cNo": "Не, дзякуй",
+    "cMore": "Падрабязней",
+    "cLink": "Прыватнасць",
+    "cInfo": "З вашай згоды мы захоўваем на гэтай прыладзе cookie з выпадковым нумарам візіту, каб лічыць тых, хто вяртаецца, а Microsoft Clarity запісвае абязлічаныя клікі, пракрутку і рухі мышы на гэтай старонцы; тое, што вы ўводзіце, не запісваецца. Clarity працуе на Microsoft, якая можа апрацоўваць даныя па-за ЕС. Змяніць выбар можна ў любы час праз «Прыватнасць» унізе старонкі. Адказны за даныя: Andrey Rozum, Plyn.one@proton.me."
   },
   "be-latn": {
     "title": "Plyń – Kožny ahient na vašaj chvali",
@@ -84,10 +96,16 @@
     "submit": "Zarehistravać cikavasć →",
     "consent": "My vykarystajem vaš adras tolki dlia taho, kab paviedamić pra betu.",
     "privS": "Jak apracoŭvajucca vašy danyja",
-    "privB": "Adkazny za danyja: Andrey Rozum, Plyn.one@proton.me. Chostynh-pravajdar: Cloudflare, Inc.; jon apracoŭvaje danyja formy ad našaha imia i zachoŭvaje ich u JeS. My zachoŭvajem vaš adras i natatku tolki dlia taho, kab paviedamić pra betu Plyń, – pakuĺ nie paviedamim pra zapusk abo pakuĺ vy nie paprosicie ich vydalić. Padstava – vaša zhoda; jaje možna adklikać u luby čas, napisaŭšy na adras vyšej. Vy taksama možacie paprasić pakazać abo vypravić vašy danyja i paskardzicca ŭ orhan pa abaronie danych. Statystyka naviedvanniaŭ ananimnaja i biez cookie: my ličym staronku, jaje movu, sajt, z jakoha vy pryjšli, krainu, typ prylady, čas na staroncy i ci adkryvałasia ci adpraŭlałasia forma, biez IP-adrasoŭ.",
+    "privB": "Adkazny za danyja: Andrey Rozum, Plyn.one@proton.me. Chostynh-pravajdar: Cloudflare, Inc.; jon apracoŭvaje danyja formy ad našaha imia i zachoŭvaje ich u JeS. My zachoŭvajem vaš adras i natatku tolki dlia taho, kab paviedamić pra betu Plyń, – pakuĺ nie paviedamim pra zapusk abo pakuĺ vy nie paprosicie ich vydalić. Padstava – vaša zhoda; jaje možna adklikać u luby čas, napisaŭšy na adras vyšej. Vy taksama možacie paprasić pakazać abo vypravić vašy danyja i paskardzicca ŭ orhan pa abaronie danych. Statystyka naviedvanniaŭ ananimnaja i biez cookie: my ličym staronku, jaje movu, sajt, z jakoha vy pryjšli, krainu, typ prylady, čas na staroncy i ci adkryvałasia ci adpraŭlałasia forma, biez IP-adrasoŭ. Z vašaj zhody, dadzienaj u płašcy ŭnizie staronki, my taksama ličym tych, chto viartajecca, a Microsoft Clarity zapisvaje, jak karystajucca staronkaj; padrabiaznasci – u «Pryvatnasci» ŭnizie staronki.",
     "sending": "Adpraŭliajem…",
     "ok": "Dziakuj! My napišam vam, kali adkryjecca beta.",
-    "err": "Nie atrymałasia adpravić. Pasprabujcie krychu paźniej."
+    "err": "Nie atrymałasia adpravić. Pasprabujcie krychu paźniej.",
+    "cBar": "Ci možna ananimna zapisvać, jak karystajucca hetaj staronkaj, kab zrabić jaje lepšaj?",
+    "cYes": "Dazvolić",
+    "cNo": "Nie, dziakuj",
+    "cMore": "Padrabiazniej",
+    "cLink": "Pryvatnaść",
+    "cInfo": "Z vašaj zhody my zachoŭvajem na hetaj pryladzie cookie z vypadkovym numaram vizitu, kab ličyć tych, chto viartajecca, a Microsoft Clarity zapisvaje abiazličanyja kliki, prakrutku i ruchi myšy na hetaj staroncy; toje, što vy ŭvodzicie, nie zapisvajecca. Clarity pracuje na Microsoft, jakaja moža apracoŭvać danyja pa-za JeS. Zmianić vybar možna ŭ luby čas praz «Pryvatnaść» unizie staronki. Adkazny za danyja: Andrey Rozum, Plyn.one@proton.me."
   },
   "pl": {
     "title": "Plyń – Każdy agent na Twojej fali",
@@ -114,10 +132,16 @@
     "submit": "Zgłoś zainteresowanie →",
     "consent": "Twój adres wykorzystamy wyłącznie, by powiadomić Cię o becie.",
     "privS": "Jak przetwarzamy Twoje dane",
-    "privB": "Administrator danych: Andrey Rozum, Plyn.one@proton.me. Dostawca hostingu: Cloudflare, Inc., który przetwarza dane z formularza w naszym imieniu i przechowuje je w UE. Przechowujemy Twój adres i notatkę wyłącznie po to, by powiadomić Cię o becie Plyń – do czasu ogłoszenia startu lub do Twojej prośby o ich usunięcie. Podstawą jest Twoja zgoda, którą możesz w każdej chwili wycofać, pisząc na powyższy adres. Możesz też żądać dostępu do danych lub ich sprostowania oraz złożyć skargę do organu ochrony danych. Statystyki odwiedzin są anonimowe i bez cookies: liczymy stronę, jej język, witrynę, z której przyszedłeś, kraj, typ urządzenia, czas spędzony na stronie oraz to, czy formularz został otwarty lub wysłany, bez adresów IP.",
+    "privB": "Administrator danych: Andrey Rozum, Plyn.one@proton.me. Dostawca hostingu: Cloudflare, Inc., który przetwarza dane z formularza w naszym imieniu i przechowuje je w UE. Przechowujemy Twój adres i notatkę wyłącznie po to, by powiadomić Cię o becie Plyń – do czasu ogłoszenia startu lub do Twojej prośby o ich usunięcie. Podstawą jest Twoja zgoda, którą możesz w każdej chwili wycofać, pisząc na powyższy adres. Możesz też żądać dostępu do danych lub ich sprostowania oraz złożyć skargę do organu ochrony danych. Statystyki odwiedzin są anonimowe i bez cookies: liczymy stronę, jej język, witrynę, z której przyszedłeś, kraj, typ urządzenia, czas spędzony na stronie oraz to, czy formularz został otwarty lub wysłany, bez adresów IP. Za Twoją zgodą, wyrażoną na pasku na dole strony, liczymy też powracających odwiedzających, a Microsoft Clarity rejestruje sposób korzystania ze strony; szczegóły w zakładce Prywatność na dole strony.",
     "sending": "Wysyłanie…",
     "ok": "Dziękujemy! Napiszemy do Ciebie, gdy beta wystartuje.",
-    "err": "Nie udało się wysłać. Spróbuj ponownie za chwilę."
+    "err": "Nie udało się wysłać. Spróbuj ponownie za chwilę.",
+    "cBar": "Czy możemy anonimowo rejestrować, jak korzystasz z tej strony, aby ją ulepszać?",
+    "cYes": "Zgadzam się",
+    "cNo": "Nie, dziękuję",
+    "cMore": "Szczegóły",
+    "cLink": "Prywatność",
+    "cInfo": "Za Twoją zgodą przechowujemy na tym urządzeniu plik cookie z losowym numerem wizyty, aby liczyć powracających odwiedzających, a Microsoft Clarity rejestruje zanonimizowane kliknięcia, przewijanie i ruchy myszy na tej stronie; to, co wpisujesz, nie jest rejestrowane. Clarity działa po stronie Microsoft, który może przetwarzać dane poza UE. Wybór możesz w każdej chwili zmienić w zakładce Prywatność na dole strony. Administrator danych: Andrey Rozum, Plyn.one@proton.me."
   },
   "it": {
     "title": "Plyń – Ogni agente sulla tua lunghezza d’onda",
@@ -144,10 +168,16 @@
     "submit": "Registra il tuo interesse →",
     "consent": "Useremo la tua email solo per avvisarti della beta.",
     "privS": "Come trattiamo i tuoi dati",
-    "privB": "Titolare del trattamento: Andrey Rozum, Plyn.one@proton.me. Fornitore di hosting: Cloudflare, Inc., che tratta i dati del modulo per nostro conto e li conserva nell’UE. Conserviamo la tua email e la tua nota solo per avvisarti della beta di Plyń, fino all’annuncio del lancio o finché non ci chiedi di cancellarle. La base giuridica è il tuo consenso, che puoi revocare in qualsiasi momento scrivendo all’indirizzo indicato. Puoi anche chiedere l’accesso ai tuoi dati o la loro rettifica e presentare reclamo a un’autorità di controllo. Le statistiche delle visite sono anonime e senza cookie: contiamo la pagina, la lingua, il sito di provenienza, il paese, il tipo di dispositivo, il tempo trascorso sulla pagina e se il modulo è stato aperto o inviato, senza indirizzi IP.",
+    "privB": "Titolare del trattamento: Andrey Rozum, Plyn.one@proton.me. Fornitore di hosting: Cloudflare, Inc., che tratta i dati del modulo per nostro conto e li conserva nell’UE. Conserviamo la tua email e la tua nota solo per avvisarti della beta di Plyń, fino all’annuncio del lancio o finché non ci chiedi di cancellarle. La base giuridica è il tuo consenso, che puoi revocare in qualsiasi momento scrivendo all’indirizzo indicato. Puoi anche chiedere l’accesso ai tuoi dati o la loro rettifica e presentare reclamo a un’autorità di controllo. Le statistiche delle visite sono anonime e senza cookie: contiamo la pagina, la lingua, il sito di provenienza, il paese, il tipo di dispositivo, il tempo trascorso sulla pagina e se il modulo è stato aperto o inviato, senza indirizzi IP. Con il tuo consenso, dato nella barra in fondo alla pagina, contiamo anche chi ritorna e Microsoft Clarity registra come viene usata la pagina; dettagli in Privacy in fondo alla pagina.",
     "sending": "Invio in corso…",
     "ok": "Grazie! Ti scriveremo quando la beta sarà aperta.",
-    "err": "Invio non riuscito. Riprova tra poco."
+    "err": "Invio non riuscito. Riprova tra poco.",
+    "cBar": "Possiamo registrare in forma anonima come viene usata questa pagina, per migliorarla?",
+    "cYes": "Consento",
+    "cNo": "No, grazie",
+    "cMore": "Dettagli",
+    "cLink": "Privacy",
+    "cInfo": "Con il tuo consenso conserviamo su questo dispositivo un cookie con un numero di visita casuale, per contare chi ritorna, e Microsoft Clarity registra in forma anonimizzata clic, scorrimento e movimenti del mouse su questa pagina; ciò che digiti non viene registrato. Clarity è gestito da Microsoft, che può trattare i dati fuori dall’UE. Puoi cambiare la tua scelta in qualsiasi momento da Privacy in fondo alla pagina. Titolare del trattamento: Andrey Rozum, Plyn.one@proton.me."
   },
   "lt": {
     "title": "Plyń – Kiekvienas agentas vienoje bangoje su jumis",
@@ -174,9 +204,15 @@
     "submit": "Išreikšti susidomėjimą →",
     "consent": "Jūsų el. pašto adresą naudosime tik tam, kad praneštume apie beta versiją.",
     "privS": "Kaip tvarkomi jūsų duomenys",
-    "privB": "Duomenų valdytojas: Andrey Rozum, Plyn.one@proton.me. Prieglobos paslaugų teikėjas: Cloudflare, Inc., kuris mūsų vardu tvarko formos duomenis ir saugo juos ES. Jūsų el. pašto adresą ir pastabą saugome tik tam, kad praneštume apie Plyń beta versiją, – kol pranešime apie paleidimą arba kol paprašysite juos ištrinti. Pagrindas – jūsų sutikimas, kurį galite bet kada atšaukti parašę nurodytu adresu. Taip pat galite prašyti susipažinti su savo duomenimis ar juos ištaisyti ir pateikti skundą duomenų apsaugos priežiūros institucijai. Apsilankymų statistika anoniminė ir be slapukų: skaičiuojame puslapį, jo kalbą, svetainę, iš kurios atėjote, šalį, įrenginio tipą, laiką puslapyje ir tai, ar forma buvo atidaryta ar išsiųsta, be IP adresų.",
+    "privB": "Duomenų valdytojas: Andrey Rozum, Plyn.one@proton.me. Prieglobos paslaugų teikėjas: Cloudflare, Inc., kuris mūsų vardu tvarko formos duomenis ir saugo juos ES. Jūsų el. pašto adresą ir pastabą saugome tik tam, kad praneštume apie Plyń beta versiją, – kol pranešime apie paleidimą arba kol paprašysite juos ištrinti. Pagrindas – jūsų sutikimas, kurį galite bet kada atšaukti parašę nurodytu adresu. Taip pat galite prašyti susipažinti su savo duomenimis ar juos ištaisyti ir pateikti skundą duomenų apsaugos priežiūros institucijai. Apsilankymų statistika anoniminė ir be slapukų: skaičiuojame puslapį, jo kalbą, svetainę, iš kurios atėjote, šalį, įrenginio tipą, laiką puslapyje ir tai, ar forma buvo atidaryta ar išsiųsta, be IP adresų. Jums sutikus juostoje puslapio apačioje, taip pat skaičiuojame sugrįžtančius lankytojus, o Microsoft Clarity įrašo, kaip naudojamasi puslapiu; išsamiau – skiltyje „Privatumas“ puslapio apačioje.",
     "sending": "Siunčiama…",
     "ok": "Ačiū! Parašysime jums, kai beta versija bus atverta.",
-    "err": "Nepavyko išsiųsti. Pabandykite šiek tiek vėliau."
+    "err": "Nepavyko išsiųsti. Pabandykite šiek tiek vėliau.",
+    "cBar": "Ar galime anonimiškai įrašyti, kaip naudojamasi šiuo puslapiu, kad jį patobulintume?",
+    "cYes": "Leisti",
+    "cNo": "Ne, ačiū",
+    "cMore": "Išsamiau",
+    "cLink": "Privatumas",
+    "cInfo": "Jums sutikus, šiame įrenginyje saugome slapuką su atsitiktiniu apsilankymo numeriu, kad suskaičiuotume sugrįžtančius lankytojus, o Microsoft Clarity įrašo nuasmenintus paspaudimus, slinkimą ir pelės judesius šiame puslapyje; tai, ką įvedate, neįrašoma. Clarity valdo Microsoft, kuri duomenis gali tvarkyti už ES ribų. Pasirinkimą bet kada galite pakeisti skiltyje „Privatumas“ puslapio apačioje. Duomenų valdytojas: Andrey Rozum, Plyn.one@proton.me."
   }
 }

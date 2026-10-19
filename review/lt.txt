@@ -24,7 +24,13 @@ usePh: Keli žodžiai apie jūsų darbą ar idėją, kurią norėtumėte išband
 submit: Išreikšti susidomėjimą →
 consent: Jūsų el. pašto adresą naudosime tik tam, kad praneštume apie beta versiją.
 privS: Kaip tvarkomi jūsų duomenys
-privB: Duomenų valdytojas: Andrey Rozum, Plyn.one@proton.me. Prieglobos paslaugų teikėjas: Cloudflare, Inc., kuris mūsų vardu tvarko formos duomenis ir saugo juos ES. Jūsų el. pašto adresą ir pastabą saugome tik tam, kad praneštume apie Plyń beta versiją, – kol pranešime apie paleidimą arba kol paprašysite juos ištrinti. Pagrindas – jūsų sutikimas, kurį galite bet kada atšaukti parašę nurodytu adresu. Taip pat galite prašyti susipažinti su savo duomenimis ar juos ištaisyti ir pateikti skundą duomenų apsaugos priežiūros institucijai. Apsilankymų statistika anoniminė ir be slapukų: skaičiuojame puslapį, jo kalbą, svetainę, iš kurios atėjote, šalį, įrenginio tipą, laiką puslapyje ir tai, ar forma buvo atidaryta ar išsiųsta, be IP adresų.
+privB: Duomenų valdytojas: Andrey Rozum, Plyn.one@proton.me. Prieglobos paslaugų teikėjas: Cloudflare, Inc., kuris mūsų vardu tvarko formos duomenis ir saugo juos ES. Jūsų el. pašto adresą ir pastabą saugome tik tam, kad praneštume apie Plyń beta versiją, – kol pranešime apie paleidimą arba kol paprašysite juos ištrinti. Pagrindas – jūsų sutikimas, kurį galite bet kada atšaukti parašę nurodytu adresu. Taip pat galite prašyti susipažinti su savo duomenimis ar juos ištaisyti ir pateikti skundą duomenų apsaugos priežiūros institucijai. Apsilankymų statistika anoniminė ir be slapukų: skaičiuojame puslapį, jo kalbą, svetainę, iš kurios atėjote, šalį, įrenginio tipą, laiką puslapyje ir tai, ar forma buvo atidaryta ar išsiųsta, be IP adresų. Jums sutikus juostoje puslapio apačioje, taip pat skaičiuojame sugrįžtančius lankytojus, o Microsoft Clarity įrašo, kaip naudojamasi puslapiu; išsamiau – skiltyje „Privatumas“ puslapio apačioje.
 sending: Siunčiama…
 ok: Ačiū! Parašysime jums, kai beta versija bus atverta.
 err: Nepavyko išsiųsti. Pabandykite šiek tiek vėliau.
+cBar: Ar galime anonimiškai įrašyti, kaip naudojamasi šiuo puslapiu, kad jį patobulintume?
+cYes: Leisti
+cNo: Ne, ačiū
+cMore: Išsamiau
+cLink: Privatumas
+cInfo: Jums sutikus, šiame įrenginyje saugome slapuką su atsitiktiniu apsilankymo numeriu, kad suskaičiuotume sugrįžtančius lankytojus, o Microsoft Clarity įrašo nuasmenintus paspaudimus, slinkimą ir pelės judesius šiame puslapyje; tai, ką įvedate, neįrašoma. Clarity valdo Microsoft, kuri duomenis gali tvarkyti už ES ribų. Pasirinkimą bet kada galite pakeisti skiltyje „Privatumas“ puslapio apačioje. Duomenų valdytojas: Andrey Rozum, Plyn.one@proton.me.

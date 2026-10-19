@@ -26,6 +26,8 @@ table("Devices", f"SELECT device, count(*) FROM hits WHERE kind = 'view' AND bot
 table("Time on page: leaves, median-ish (avg of middle half) seconds, bounce %",
       f"WITH l AS (SELECT ms, interacted, row_number() OVER (ORDER BY ms) r, count(*) OVER () n FROM hits WHERE kind = 'leave' AND bot = 0 AND {w}) "
       f"SELECT count(*), round(avg(CASE WHEN r BETWEEN n / 4.0 AND n * 3 / 4.0 THEN ms END) / 1000.0, 1), round(100.0 * sum(interacted = 0 AND ms < 10000) / count(*), 1) FROM l")
+table("Consent: allowed, declined, allowed %", f"SELECT sum(kind = 'consent-yes'), sum(kind = 'consent-no'), round(100.0 * sum(kind = 'consent-yes') / max(1, sum(kind IN ('consent-yes', 'consent-no'))), 1) FROM hits WHERE bot = 0 AND {w}")
+table("Visitors who allowed it: unique, returning (seen on more than one day)", f"WITH v AS (SELECT vid, count(DISTINCT substr(at, 1, 10)) d FROM hits WHERE kind = 'view' AND bot = 0 AND vid IS NOT NULL AND {w} GROUP BY vid) SELECT count(*), sum(d > 1) FROM v")
 table("Form: opened, sent, sent % of opened", f"SELECT sum(kind = 'open'), sum(kind = 'submit'), round(100.0 * sum(kind = 'submit') / max(1, sum(kind = 'open')), 1) FROM hits WHERE bot = 0 AND {w}")
 
 # Search phrases. Bing: BING_WEBMASTER_KEY (API key of the agents' Microsoft account). Google: GOOGLE_SA_JSON, the path to

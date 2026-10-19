@@ -24,7 +24,13 @@ usePh: Kilka słów o Twojej pracy lub pomyśle, który chcesz wypróbować...
 submit: Zgłoś zainteresowanie →
 consent: Twój adres wykorzystamy wyłącznie, by powiadomić Cię o becie.
 privS: Jak przetwarzamy Twoje dane
-privB: Administrator danych: Andrey Rozum, Plyn.one@proton.me. Dostawca hostingu: Cloudflare, Inc., który przetwarza dane z formularza w naszym imieniu i przechowuje je w UE. Przechowujemy Twój adres i notatkę wyłącznie po to, by powiadomić Cię o becie Plyń – do czasu ogłoszenia startu lub do Twojej prośby o ich usunięcie. Podstawą jest Twoja zgoda, którą możesz w każdej chwili wycofać, pisząc na powyższy adres. Możesz też żądać dostępu do danych lub ich sprostowania oraz złożyć skargę do organu ochrony danych. Statystyki odwiedzin są anonimowe i bez cookies: liczymy stronę, jej język, witrynę, z której przyszedłeś, kraj, typ urządzenia, czas spędzony na stronie oraz to, czy formularz został otwarty lub wysłany, bez adresów IP.
+privB: Administrator danych: Andrey Rozum, Plyn.one@proton.me. Dostawca hostingu: Cloudflare, Inc., który przetwarza dane z formularza w naszym imieniu i przechowuje je w UE. Przechowujemy Twój adres i notatkę wyłącznie po to, by powiadomić Cię o becie Plyń – do czasu ogłoszenia startu lub do Twojej prośby o ich usunięcie. Podstawą jest Twoja zgoda, którą możesz w każdej chwili wycofać, pisząc na powyższy adres. Możesz też żądać dostępu do danych lub ich sprostowania oraz złożyć skargę do organu ochrony danych. Statystyki odwiedzin są anonimowe i bez cookies: liczymy stronę, jej język, witrynę, z której przyszedłeś, kraj, typ urządzenia, czas spędzony na stronie oraz to, czy formularz został otwarty lub wysłany, bez adresów IP. Za Twoją zgodą, wyrażoną na pasku na dole strony, liczymy też powracających odwiedzających, a Microsoft Clarity rejestruje sposób korzystania ze strony; szczegóły w zakładce Prywatność na dole strony.
 sending: Wysyłanie…
 ok: Dziękujemy! Napiszemy do Ciebie, gdy beta wystartuje.
 err: Nie udało się wysłać. Spróbuj ponownie za chwilę.
+cBar: Czy możemy anonimowo rejestrować, jak korzystasz z tej strony, aby ją ulepszać?
+cYes: Zgadzam się
+cNo: Nie, dziękuję
+cMore: Szczegóły
+cLink: Prywatność
+cInfo: Za Twoją zgodą przechowujemy na tym urządzeniu plik cookie z losowym numerem wizyty, aby liczyć powracających odwiedzających, a Microsoft Clarity rejestruje zanonimizowane kliknięcia, przewijanie i ruchy myszy na tej stronie; to, co wpisujesz, nie jest rejestrowane. Clarity działa po stronie Microsoft, który może przetwarzać dane poza UE. Wybór możesz w każdej chwili zmienić w zakładce Prywatność na dole strony. Administrator danych: Andrey Rozum, Plyn.one@proton.me.

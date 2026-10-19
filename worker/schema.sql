@@ -4,3 +4,4 @@ CREATE TABLE IF NOT EXISTS hits (at TEXT NOT NULL, kind TEXT NOT NULL, path TEXT
 CREATE INDEX IF NOT EXISTS hits_at ON hits(at);
 ALTER TABLE hits ADD COLUMN ms INTEGER;  -- time on page, kind leave
 ALTER TABLE hits ADD COLUMN interacted INTEGER;  -- any click or key before leaving
+ALTER TABLE hits ADD COLUMN vid TEXT;  -- random visit number from cookie plyn-vid, only with consent
