@@ -1,10 +1,9 @@
 Plyń landing page – English (en)
 
-title: Plyń – Every agent on your wavelength
-desc: Plyń tunes any agent, model or… colleague to the way you work, and keeps them there. Join the beta interest list.
+title: Plyń – Standards and Tools for AI Agents
+desc: Plyń is standards and tools for AI agents. It tunes any agent, model or… colleagues to the vision, values and ways of working of your organisation – and keeps them on that wavelength.
 eyebrow: Started in 2026
 h1: Every agent on your wavelength.
-support: Plyń tunes any agent, model or… colleague to the way you work, and keeps them there.
 cta: Notify me about the beta →
 line1: Launch date: known only to the AI deities. They’re not answering email.
 line2: The oracle is silent on the date. The agents aren’t – they’re working overtime.
@@ -34,3 +33,7 @@ cNo: No
 cMore: Details
 cLink: Privacy
 cInfo: Nothing gets baked here without your say-so. Allow, and we keep a single crumb – a random visit number – and Microsoft Clarity (possibly outside the EU) watches clicks and scrolling, never what you type. Changed your mind? Privacy, at the bottom. Andrey Rozum, Plyn.one@proton.me.
+supportA: Plyń is standards and tools for AI agents.
+who: It
+whoTip: He? She? It? It’ll decide when it grows up.
+supportB: tunes any agent, model or… colleagues to the vision, values and ways of working of your organisation – and keeps them on that wavelength.

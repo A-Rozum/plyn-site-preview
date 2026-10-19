@@ -1,10 +1,9 @@
 Plyń landing page – Polski (pl)
 
-title: Plyń – Każdy agent na Twojej fali
-desc: Plyń dostraja dowolnego agenta, model czy… współpracownika do Twojego sposobu pracy i utrzymuje ich na tej fali.
+title: Plyń – standardy i narzędzia dla agentów AI
+desc: Plyń to standardy i narzędzia dla agentów AI. On dostraja dowolnego agenta, model czy… kolegów i koleżanki do wizji, wartości i sposobów pracy Twojej organizacji – i utrzymuje ich na tej fali.
 eyebrow: Rozpoczęty w 2026 roku
 h1: Każdy agent na Twojej fali.
-support: Plyń dostraja dowolnego agenta, model czy… współpracownika do Twojego sposobu pracy i utrzymuje ich na tej fali.
 cta: Powiadom mnie o becie →
 line1: Datę startu znają tylko bogowie AI. Na maile nie odpisują.
 line2: Wyrocznia milczy w sprawie daty. Agenci nie – pracują po godzinach.
@@ -34,3 +33,7 @@ cNo: Nie
 cMore: Szczegóły
 cLink: Prywatność
 cInfo: Bez Twojej zgody nic się tu nie piecze. Zezwolisz – zostawimy jeden okruszek, losowy numer wizyty, a Microsoft Clarity (być może poza UE) popatrzy na kliknięcia i przewijanie, nigdy na to, co wpisujesz. Zmiana zdania? „Prywatność” na dole strony. Andrey Rozum, Plyn.one@proton.me.
+supportA: Plyń to standardy i narzędzia dla agentów AI.
+who: On
+whoTip: On? Ona? Ono? Jak dorośnie, samo zdecyduje.
+supportB: dostraja dowolnego agenta, model czy… kolegów i koleżanki do wizji, wartości i sposobów pracy Twojej organizacji – i utrzymuje ich na tej fali.

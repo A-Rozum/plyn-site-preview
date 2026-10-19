@@ -40,3 +40,5 @@ bar.querySelector('.more').addEventListener('click',()=>{const i=bar.querySelect
 document.querySelectorAll('.pact-open').forEach(b=>b.addEventListener('click',()=>{show();bar.querySelector('.info').hidden=false;bar.classList.add('open')}));
 const c=store.get();if(c){apply(c==='yes');return}
 show()})();
+/* The pronoun's tooltip: a tap shows it for a few seconds. */
+(()=>{document.querySelectorAll('.who').forEach(w=>{let t;w.addEventListener('click',()=>{w.classList.add('lit');clearTimeout(t);t=setTimeout(()=>w.classList.remove('lit'),4500)})})})();

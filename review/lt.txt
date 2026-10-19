@@ -1,12 +1,11 @@
 Plyń landing page – Lietuvių (lt)
 
-title: Plyń – Kiekvienas agentas vienoje bangoje su jumis
-desc: Plyń suderina bet kurį agentą, modelį ar… kolegą su jūsų darbo būdu ir išlaiko juos toje pačioje bangoje.
+title: Plyń – standartai ir įrankiai AI agentams
+desc: Plyń – tai standartai ir įrankiai AI agentams. Jis suderina bet kurį agentą, modelį ar… kolegas su jūsų organizacijos vizija, vertybėmis ir darbo būdais – ir išlaiko juos toje pačioje bangoje.
 eyebrow: Pradėtas 2026 metais
 h1: Kiekvienas agentas – vienoje bangoje su jumis.
-support: Plyń suderina bet kurį agentą, modelį ar… kolegą su jūsų darbo būdu ir išlaiko juos toje pačioje bangoje.
 cta: Pranešti man apie beta versiją →
-line1: Paleidimo datą žino tik DI dievai. Į laiškus jie neatsako.
+line1: Paleidimo datą žino tik AI dievai. Į laiškus jie neatsako.
 line2: Orakulas apie datą tyli. Agentai – ne: jie dirba viršvalandžius.
 line3: Kalibruojame bangas… 37 %. Prie likusių 63 % jau dirbame.
 line4: Mokome kuodelį mojuoti į taktą. Repeticijos vyksta dieną ir naktį.
@@ -16,7 +15,7 @@ theme: Keisti temą
 lang: Kalba
 close: Uždaryti
 dlgH: Domina beta versija?
-dlgP: Palikite el. pašto adresą ir, jei norite, parašykite, kokį darbą norėtumėte išbandyti kartu su žmonėmis ir DI agentais.
+dlgP: Palikite el. pašto adresą ir, jei norite, parašykite, kokį darbą norėtumėte išbandyti kartu su žmonėmis ir AI agentais.
 emailL: El. pašto adresas
 emailPh: you@example.com
 useL: Kam naudotumėte Plyń? (nebūtina)
@@ -34,3 +33,7 @@ cNo: Ne
 cMore: Išsamiau
 cLink: Privatumas
 cInfo: Be jūsų žodžio čia niekas nekepama. Leisite – paliksime vieną trupinėlį, atsitiktinį apsilankymo numerį, o Microsoft Clarity (galbūt už ES ribų) stebės paspaudimus ir slinkimą, bet ne tai, ką įvedate. Persigalvojote? „Privatumas“ puslapio apačioje. Andrey Rozum, Plyn.one@proton.me.
+supportA: Plyń – tai standartai ir įrankiai AI agentams.
+who: Jis
+whoTip: Jis? Ji? Kai užaugs, pats nuspręs.
+supportB: suderina bet kurį agentą, modelį ar… kolegas su jūsų organizacijos vizija, vertybėmis ir darbo būdais – ir išlaiko juos toje pačioje bangoje.

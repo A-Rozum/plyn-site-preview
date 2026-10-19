@@ -1,12 +1,11 @@
 Plyń landing page – Łacinka (be-latn)
 
-title: Plyń – Kožny ahient na vašaj chvali
-desc: Plyń naładžvaje luboha ahienta, madeĺ ci… kalehu na vaš sposab pracy i ŭtrymlivaje ich na hetaj chvali.
+title: Plyń – standarty i instrumienty dla AI-ahientaŭ
+desc: Plyń – heta standarty i instrumienty dla AI-ahientaŭ. Jon naładžvaje luboha ahienta, madeĺ ci… kaleh na bačannie, kaštoŭnasci i sposaby pracy vašaj spravy – i ŭtrymlivaje ich na hetaj chvali.
 eyebrow: Pačaty ŭ 2026 hodzie
 h1: Kožny ahient – na vašaj chvali.
-support: Plyń naładžvaje luboha ahienta, madeĺ ci… kalehu na vaš sposab pracy i ŭtrymlivaje ich na hetaj chvali.
 cta: Paviedamić mnie pra betu →
-line1: Datu zapusku viedajuć toĺki ŠI-bahi. Na listy jany nie adkazvajuć.
+line1: Datu zapusku viedajuć toĺki AI-bahi. Na listy jany nie adkazvajuć.
 line2: Arakul pra datu maŭčyć. Ahienty – nie: jany pracujuć zvyšuročna.
 line3: Naladžvajem chvali… 37 %. Nad astatnimi 63 % užo pracujem.
 line4: Vučym čubok machać u takt. Repietycyi iduć dzień i noč.
@@ -16,7 +15,7 @@ theme: Źmianić temu
 lang: Mova
 close: Zakryć
 dlgH: Cikavić beta-versija?
-dlgP: Pakińcie adras elektronnaj pošty i, kali chočacie, raskažycie, jakuju pracu vy chacieli b sprabavać z ludźmi i ŠI-ahientami.
+dlgP: Pakińcie adras elektronnaj pošty i, kali chočacie, raskažycie, jakuju pracu vy chacieli b sprabavać z ludźmi i AI-ahientami.
 emailL: Adras elektronnaj pošty
 emailPh: you@example.com
 useL: Dlia čaho vy vykarystoŭvali b Plyń? (nieabaviazkova)
@@ -34,3 +33,7 @@ cNo: Nie
 cMore: Padrabiazniej
 cLink: Pryvatnaść
 cInfo: Biez vašaha słova tut ničoha nie piakuć. Dazvolicie – i my pakinim adnu krošku, vypadkovy numar vizitu, a Microsoft Clarity (mahčyma, pa-za JeS) pahliadzić na kliki i prakrutku, ale nie na toje, što vy ŭvodzicie. Pieradumali? «Pryvatnaść» unizie. Andrey Rozum, Plyn.one@proton.me.
+supportA: Plyń – heta standarty i instrumienty dla AI-ahientaŭ.
+who: Jon
+whoTip: Jon? Jana? Jano? Vyraście – samo vyrašyć.
+supportB: naładžvaje luboha ahienta, madeĺ ci… kaleh na bačannie, kaštoŭnasci i sposaby pracy vašaj spravy – i ŭtrymlivaje ich na hetaj chvali.

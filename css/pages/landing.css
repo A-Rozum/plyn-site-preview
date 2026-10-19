@@ -72,6 +72,12 @@
   .pact-open { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: .3rem; }
   .yinyang { inline-size: 1.15em; block-size: 1.15em; vertical-align: -.2em; transition: transform .8s ease; }
   #theme:hover .yinyang { transform: rotate(180deg); }
+  /* The pronoun of Plyń carries a small joke about its gender, developing above it on hover, focus or tap. */
+  .who { position: relative; text-decoration: underline dotted; text-decoration-color: var(--line); text-underline-offset: .35rem; cursor: help; }
+  .who .tip { position: absolute; right: -.6rem; bottom: calc(100% + .8rem); inline-size: max-content; max-inline-size: min(30rem, 80vw); font-size: .82em; font-style: italic;
+              padding: .4rem 1rem; border-radius: 1rem; background: var(--paper); border: .1rem solid var(--line); color: var(--ink); box-shadow: 0 .4rem 1.4rem rgb(0 0 0 / .08);
+              opacity: 0; filter: blur(.3rem); transition: opacity 1s ease, filter 1s ease; pointer-events: none; z-index: 5; }
+  .who:hover .tip, .who:focus .tip, .who.lit .tip { opacity: 1; filter: blur(0); }
   /* Everything that appears develops – from transparent and soft to sharp – never instantly. */
   dialog[open] { animation: develop .8s ease; }
   dialog[open]::backdrop { animation: develop .8s ease; }
