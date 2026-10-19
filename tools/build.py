@@ -8,6 +8,8 @@ ROOT = Path(__file__).resolve().parent.parent
 DIST = ROOT / "dist"
 SITE = "https://plyn.one"
 TAG = {"be-latn": "be-Latn"}  # BCP 47 tag where it differs from the path code
+import hashlib
+OG_V = hashlib.sha256((ROOT / "og.png").read_bytes()).hexdigest()[:8]  # a new image gets a new address, so networks fetch it again
 STATIC = ["favicon.svg", "apple-touch-icon.png", "og.png", "css", "js", "fonts"]
 LOCALE = {"en": "en_GB", "be": "be_BY", "be-latn": "be_BY", "pl": "pl_PL", "it": "it_IT", "lt": "lt_LT"}
 
@@ -27,7 +29,7 @@ def page(tpl, code, t, codes):
     out = out.replace(f'<option value="{code}" ', f'<option value="{code}" selected ', 1)
     meta = [f'<meta property="og:type" content="website"><meta property="og:site_name" content="Plyń">',
             f'<meta property="og:url" content="{SITE}/{code}/"><meta property="og:title" content="{a(t["title"])}"><meta property="og:description" content="{a(t["desc"])}">',
-            f'<meta property="og:locale" content="{LOCALE[code]}"><meta property="og:image" content="{SITE}/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Plyń">',
+            f'<meta property="og:locale" content="{LOCALE[code]}"><meta property="og:image" content="{SITE}/og.png?v={OG_V}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Plyń">',
             '<meta name="twitter:card" content="summary_large_image">',
             '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "WebSite", "name": "Plyń", "url": f"{SITE}/{code}/",
                 "inLanguage": TAG.get(code, code), "description": t["desc"], "creator": {"@type": "Person", "name": "Andrey Rozum"}}, ensure_ascii=False) + "</script>"]

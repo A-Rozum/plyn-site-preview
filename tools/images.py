@@ -16,7 +16,10 @@ def main():
     word = (Path(a.brand) / "assets/plyn-wordmark.svg").read_text(encoding="utf-8")
     word = word.replace('fill="#E0662E"', 'fill="#FFFFFF"')
     word = re.sub(r'width="\d+" height="\d+"', 'width="1200" height="630" preserveAspectRatio="xMidYMid meet"', word, count=1)
-    word = word.replace('viewBox="-2 0 177 103"', 'viewBox="-140 -75 453 238"')
+    # frame the wordmark whatever its viewBox: it takes 39% of the width, centred on 1200×630
+    x, y, w, h = (float(v) for v in re.search(r'viewBox="([^"]*)"', word).group(1).split())
+    W = w / 0.39; H = W * 630 / 1200
+    word = re.sub(r'viewBox="[^"]*"', f'viewBox="{x + w / 2 - W / 2:.2f} {y + h / 2 - H / 2:.2f} {W:.2f} {H:.2f}"', word, count=1)
     icon = (Path(a.brand) / "assets/plyn-icon-orange.svg").read_text(encoding="utf-8")
     icon = re.sub(r'width="\d+" height="\d+"', 'width="180" height="180"', icon, count=1)
     asyncio.run(shot(word, 1200, 630, ROOT / "og.png")); asyncio.run(shot(icon, 180, 180, ROOT / "apple-touch-icon.png"))
