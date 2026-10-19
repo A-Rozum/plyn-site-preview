@@ -8,7 +8,7 @@ Everything that appears on the page develops (проявляется) – from t
 
 Crumbs for the attentive. The owner scatters hidden hints of where Plyń is heading – findable by a careful visitor, never turned into slogans or headlines; most will go unnoticed, and that is accepted. Keep them when changing the page, keep them findable and quiet, and add new ones to this list:
 - the ring inscription above, an inverted One Ring verse;
-- the silver bullet: the silver primer – a ring with a disc inside, drawn like © – as the third mark of the footer line „© Plyń · 2026 ·“; on hover or tap its line develops beside it (above it on phones): „Silver bullets aren’t found. They’re cast.“ (an answer to Brooks’ No Silver Bullet: a silver bullet cast from accumulated institutions – methods, specifications, formal languages – towards which Plyń has taken steps); the same line is written to the browser console. It stays in English on every language page.
+- the silver bullet: the silver primer – a ring with a disc inside, drawn like © – in place of the separator between Privacy and Built with in the footer; on hover or tap its line develops above it: „Silver bullets aren’t found. They’re cast.“ (an answer to Brooks’ No Silver Bullet: a silver bullet cast from accumulated institutions – methods, specifications, formal languages – towards which Plyń has taken steps); the same line is written to the browser console. It stays in English on every language page.
 
 The mark, the wordmark and the favicon are copies of files in A-Rozum/plyn-brand (the only source). The page inlines them so the creature can blink and wave and the line can follow the theme.
 
