@@ -5,11 +5,11 @@ audience: [agent, human]
 description: Plyń landing page at plyn.one – one page per language, Cloudflare Worker with the beta form and statistics
 packages:
 - id: plyn:standard
-  version: v0.15.11
+  version: v0.15.12
   repo: A-Rozum/plyn-standard
   path: .system
 - id: plyn:tools
-  version: v0.15.12
+  version: v0.15.13
   repo: A-Rozum/plyn-tools
   path: .system/tools
 - id: a-rozum:prastora
